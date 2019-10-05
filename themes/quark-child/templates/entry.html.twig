@@ -1,0 +1,12 @@
+{% extends 'default.html.twig' %}
+
+{% block body_classes %}slug-{{ page.slug }} {{ body_classes }}{% endblock %}
+
+{% block content %}
+    <h1>{{ page.header.title }}</h1>
+    {% if page.header.subtitle %}
+    <h2>{{ page.header.subtitle }}</h2>
+    {% endif %}
+
+    {{ parent() }}
+{% endblock %}

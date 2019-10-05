@@ -1,0 +1,20 @@
+{% extends 'partials/base.html.twig' %}
+{% set collection = page.collection() %}
+
+{% block body_classes %}slug-{{ page.slug }} {{ body_classes }}{% endblock %}
+
+{% block content %}
+    <h1>{{ page.header.title }}</h1>
+    <h2>{{ page.header.subtitle }}</h2>
+    
+    {% for child in collection %}
+        {% if child.header.subtitle  %}
+        <p class="text-center"><a href="{{ child.url }}" title="{{ child.header.title }}">
+            <strong class="link-title">{{ child.header.title }}</strong>
+            <span class="link-subtitle">{{ child.header.subtitle }}</span>
+        </a></p>
+        {% endif %}
+    {% endfor %}
+
+    {{ page.content|raw }}
+{% endblock %}

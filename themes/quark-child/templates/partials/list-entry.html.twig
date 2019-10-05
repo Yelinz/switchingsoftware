@@ -1,0 +1,15 @@
+<div class="entry {{ page.header.type }}">
+    {% if page.header.icon %}
+        <img class="icon float-left mr-2" 
+            src="{{ page.media[page.header.icon].url }}" 
+            alt="{{ page.title }}"
+        />
+    {% endif %}
+
+    <h3 id="{{ page.slug }}">{{ page.title }}</h3>
+
+    {{ page.summary|raw }}
+    {% if page.summary != page.content %}
+        <a href="{{ page.url }}">[mehr...]</a>
+    {% endif %}
+</div>

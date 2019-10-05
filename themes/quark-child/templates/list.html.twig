@@ -1,0 +1,39 @@
+{% extends 'partials/base.html.twig' %}
+{% set blog_image = page.media.images[page.header.hero_image] ?: page.media.images|first %}
+
+{% block body_classes %}slug-{{ page.slug }} {{ body_classes }}{% endblock %}
+
+{% block hero %}
+    {% set hero_content %}
+        <h1>{{ page.header.title }}</h1>
+        <h2>{{ page.header.subtitle }}</h2>
+    {% endset %}
+
+    {% include 'partials/hero.html.twig' with { id: 'blog-hero', content: hero_content, hero_image: blog_image} %}
+{% endblock %}
+
+{% block content %}
+    {{ page.content }}
+
+    {% set entries = page.collection().ofType('entry') %}
+    {% for child in entries %}
+        {% include 'partials/list-entry.html.twig' with {blog: page, page: child} %}
+    {% endfor %}
+
+    {% set notes = page.collection().ofType('info') %}
+    {% if notes|length > 0 %}
+        <div class="accordion">
+            <input type="checkbox" id="notes" name="accordion-checkbox" hidden>
+            <label class="accordion-header btn btn-link" for="notes">
+                + Weitere Infos zur Liste
+            </label>
+            <div class="accordion-body">
+                <div class=" notices info">
+                    {% for note in notes %}
+                        {{ note.summary|raw }}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    {% endif %}
+{% endblock %}
