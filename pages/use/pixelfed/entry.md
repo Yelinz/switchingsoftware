@@ -1,6 +1,8 @@
 ---
 title: PixelFed
 
+icon: logo.svg
+
 taxonomy:
   replaces: [instagram]
   tag: [fediverse]
@@ -14,9 +16,8 @@ Also, because PixelFed sites connect together using the ActivityPub standard, yo
 
 Unlike Instagram, you don’t need an app to use PixelFed, it works through your browser on phones, computers and tablets. (There are also apps in development for people who prefer them.)
 
-WHERE TO SIGN UP – [pixelfed.de][4], [pix.tedomum.net][5], [pix.diaspodon.fr][6] and many others
-
-EXAMPLE ACCOUNT – [@earth@pixelfed.social][1]
+! **Sign up:** [pixelfed.de][4], [pix.tedomum.net][5], [pixelfed.social][6] and many others
+! **Example account:** [@earth@pixelfed.social][1]
 
 ===
 
@@ -25,4 +26,4 @@ EXAMPLE ACCOUNT – [@earth@pixelfed.social][1]
 [3]: /use/mastodon
 [4]: https://pixelfed.de
 [5]: https://pix.tedomum.net
-[6]: https://pix.diaspodon.fr
+[6]: https://pixelfed.social
