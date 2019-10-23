@@ -16,6 +16,7 @@ content:
             - instagram
             - youtube
             - gmail
+            - google-search
             - google-maps
 
 body_classes: title-center title-h1h2
