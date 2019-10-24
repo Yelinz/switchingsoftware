@@ -5,7 +5,7 @@ icon: logo.jpg
 body_classes: title-center title-h1
 
 taxonomy:
-  replaces: [google-search]
+  replaces: [google-search, google-maps]
   tag: [search-engine]
 ---
 
@@ -16,7 +16,7 @@ It also provides various other services:
 * Qwant Junior (which only lists child-friendly results).
 * Qwant Music (results are focused towards music).
 * Qwant Boards (allows you to save pages or share a public board centered around a topic).
-* Qwant Maps (Google Maps replacement built upon [OpenStreetMap][1])
+* Qwant Maps (Google Maps replacement built upon [OpenStreetMap][1]).
 
 ! **Websites:** [Qwant][2] | [Qwant Junior][3] | [Qwant Music][4] | [Qwant Boards][5] | [Qwant Maps][6]
 ! **Android app:** [Qwant][7]
