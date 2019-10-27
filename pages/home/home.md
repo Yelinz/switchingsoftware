@@ -20,6 +20,7 @@ content:
             - google-play
             - google-maps
             - google-chrome
+            - google-forms
 
 body_classes: title-center title-h1h2
 hero_classes: hero-tiny title-h1h2
