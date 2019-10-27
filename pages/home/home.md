@@ -19,6 +19,7 @@ content:
             - google-search
             - google-play
             - google-maps
+            - google-chrome
 
 body_classes: title-center title-h1h2
 hero_classes: hero-tiny title-h1h2
