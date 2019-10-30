@@ -1,7 +1,7 @@
 ---
 title: Friendica
 icon: icon.svg
-replace: [facebook, twitter]
+replaces: [facebook, twitter]
 tag: [fediverse, f-droid]
 ---
 

@@ -4,8 +4,11 @@ description= ""
 DefaultContentLanguage = "en"
 
 [taxonomies]
-  replace = "replace"
+  replace = "replaces"
   tag = "tags"
+
+[permalinks]
+  replaces = "/replace/:slug"
 
 [languages]
   [languages.en]
@@ -14,3 +17,4 @@ DefaultContentLanguage = "en"
   [languages.de]
     title = "switchingsocial.de"
     weight = 2
+

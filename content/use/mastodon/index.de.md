@@ -1,7 +1,7 @@
 ---
 title: Mastodon
 icon: icon.svg
-replace: [twitter, facebook]
+replaces: [twitter, facebook]
 tag: [fediverse, f-droid]
 ---
 
