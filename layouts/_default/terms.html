@@ -1,0 +1,17 @@
+{{ partial "header.html" . }}
+<body lang="{{ .Site.LanguageCode }}">
+  <h1>{{ .Site.Title }}</h1>
+
+  <ul id="list" class="pl0">
+    {{ range .Pages }}
+    {{ if ne .Title "" }}
+    <li>
+      <a href="{{ .Permalink}}">{{ .Title }}</a>
+    </li>
+    {{ end }}
+    {{ end }}
+  </ul>
+
+  {{ partial "footer.html" . }}
+  </body>
+</html>

@@ -1,0 +1,16 @@
+baseURL= "https://switching.software/"
+title= "switching.software"
+description= "" 
+DefaultContentLanguage = "en"
+
+[taxonomies]
+  replace = "replace"
+  tag = "tags"
+
+[languages]
+  [languages.en]
+    title = "switching.software"
+    weight = 1
+  [languages.de]
+    title = "switchingsocial.de"
+    weight = 2

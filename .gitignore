@@ -1,3 +1,2 @@
-plugins/**
-themes/**
-!themes/quark-child**
+public/**
+temp/**
