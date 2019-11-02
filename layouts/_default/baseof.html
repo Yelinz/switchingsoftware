@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html>
-  {{ block "head" . }}
-    {{ partial "head.html" }}
-    {{ partial "meta.html" }}
-  {{ end }}
-  <body>
-    
-    {{ block "header" . }}
-      {{ partial "header.html" . }}
+    {{ block "head" . }}
+        {{ partial "head.html" . }}
+        {{ partial "meta.html" . }}
     {{ end }}
 
-    <div id="content">
-      {{ block "main" . }}
-      {{ end }}
-    </div>
+    <body id="top">
+        {{ partial "navbar.html" . }}
 
-    {{ block "footer" . }}
-      {{ partial "footer.html" }}
-    {{ end }}
-  </body>
+        {{ block "header" . }}
+            {{ partial "header.html" . }}
+        {{ end }}
+
+        <div id="content">
+            {{ block "main" . }}
+            {{ end }}
+        </div>
+
+        {{ block "footer" . }}
+            {{ partial "footer.html" }}
+        {{ end }}
+    </body>
 </html>
