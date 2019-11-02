@@ -6,25 +6,17 @@
     {{ end }}
 
 <body id="top" class="slug-{{ lower .LinkTitle }}">
-    <div class="container grid-md bg-gray">
-        {{ partial "navbar.html" . }}
-    </div>
+    {{ partial "header.html" . }}
+
+    {{ partial "hero.html" . }}
 
     <div class="container grid-md">
-        {{ block "header" . }}
-            {{ partial "header.html" . }}
-        {{ end }}
-
         <div id="content">
             {{ block "main" . }}
             {{ end }}
         </div>
     </div>
 
-    <div class="container grid-md">
-        {{ block "footer" . }}
-            {{ partial "footer.html" }}
-        {{ end }}
-    </div>
+    {{ partial "footer.html" . }}
 </body>
 </html>

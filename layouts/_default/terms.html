@@ -1,11 +1,11 @@
 {{ define "main" }}
-  <ul id="list" class="pl0">
-    {{ range .Pages }}
-    {{ if ne .Title "" }}
-    <li>
-      <a href="{{ .Permalink}}">{{ .Title }}</a>
-    </li>
-    {{ end }}
-    {{ end }}
-  </ul>
+    <ul id="list" class="pl0">
+        {{ range .Pages }}
+        {{ if ne .Title "" }}
+        <li>
+            <a href="{{ .Permalink}}">{{ .Title }}</a>
+        </li>
+        {{ end }}
+        {{ end }}
+    </ul>
 {{ end }}

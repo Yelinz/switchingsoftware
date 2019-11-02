@@ -4,17 +4,17 @@ description= ""
 DefaultContentLanguage = "en"
 
 [taxonomies]
-  replace = "replaces"
-  tag = "tags"
+    replace = "replaces"
+    tag = "tags"
 
 [permalinks]
-  replaces = "/replace/:slug"
+    replaces = "/replace/:slug"
 
 [languages]
-  [languages.en]
-    title = "switching.software"
-    weight = 1
-  [languages.de]
-    title = "switchingsocial.de"
-    weight = 2
+    [languages.en]
+        title = "switching.software"
+        weight = 1
+    [languages.de]
+        title = "switchingsocial.de"
+        weight = 2
 
