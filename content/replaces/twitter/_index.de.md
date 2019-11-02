@@ -1,5 +1,5 @@
 ---
-title: Twitter
-topic: Kurzmitteilungsdienste
+title: Ciao Twitter
+subtitle: Empfohlene Kurzmitteilungsdienste
 order: [mastodon, friendica]
 ---

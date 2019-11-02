@@ -1,5 +1,5 @@
 ---
-title: Facebook
-topic: Soziale Netzwerke
+title: Ciao Facebook
+subtitle: Empfohlene Soziale Netzwerke
 order: [friendica, mastodon]
 ---

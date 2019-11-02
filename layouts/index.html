@@ -1,9 +1,9 @@
 {{ define "main" }}
-  <ul>
-    {{ range .Site.Taxonomies.replaces }}
-      <li>
-        <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
-      </li>
-    {{ end }}
-  </ul>
+    <ul>
+        {{ range .Site.Taxonomies.replaces }}
+            <li>
+                <a href="{{ .Page.Permalink }}"><strong>{{ .Page.Title }}:</strong> {{ .Page.Params.Subtitle }}</a>
+            </li>
+        {{ end }}
+    </ul>
 {{ end }}

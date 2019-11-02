@@ -5,9 +5,12 @@
         {{ partial "meta.html" . }}
     {{ end }}
 
-    <body id="top">
+<body id="top" class="slug-{{ lower .LinkTitle }}">
+    <div class="container grid-md bg-gray">
         {{ partial "navbar.html" . }}
+    </div>
 
+    <div class="container grid-md">
         {{ block "header" . }}
             {{ partial "header.html" . }}
         {{ end }}
@@ -16,9 +19,12 @@
             {{ block "main" . }}
             {{ end }}
         </div>
+    </div>
 
+    <div class="container grid-md">
         {{ block "footer" . }}
             {{ partial "footer.html" }}
         {{ end }}
-    </body>
+    </div>
+</body>
 </html>
