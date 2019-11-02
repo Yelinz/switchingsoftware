@@ -15,7 +15,19 @@ Even better, your Mastodon account lets you follow people on other alternative s
 
 You can try Mastodon by signing up at one of the sites below, and you can use your account on one of the Mastodon phone apps. We’ve also done some [hints and tips](https://web.archive.org/web/20190508232759/https://switching.social/hints-tips-for-making-friends-on-alternative-social-media/) for new users.
 
-! **Sign-up:** [mastodon.host](https://mastodon.host) | [mastodon.xyz](https://mastodon.xyz/) | [mstdn.io](https://mstdn.io) | [more](https://joinmastodon.org/#getting-started) | or [run your own](https://masto.host)
-! **Android apps:** [Fedilab](https://fedilab.app/) | [Tusky](https://tusky.app/)
-! **iPhone apps:** [Toot!](https://itunes.apple.com/app/toot/id1229021451/) | [Mast](https://itunes.apple.com/app/mast/id1437429129)
-! **Discover:** [Accounts by topic](https://communitywiki.org/trunk/)
+{{% infobox %}}
+- **Sign-up:** 
+    - [mastodon.host](https://mastodon.host)
+    - [mastodon.xyz](https://mastodon.xyz/)
+    - [mstdn.io](https://mstdn.io)
+    - [more](https://joinmastodon.org/#getting-started)
+    - ... or [run your own](https://masto.host)
+- **Android apps:** 
+    - [Fedilab](https://fedilab.app/)
+    - [Tusky](https://tusky.app/)
+- **iPhone apps:** 
+    - [Toot!](https://itunes.apple.com/app/toot/id1229021451/)
+    - [Mast](https://itunes.apple.com/app/mast/id1437429129)
+- **Discover:** 
+    - [Accounts by topic](https://communitywiki.org/trunk/)
+{{% /infobox %}}

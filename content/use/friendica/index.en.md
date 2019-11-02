@@ -11,5 +11,12 @@ Friendica is also connected to [Mastodon](/use/mastodon), [Diaspora](/use/diaspo
 
 If you decide to sign up, you can register at the sites below. You might also want read our [hints and tips on how to get started](https://web.archive.org/web/20190508232759/https://switching.social/hints-tips-for-making-friends-on-alternative-social-media/).
 
-! **Sign-up:** [Nerdica.net](https://nerdica.net/) | [Libranet.de](https://libranet.de/) | and [more](https://the-federation.info/friendica#nodes-table)
-! **Android apps:** [Fedilab](https://fedilab.app/) | [DiCa](https://play.google.com/store/apps/details?id=cool.mixi.dica&noprocess)
+{{% infobox %}}
+- **Sign-up:** 
+    - [Nerdica.net](https://nerdica.net/)
+    - [Libranet.de](https://libranet.de/)
+    - and [more](https://the-federation.info/friendica#nodes-table)
+- **Android apps:** 
+    - [Fedilab](https://fedilab.app/) 
+    - [DiCa](https://play.google.com/store/apps/details?id=cool.mixi.dica&noprocess)
+{{% /infobox %}}
