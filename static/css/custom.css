@@ -31,7 +31,7 @@ h3 {
     font-size: 2rem;
 }
 
-a, .dropmenu ul li a {
+a, .btn-link {
     text-decoration: underline;
 }
 
@@ -65,4 +65,27 @@ a, .dropmenu ul li a {
 
 .entry img.entry-icon {
     height: 2rem;
+}
+
+.infobox {
+    border-left: 10px solid #ccc;
+}
+
+.infobox ul, .ls-none {
+    list-style: none;
+}
+
+.infobox ul ul,
+.infobox ul ul li {
+    display: inline;
+}
+
+.infobox ul ul li:not(:first-child)::before {
+    content: '|';
+}
+
+@media only screen and (min-width: 856px) { 
+    .d-md-none {
+        display: none;
+    }
 }

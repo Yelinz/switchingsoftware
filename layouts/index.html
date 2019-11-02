@@ -1,8 +1,8 @@
 {{ define "main" }}
-    <ul>
+    <ul id="main-list" class="text-center ls-none">
         {{ range .Site.Taxonomies.replaces }}
             <li>
-                <a href="{{ .Page.Permalink }}"><strong>{{ .Page.Title }}:</strong> {{ .Page.Params.Subtitle }}</a>
+                <a href="{{ .Page.Permalink }}"><strong>{{ .Page.Title }}:</strong><br class="d-md-none"> {{ .Page.Params.Subtitle }}</a>
             </li>
         {{ end }}
     </ul>

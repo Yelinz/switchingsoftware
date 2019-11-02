@@ -1,4 +1,4 @@
-<div class="entry">
+<div class="entry mb-2">
     {{ if .Params.Icon }}
         <img class="entry-icon float-left mr-2" 
             src="/{{ .File.Dir }}{{ .Params.Icon }}" 
@@ -8,5 +8,5 @@
 
     <h3 id="{{ .LinkTitle }}">{{ .Title }}</h3>
 
-    {{ .Content }}
+    {{ .Content }}<br>
 </div>
