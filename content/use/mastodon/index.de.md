@@ -5,9 +5,9 @@ replaces: [twitter, facebook]
 tag: [fediverse, f-droid]
 ---
 
-**Mastodon** ist das populärste [freie](/nutze/freie-software) soziale Netzwerk mit Millionen von Nutzern weltweit. Es orientiert sich an Twitter, besitzt aber neben einem höheren Zeichenlimit auch eine strikt chronologische Zeitleiste.
+**Mastodon** ist das populärste [freie](/de/use/free-software) soziale Netzwerk mit Millionen von Nutzern weltweit. Es orientiert sich an Twitter, besitzt aber neben einem höheren Zeichenlimit auch eine strikt chronologische Zeitleiste.
 
-Ferner ist Mastodon dezentral organisiert. Das bedeutet: Wie bei Deiner E-Mail-Adresse hast Du die freie Wahl des "Anbieters" (der Instanz). Egal welche Instanz Du wählst, über *@nutzername@instanzname* kannst Du jede beliebige andere Person erreichen - und sie Dich ebenfalls. Das funktioniert sogar über Mastodon hinaus, im so genannten ["Fediverse"](../fediverse).
+Ferner ist Mastodon dezentral organisiert. Das bedeutet: Wie bei Deiner E-Mail-Adresse hast Du die freie Wahl des "Anbieters" (der Instanz). Egal welche Instanz Du wählst, über *@nutzername@instanzname* kannst Du jede beliebige andere Person erreichen - und sie Dich ebenfalls. Das funktioniert sogar über Mastodon hinaus, im so genannten ["Fediverse"](de/use/fediverse).
 
 {{% infobox %}}
 - **Registrierung:** 
