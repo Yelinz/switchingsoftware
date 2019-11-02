@@ -62,3 +62,7 @@ a, .dropmenu ul li a {
 #hero {
     margin-top: 4rem;
 }
+
+.entry img.entry-icon {
+    height: 2rem;
+}

@@ -1,4 +1,5 @@
 {{ define "main" }}
+    {{ .Content }}
     <ul>
         {{/* Fixed-ordered entries first, rest second */}}
         {{ $entries := slice }}
@@ -8,9 +9,7 @@
         {{ $entries = $entries | append ($entries | complement .Data.Pages) }}
 
         {{ range $entries }}
-            <li>
-                <a href="{{ .Permalink}}">{{ .Title}}</a>
-            </li>
+            {{ partial "entry.html" . }}
         {{ end }}
     </ul>
 {{ end }}

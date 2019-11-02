@@ -2,7 +2,7 @@
     <div class="container grid-md">
         <div class="navbar">
             <section class="navbar-section">
-                <a href="/" id="logo" class="navbar-brand" title="{{ .Site.Title }}">
+                <a href="{{ .Site.LanguagePrefix }}/" id="logo" class="navbar-brand" title="{{ .Site.Title }}">
                     <img class="mt-2" src="/images/switchingsoftware.png" alt="{{ .Site.Title }} logo" width="150px">
                 </a>
             </section>
@@ -14,9 +14,9 @@
                         {{ upper .Site.Language }} <i class="icon icon-caret"></i>
                     </a>
                     <ul class="menu">
-                        <li class="menu-item"><a class="btn btn-link" href="https://swiso.de" title="German version" target="_blank" rel="noopener">DE</a></li>
-                        <li class="menu-item"><a class="btn btn-link" href="https://switching.geber.ga/" title="French version" target="_blank" rel="noopener">FR</a></li>
-                        <li class="menu-item"><a class="btn btn-link" href="https://switching.ml/" title="Italian version" target="_blank" rel="noopener">IT</a></li>
+                        {{ range .Translations }}
+                            <li class="menu-item"><a class="btn btn-link" href="{{ .Permalink }}" title="{{ .Title }}">{{ upper .Lang }}</a></li>
+                        {{ end }}
                     </ul>
                 </div>
             </section>

@@ -19,5 +19,3 @@ You can try Mastodon by signing up at one of the sites below, and you can use yo
 ! **Android apps:** [Fedilab](https://fedilab.app/) | [Tusky](https://tusky.app/)
 ! **iPhone apps:** [Toot!](https://itunes.apple.com/app/toot/id1229021451/) | [Mast](https://itunes.apple.com/app/mast/id1437429129)
 ! **Discover:** [Accounts by topic](https://communitywiki.org/trunk/)
-
-===

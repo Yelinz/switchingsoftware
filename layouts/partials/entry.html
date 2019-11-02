@@ -1,0 +1,12 @@
+<div class="entry">
+    {{ if .Params.Icon }}
+        <img class="entry-icon float-left mr-2" 
+            src="/{{ .File.Dir }}{{ .Params.Icon }}" 
+            alt="{{ .Title }}"
+        />
+    {{ end }}
+
+    <h3 id="{{ .LinkTitle }}">{{ .Title }}</h3>
+
+    {{ .Content }}
+</div>
