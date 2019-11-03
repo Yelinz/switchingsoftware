@@ -5,18 +5,20 @@
         {{ partial "meta.html" . }}
     {{ end }}
 
-<body id="top" class="slug-{{ lower .LinkTitle }}">
-    {{ partial "header.html" . }}
+<body id="top" class="slug-{{ lower .LinkTitle }} m-0 p-0">
+    <div id="container" class="container">
+        {{ partial "header.html" . }}
 
-    {{ partial "hero.html" . }}
+        {{ partial "hero.html" . }}
 
-    <div class="container grid-md">
-        <div id="content">
-            {{ block "main" . }}
-            {{ end }}
+        <div class="container grid-md">
+            <div id="content">
+                {{ block "main" . }}
+                {{ end }}
+            </div>
         </div>
-    </div>
 
-    {{ partial "footer.html" . }}
+        {{ partial "footer.html" . }}
+    </div>
 </body>
 </html>

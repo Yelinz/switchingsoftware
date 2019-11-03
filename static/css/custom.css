@@ -50,6 +50,7 @@ a, .btn-link, .menu .menu-item > a {
     font-size: 1.4em;
 }
 
+/* Header (Sticky menu bar) */
 #header {
     top: 0;
     z-index: 2;
@@ -64,10 +65,12 @@ a, .btn-link, .menu .menu-item > a {
     margin-top: 0.5rem;
 }
 
+/* Hero (Headline and subtitle) */
 #hero {
-    margin-top: 4rem;
+    padding-top: 4rem;
 }
 
+/* Lists */
 .entry img.entry-icon {
     height: 2rem;
 }
@@ -97,4 +100,20 @@ a, .btn-link, .menu .menu-item > a {
 
 blockquote {
     font-style: italic;
+}
+
+/* Footer */
+html, body {
+    height: 100%
+}
+
+#container {
+    min-height: 100%;
+    position: relative;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
