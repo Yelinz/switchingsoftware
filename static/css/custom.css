@@ -31,7 +31,12 @@ h3 {
     font-size: 2rem;
 }
 
-a, .btn-link {
+h4 {
+    text-align: center;
+    font-weight: 700;
+}
+
+a, .btn-link, .menu .menu-item > a {
     text-decoration: underline;
 }
 
@@ -88,4 +93,8 @@ a, .btn-link {
     .d-md-none {
         display: none;
     }
+}
+
+blockquote {
+    font-style: italic;
 }
