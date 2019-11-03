@@ -10,6 +10,10 @@ DefaultContentLanguage = "en"
 [permalinks]
     replaces = "/replace/:slug"
 
+[blackfriday]
+	hrefTargetBlank = true
+    noreferrerLinks = true
+
 [languages]
     [languages.en]
         title = "switching.software"
@@ -17,4 +21,3 @@ DefaultContentLanguage = "en"
     [languages.de]
         title = "switchingsocial.de"
         weight = 2
-
