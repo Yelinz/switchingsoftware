@@ -5,10 +5,12 @@ DefaultContentLanguage = "en"
 
 [taxonomies]
     replace = "replaces"
+    list = "lists"
     tag = "tags"
 
 [permalinks]
     replaces = "/replace/:slug"
+    lists = "/list/:slug"
 
 [blackfriday]
 	hrefTargetBlank = true
