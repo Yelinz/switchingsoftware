@@ -6,7 +6,7 @@
         {{ range .Params.order }}
             {{ $entries = $entries | append ($.Site.GetPage .) }}
         {{ end }}
-        {{ $entries = $entries | append ($entries | complement .Data.Pages) }}
+        {{ $entries = $entries | append ( .Data.Pages | complement $entries ) }}
 
         {{ range $entries }}
             {{ partial "entry.html" . }}
