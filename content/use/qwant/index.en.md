@@ -11,7 +11,7 @@ It also provides various other services:
 * Qwant Junior (which only lists child-friendly results).
 * Qwant Music (results are focused towards music).
 * Qwant Boards (allows you to save pages or share a public board centered around a topic).
-* Qwant Maps (Google Maps replacement built upon [OpenStreetMap](/use/openstreetmap)).
+* Qwant Maps (Google Maps replacement built upon [OpenStreetMap][osm]).
 
 {{% infobox %}}
 - **Websites:** 
@@ -25,3 +25,5 @@ It also provides various other services:
 - **iOS app:** 
     - [Qwant](https://apps.apple.com/app/qwant/id924470452)
 {{% /infobox %}}
+
+[osm]: {{< relref "/use/openstreetmap" >}}

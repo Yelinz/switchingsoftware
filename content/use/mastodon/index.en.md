@@ -9,11 +9,11 @@ tags: [fediverse, f-droid]
 
 Behind the scenes, Mastodon is a bit different to most social networks: instead of being one big site, it’s a network of thousands of smaller independent sites (called “instances”) that are all linked together. Whichever site you sign up on, you can make friends with anyone on any other site because all the sites are connected.
 
-The process of linking together lots of small sites into a network is called “federation”. Federation may sound unfamiliar, but [it’s actually a process all of us use all the time](https://web.archive.org/web/20190508232759/https://switching.social/federated-sites/), even if we don’t realise it.
+The process of linking together lots of small sites into a network is called “federation”. Federation may sound unfamiliar, but [it’s actually a process all of us use all the time][federation], even if we don’t realise it.
 
-Even better, your Mastodon account lets you follow people on other alternative social networks like Friendica (see below), Instagram alternative [PixelFed](/use/pixelfed), YouTube alternative [PeerTube](/use/peertube) and many others. This alliance of alternative social networks is called “the Fediverse”.
+Even better, your Mastodon account lets you follow people on other alternative social networks like Friendica (see below), Instagram alternative [PixelFed][pixelfed], YouTube alternative [PeerTube][peertube] and many others. This alliance of alternative social networks is called “the Fediverse”.
 
-You can try Mastodon by signing up at one of the sites below, and you can use your account on one of the Mastodon phone apps. We’ve also done some [hints and tips](https://web.archive.org/web/20190508232759/https://switching.social/hints-tips-for-making-friends-on-alternative-social-media/) for new users.
+You can try Mastodon by signing up at one of the sites below, and you can use your account on one of the Mastodon phone apps. We’ve also done some [hints and tips][howto-masto] for new users.
 
 {{% infobox %}}
 - **Sign-up:** 
@@ -31,3 +31,8 @@ You can try Mastodon by signing up at one of the sites below, and you can use yo
 - **Discover:** 
     - [Accounts by topic](https://communitywiki.org/trunk/)
 {{% /infobox %}}
+
+[federation]: https://web.archive.org/web/20190508232759/https://switching.social/federated-sites/
+[peertube]: {{< relref "/use/peertube" >}}
+[pixelfed]: {{< relref "/use/pixelfed" >}}
+[howto-masto]: https://web.archive.org/web/20190508232759/https://switching.social/hints-tips-for-making-friends-on-alternative-social-media/

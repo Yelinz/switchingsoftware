@@ -4,7 +4,7 @@ icon: icon.jpg
 replaces: [google-play]
 ---
 
-**F-Droid** is an [open source][1] alternative app store. The store does not track users, and the apps it lists are also all open source, so they are much less likely to invade your privacy.
+**F-Droid** is an [open source][floss] alternative app store. The store does not track users, and the apps it lists are also all open source, so they are much less likely to invade your privacy.
 
 Installing F-Droid is slightly complicated, but it only has to be installed once. After that, it’s as easy to use as any other app store.
 
@@ -12,7 +12,7 @@ If you are not comfortable with any of these steps, get a technically-minded fri
 
 (NOTE: These instructions assume you are using Android Oreo (Android 8.0) or newer. Older versions of Android will also work with F-Droid, but it will be more difficult to use and not recommended for beginners.)
 
-1. Go to the website [f-droid.org][2] in your Android phone’s web browser
+1. Go to the website [f-droid.org][fdroid] in your Android phone’s web browser
 2. Click on “Download F-Droid” and then “Download”
 3. When the file has finished downloading click on “Open”
 4. Your phone will warn you that the file is from an untrusted source, but this is nothing to worry about. Click on the warning’s “Settings” and click on “Allow from this source” to trust this source. (The reason for the warning is that Google won’t allow alternative app stores in Google Play, so the only way to get a new app store is to download its file directly.)
@@ -32,5 +32,5 @@ Many apps are available in both Google Play and F-Droid, but installing them thr
     - [f-droid.org](https://f-droid.org/)
 {{% /infobox %}}
 
-[1]: https://web.archive.org/web/20180904102804/https://switching.social/what-is-open-source-software/
-[2]: https://f-droid.org/
+[floss]: https://web.archive.org/web/20180904102804/https://switching.social/what-is-open-source-software/
+[fdroid]: https://f-droid.org/

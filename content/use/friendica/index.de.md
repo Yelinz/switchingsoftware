@@ -5,7 +5,7 @@ replaces: [facebook, twitter]
 tag: [fediverse, f-droid]
 ---
 
-**Friendica** ist ein [freies](/nutze/freie-software) und dezentrales soziales Netzwerk, dessen Funktionen an Facebook angelehnt sind. Es bietet neben den Kommunikationsmöglichkeiten Funktionen wie Events/Kalender, Fotoalben und Gruppen.
+**Friendica** ist ein [freies](/de/nutze/freie-software) und dezentrales soziales Netzwerk, dessen Funktionen an Facebook angelehnt sind. Es bietet neben den Kommunikationsmöglichkeiten Funktionen wie Events/Kalender, Fotoalben und Gruppen.
 
 Als dezentrales Netzwerk besteht es aus vielen kleineren Seiten (Instanzen genannt), die untereinander verbunden sind. Du kannst ähnlich Deiner Mailadresse aus einer Vielzahl von Anbietern auswählen.
 

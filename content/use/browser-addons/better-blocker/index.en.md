@@ -4,7 +4,7 @@ icon: icon.png
 lists: [safari-addons]
 ---
 
-**Better** (also called Better Blocker) is an [open source][1] add-on for Apple’s Safari browser, available for iPhone, iPad and Mac. Better helps to protect privacy by blocking ads and trackers when you’re browsing the web on Safari.
+**Better** (also called Better Blocker) is an [open source][floss] add-on for Apple’s Safari browser, available for iPhone, iPad and Mac. Better helps to protect privacy by blocking ads and trackers when you’re browsing the web on Safari.
 
 {{% infobox %}}
 - **Website:**
@@ -15,4 +15,5 @@ lists: [safari-addons]
     - [Better Blocker](https://apps.apple.com/app/better/id1121192229)
 {{% /infobox %}}
 
-[1]: https://web.archive.org/web/20180904102804/https://switching.social/what-is-open-source-software/
+[floss]: https://web.archive.org/web/20180904102804/https://switching.social/what-is-open-source-software/
+

@@ -4,9 +4,9 @@ icon: icon.svg
 replaces: [google-chrome]
 ---
 
-**Firefox** is the most popular independent [open source][1] web browser, Firefox is non-commercial, free and maintained by volunteers.
+**Firefox** is the most popular independent [open source][floss] web browser, Firefox is non-commercial, free and maintained by volunteers.
 
-There are a large number of Add-ons that can be install, futher extending the browser. We've listed some [recommended add-ons][2] to help protect you from most privacy threats on the web.
+There are a large number of Add-ons that can be install, futher extending the browser. We've listed some [recommended add-ons][addons] to help protect you from most privacy threats on the web.
 
 {{% infobox %}}
 - **Website**: 
@@ -18,8 +18,8 @@ There are a large number of Add-ons that can be install, futher extending the br
     - [Firefox](https://apps.apple.com/app/firefox-private-safe-browser/id989804926)
     - [Firefox Klar](https://apps.apple.com/app/firefox-focus-privacy-browser/id1055677337)
 - **Addons:** 
-    - [Recommended Add-ons](/use/firefox/addons)
+    - [Recommended Add-ons](/en/use/firefox/addons)
 {{% /infobox %}}
 
-[1]: https://web.archive.org/web/20180904102804/https://switching.social/what-is-open-source-software/
-[2]: /use/firefox/addons
+[floss]: https://web.archive.org/web/20180904102804/https://switching.social/what-is-open-source-software/
+[addons]: {{< ref "/lists/firefox-addons" >}}

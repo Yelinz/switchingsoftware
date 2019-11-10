@@ -3,7 +3,7 @@ title: Das Fediverse
 icon: icon.svg
 ---
 
-Bei [vielen freien Diensten](/nutze/fediverse/dienste) wirst Du auf Formulierungen wie "föderiert" oder "ist Teil des Fediverse" stoßen. Doch was bedeutet das eigentlich?
+Bei [vielen freien Diensten](/de/nutze/fediverse/dienste) wirst Du auf Formulierungen wie "föderiert" oder "ist Teil des Fediverse" stoßen. Doch was bedeutet das eigentlich?
 
 Kurzgesagt: Ein solcher Dienst ist **auf mehrere Server / Webseiten verteilt**, die miteinander verbunden sind. Webseiten in diesem Umfeld werden oft als "Instanzen" bezeichnet. Egal auf welcher Webseite / Instanz eines Dienstes Du Dich registrierst: Du kannst Dich mit allen im Netzwerks unterhalten, ihnen folgen und ihre Inhalte teilen.
 
@@ -27,4 +27,4 @@ Trotz all dieser Vorteile ist das Fediverse im Kern ein soziales Netzwerk. Es ha
 
 !! Das Fediverse hat noch ein paar Schwächen. Private Kommunikation ist in Diensten mit Ende-zu-Ende-Verschlüsselung sicherer aufgehoben.
 
-Dennoch ist das Fediverse in jedem Fall einen Besuch wert - eine [Liste der Fediverse-Dienste](/nutze/fediverse/dienste) findest du hier.
+Dennoch ist das Fediverse in jedem Fall einen Besuch wert - eine [Liste der Fediverse-Dienste](/de/nutze/fediverse/dienste) findest du hier.
