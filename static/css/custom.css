@@ -1,0 +1,137 @@
+/* Fonts */
+@font-face {
+	font-family: cookiesmilk;  
+	src: url(../assets/cookiesmilk.ttf);  
+	font-weight: normal;  
+}
+
+html { 
+    font-size: calc(1em + 1vw); 
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 0.9rem;
+    line-height: 150%;
+}
+
+h1 {
+    font-family: "cookiesmilk";
+    font-size: calc(2em + 7.5vw);
+    color: #111;
+}
+
+h2 {
+    font-size: calc(1em + 2.0vw); 
+    font-size: 1.4em;
+    color: #777;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    text-align: center;
+    font-weight: 700;
+}
+
+a, .btn-link, .menu .menu-item > a {
+    text-decoration: underline;
+}
+
+@media only screen and (min-width: 856px) { 
+    html { font-size: 1.5em; }
+    h1 { font-size: 4.8em; }
+    h2 { font-size: 1.8em; }
+}
+
+.slug-switching\.software h2 {
+    font-size: 1.4em;
+}
+
+/* Header (Sticky menu bar) */
+#header {
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    height: 3rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    border-bottom: 1px #eee solid;
+}
+
+#header .navbar-brand {
+    margin-top: 0.5rem;
+}
+
+:target:before {
+    content: "";
+    display: block;
+    height: 3.5rem;
+    margin: -3.5rem 0 0;
+}
+
+/* Hero (Headline and subtitle) */
+#hero {
+    padding-top: 4rem;
+}
+
+/* Lists */
+.entry img.entry-icon {
+    height: 2rem;
+}
+
+.infobox {
+    border-left: 10px solid #ccc;
+}
+
+.infobox ul, .ls-none {
+    list-style: none;
+}
+
+.infobox ul ul,
+.infobox ul ul li {
+    display: inline;
+}
+
+.infobox ul ul li:not(:first-child)::before {
+    content: '|';
+}
+
+@media only screen and (min-width: 856px) { 
+    .d-md-none {
+        display: none;
+    }
+}
+
+blockquote {
+    font-style: italic;
+}
+
+p > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Footer */
+html, body {
+    height: 100%
+}
+
+#container {
+    min-height: 100%;
+    position: relative;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 75px;
+}
+
+#content {
+    padding-bottom: 75px;
+}

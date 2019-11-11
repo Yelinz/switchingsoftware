@@ -1,0 +1,16 @@
+{{ define "main" }}
+    <article>
+        {{ .Content }}
+        
+        {{/* Fixed-ordered entries first, rest second */}}
+        {{ $entries := slice }}
+        {{ range .Params.order }}
+            {{ $entries = $entries | append ($.Site.GetPage .) }}
+        {{ end }}
+        {{ $entries = $entries | append ( .Data.Pages | complement $entries ) }}
+
+        {{ range $entries }}
+            {{ partial "entry.html" . }}
+        {{ end }}
+    </article>
+{{ end }}

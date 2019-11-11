@@ -1,8 +1,0 @@
-force_ssl: true
-
-errors:
-  display: false
-  log: true
-
-debugger:
-  enabled: false
