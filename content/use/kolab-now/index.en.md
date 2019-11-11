@@ -1,5 +1,6 @@
 ---
 title: Kolab Now
+icon: icon.png
 replaces: [gmail, google-calendar]
 ---
 
