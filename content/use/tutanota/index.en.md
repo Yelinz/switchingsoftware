@@ -1,7 +1,7 @@
 ---
 title: Tutanota
 icon: icon.png
-replaces: [gmail]
+replaces: [gmail, google-calendar]
 tags: [email]
 ---
 
