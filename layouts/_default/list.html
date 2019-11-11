@@ -1,6 +1,7 @@
 {{ define "main" }}
-    {{ .Content }}
-    <ul>
+    <article>
+        {{ .Content }}
+        
         {{/* Fixed-ordered entries first, rest second */}}
         {{ $entries := slice }}
         {{ range .Params.order }}
@@ -11,5 +12,5 @@
         {{ range $entries }}
             {{ partial "entry.html" . }}
         {{ end }}
-    </ul>
+    </article>
 {{ end }}
