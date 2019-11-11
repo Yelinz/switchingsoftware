@@ -16,6 +16,8 @@
                     <ul class="menu">
                         {{ range .Translations }}
                             <li class="menu-item"><a class="btn btn-link" href="{{ .Permalink }}" title="{{ .Title }}">{{ upper .Lang }}</a></li>
+                        {{ else }}
+                            <li class="menu-item">No more :(</li>
                         {{ end }}
                     </ul>
                 </div>
