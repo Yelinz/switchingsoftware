@@ -65,6 +65,13 @@ a, .btn-link, .menu .menu-item > a {
     margin-top: 0.5rem;
 }
 
+:target:before {
+    content: "";
+    display: block;
+    height: 3.5rem;
+    margin: -3.5rem 0 0;
+}
+
 /* Hero (Headline and subtitle) */
 #hero {
     padding-top: 4rem;
