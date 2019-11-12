@@ -82,8 +82,24 @@ a, .btn-link, .menu .menu-item > a {
     height: 2rem;
 }
 
+.infobox :last-child {
+    margin-bottom: 0;
+}
+
+.infobox :first-child {
+    margin-top: 0;
+}
+
 .infobox {
+    padding: 1rem;
+    margin-bottom: 1.2rem;
     border-left: 10px solid #ccc;
+}
+
+.infobox.green {
+    border-left: 10px solid #5cb85c;
+    background: #f1f9f1;
+    color: #3d8b3d;
 }
 
 .infobox ul, .ls-none {
