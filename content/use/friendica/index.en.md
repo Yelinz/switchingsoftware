@@ -2,7 +2,7 @@
 title: Friendica
 icon: icon.svg
 replaces: [facebook, twitter]
-tag: [fediverse, f-droid]
+list: [fediverse, f-droid]
 ---
 
 **Friendica** is a Facebook-style social network with similar features including events and photo albums. Like Mastodon, Friendica is made up of many smaller sites linked together through [federation][federation]. The smaller sites that make up the Friendica network are called “nodes”.

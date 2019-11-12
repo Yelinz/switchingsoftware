@@ -2,7 +2,7 @@
 title: Pixelfed
 icon: icon.svg
 replaces: [instagram]
-tag: [fediverse]
+lists: [fediverse]
 ---
 
 An open source federated alternative to Instagram, PixelFed is a photo-oriented social network with filters, comments, likes, shares etc. but no ads and no tracking. You can see an [example of a PixelFed account here][pixelfed-earth], and an [example post here][pixelfed-post].
