@@ -41,7 +41,7 @@ As we haven't founded this site ourselves, we want to quote from the [original a
 This site collects no data on its visitors. There are no analytics, no cookies and no trackers involved.
 
 [cc]: https://creativecommons.org/licenses/by-sa/4.0/
-[fediverse]: {{< relref "/use/fediverse" >}}
+[fediverse]: {{< relref "/use/federated-sites" >}}
 [swiso-archive]: https://codeberg.org/swiso-en/archive
 [swiso-mastodon]: https://mstdn.swiso.org/@switchingsoftware
 [swiso-repo]: https://codeberg.org/swiso-en/website
