@@ -1,5 +1,5 @@
 ---
 slug: google-maps
-title: Ciao Google Maps
+title: Bye Google Maps
 subtitle: Recommended Mapping Services
 ---

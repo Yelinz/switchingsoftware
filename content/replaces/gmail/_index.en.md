@@ -1,6 +1,6 @@
 ---
 slug: gmail
-title: Ciao GMail
+title: Bye GMail
 subtitle: Recommended E-Mail Providers
 order:
     - tutanota

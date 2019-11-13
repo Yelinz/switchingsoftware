@@ -1,6 +1,6 @@
 ---
 slug: google-drive
-title: Ciao Google Drive & Docs
+title: Bye Google Drive & Docs
 subtitle: Recommended Productivity Suites
 order:
     - nextcloud

@@ -1,5 +1,5 @@
 ---
 slug: google-play
-title: Ciao Google Play
+title: Bye Google Play
 subtitle: Recommended App Stores
 ---

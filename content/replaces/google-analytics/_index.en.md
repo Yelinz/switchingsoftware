@@ -1,6 +1,6 @@
 ---
 slug: google-analytics
-title: Ciao Google Analytics
+title: Bye Google Analytics
 subtitle: Recommended Website Statistics
 order:
     - matomo

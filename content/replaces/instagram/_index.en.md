@@ -1,5 +1,5 @@
 ---
 slug: instagram
-title: Ciao Instagram
+title: Bye Instagram
 subtitle: Recommended Photo Platforms
 ---
