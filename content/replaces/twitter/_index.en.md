@@ -1,6 +1,6 @@
 ---
 slug: twitter
-title: Ciao Twitter
+title: Bye Twitter
 subtitle: Recommended Short Message Services
 order: [mastodon, friendica]
 ---

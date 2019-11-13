@@ -1,6 +1,6 @@
 ---
 slug: google-recaptcha
-title: Ciao Google reCAPTCHA
+title: Bye Google reCAPTCHA
 subtitle: Recommended Captcha Services
 ---
 Many websites nowadays use Google’s reCAPTCHA service to try to verify that visitors are real people. While this is useful for preventing misuse of websites by bots, it also helps Google violate people’s privacy.

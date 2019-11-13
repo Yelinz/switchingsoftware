@@ -1,6 +1,6 @@
 ---
 slug: google-calendar
-title: Ciao Google Calendar
+title: Bye Google Calendar
 subtitle: Recommended Calendar Services
 order:
     - nextcloud

@@ -1,5 +1,5 @@
 ---
 slug: google-chrome
-title: Ciao Google Chrome
+title: Bye Google Chrome
 subtitle: Recommended Browsers
 ---

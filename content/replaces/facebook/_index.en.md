@@ -1,6 +1,6 @@
 ---
 slug: facebook
-title: Ciao Facebook
+title: Bye Facebook
 subtitle: Recommended Social Networks
-order: [friendica, mastodon]
+order: [mastodon, friendica]
 ---

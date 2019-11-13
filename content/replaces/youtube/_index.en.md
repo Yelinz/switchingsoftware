@@ -1,5 +1,5 @@
 ---
 slug: youtube
-title: Ciao Youtube
+title: Bye Youtube
 subtitle: Recommended Video Platforms
 ---
