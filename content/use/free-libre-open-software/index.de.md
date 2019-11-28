@@ -5,7 +5,7 @@ subtitle: Mehr als nur kostenlos
 
 Viele Seiten und Programme auf switching.software sind **Freie/Libre Software** oder zumindest **Open Source**. Was der Unterschied ist und die Vorteile für Dich erfährst Du hier.
 
-## Was ist Freie Software?
+#### Was ist Freie Software?
 
 Frei/Libre bedeutet vereinfacht gesagt, dass alle eine Software **beliebig verwenden, studieren, verteilen und anpassen** können. Diese vier Freiheiten bilden die Grundlage von Freier Software.
 
@@ -22,7 +22,7 @@ Frei hat in diesem Kontext also nichts mit dem Preis ("gratis") zu tun, sondern 
 
 Die meisten werden diese vier Freiheiten niemals vollständig nutzen. Doch wir alle profitieren von den Möglichkeiten, die sie uns bieten. Durch sie können Interessierte selbst Fehler in einer Software beheben, Verbesserungen vornehmen und diese Änderungen teilen. Freie Software geht hierfür zwingend einher mit **Open Source** - also der Offenlegung der Quelltexte.
 
-## Was bringt mir das?
+#### Was bringt mir das?
 
 Kurzgesagt: Mehr Vertrauen in Deine Software und mehr Flexibilität bei ihrer Nutzung. Das lässt sich in etwas mehr Worten mit einer Analogie verdeutlichen. 
 
@@ -38,7 +38,7 @@ Ist das Rezept frei verfügbar, so kannst Du den Kuchen jederzeit selbst backen 
 
 Freie und Offene Software hingegen legt grundsätzlich alles offen. So kann jeder ihre Bestandteile prüfen, Fehler melden (oder direkt selbst beheben) und auf Wunsch eigene Variationen erstellen und verteilen. All das gibt Dir mehr Auswahl und Sicherheit bei der Nutzung - selbst als reiner "Konsument".
 
-## Offen vs. Frei/Libre
+#### Offen vs. Frei/Libre
 
 Manche Software-Unternehmen veröffentlichen den Quelltext ihrer Software, räumen aber niemand anderem die Rechte zur Änderung oder Weiterverteilung ein. Diese und ähnliche Vorgehen sorgen für etwas Verwirrung rund um den Begriff "Open Source".
 
