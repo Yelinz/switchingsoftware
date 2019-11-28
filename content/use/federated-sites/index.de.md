@@ -1,5 +1,6 @@
 ---
 title: Das Fediverse
+subtitle: Was sind föderierte Seiten?
 icon: icon.svg
 ---
 
