@@ -1,6 +1,6 @@
 ---
 slug: about
-title: About this Site
+title: switching.software
 ---
 #### What is this?
 
@@ -8,7 +8,7 @@ Switching.software is a grassroots website, that is trying to let people know ab
 
 #### Where can I follow this site?
 
-You can follow switching.software on the Fediverse via [our Mastodon account][swiso-mastodon].
+You can follow switching.software on the Fediverse via [our Mastodon account][swiso-mastodon]. Other channels may follow in the future.
 
 #### Where does this site come from?
 
@@ -16,13 +16,11 @@ Switching.software is a fork of a former website known as ['switching.social'][s
 
 In September 2019, the author took down all social media channels and the website itself. There hasn't been any statement by them ever since. No matter the reasons, [we want to thank them a lot][thanks] for what they have archieved with this project - and wish them well.
 
-To keep the project alive, the site was restored from different sources - resulting in [a bunch of HTML pages][swiso-archive].
-
-Since then, a loose team of enthusiasts has started a fork based on the original articles. We want to make the site maintainable and improve it. Progress on this endeavor can be seen in [our repository][swiso-repo].
+To keep the project alive, the site was restored from different sources - resulting in [a bunch of HTML pages][swiso-archive]. Since then, a loose team of enthusiasts has started a fork based on the original articles. We want to maintain and improve the project. Progress on this endeavor can be seen in [our repository][swiso-repo].
 
 #### What about the Copyright?
 
-The text of this site and of 'switching.social' are available under a [Creative Commons Attribution Sharealike 4.0 Licence][cc]. 
+The content of this site and of 'switching.social' is available under a [Creative Commons Attribution Sharealike 4.0 Licence][cc]. 
 
 If you use it, please remember to give proper credit to this site, [switching.software]({{< ref "/" >}}), and to the [license][cc]. We, in turn, will always give credit to the original site ['switching.social'][switching.social].
 
