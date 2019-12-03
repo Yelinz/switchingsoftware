@@ -5,5 +5,17 @@
                 <a href="{{ .Page.Permalink }}"><strong>{{ .Page.Title }}:</strong><br class="d-md-none"> {{ .Page.Params.Subtitle }}</a>
             </li>
         {{ end }}
+        <li>---<li>
+        {{ range .Site.Taxonomies.lists }}
+            <li>
+                <a href="{{ .Page.Permalink }}"><strong>{{ .Page.Title }}:</strong><br class="d-md-none"> {{ .Page.Params.Subtitle }}</a>
+            </li>
+        {{ end }}
+        <li>---<li>
+        {{ with .Site.GetPage "/page/about" }}
+            <li>
+                <a href="{{ .Page.Permalink }}"><strong>{{ .Page.Title }}</strong></a>
+            </li>
+        {{ end }}
     </ul>
 {{ end }}
