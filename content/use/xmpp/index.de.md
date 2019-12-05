@@ -21,6 +21,7 @@ Bei der Registrierung kannst Du Deinen Usernamen frei wählen. Eine Handynummer 
 - **iOS-Apps:** 
     - [ChatSecure](https://apps.apple.com/app/chatsecure/id464200063)
     - [Monal IM](https://itunes.apple.com/app/monal-free-xmpp-chat/id317711500)
+    - [Siskin.im](https://apps.apple.com/app/tigase-messenger/id1153516838)
 - **Desktop-Apps:** 
     - [Pidgin](https://pidgin.im/) (any)
     - [Gajim](https://gajim.org/downloads.php?lang=de) (Windows/Linux)

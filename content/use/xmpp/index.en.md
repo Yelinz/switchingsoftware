@@ -21,7 +21,8 @@ If these apps and sites are too complicated, try the much easier Zom and Quicksy
     - [Pix-Art Messenger](https://github.com/kriztan/Pix-Art-Messenger/blob/master/README-en.md#pix-art-messenger-)
 - **iOS app:**
     - [ChatSecure](https://itunes.apple.com/app/chatsecure/id464200063)
-    - [Monal](https://itunes.apple.com/us/app/monal-free-xmpp-chat/id317711500)
+    - [Monal](https://itunes.apple.com/app/monal-free-xmpp-chat/id317711500)
+    - [Siskin.im](https://apps.apple.com/app/tigase-messenger/id1153516838)
 - **Desktop app:**
     - [Pidgin](https://pidgin.im/) (any)
     - [Gajim](https://gajim.org/download) (Windows/Linux)
