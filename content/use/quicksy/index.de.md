@@ -8,5 +8,5 @@ replaces: [whatsapp, facebook-messenger]
 
 {{% infobox %}}
 - **Android app:**
-    - [Quicksy](https://play.google.com/store/apps/details?id=im.quicksy.client)
+    - [Quicksy](https://play.google.com/store/apps/details?id=im.quicksy.client) ([FDroid](https://f-droid.org/de/packages/im.quicksy.client/))
 {{% /infobox %}}
