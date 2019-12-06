@@ -3,6 +3,8 @@ slug: adobe-creative-cloud
 title: Bye Adobe Creative Cloud
 subtitle: Recommended Design Software
 order: [gimp, inkscape, krita, darktable, rawtherapee, blender, kdenlive, shotcut, flowblade, scribus]
+aliases:
+    - /ethical-alternatives-to-adobe-creative-cloud/
 ---
 
 Adobe’s Creative Cloud suite of creative apps is so-called “software as a service”, which means you have to pay rent on it every month or lose access to your work. Adobe gets to set how much the rent is, and once you’re sucked into the system there’s nothing to stop [Adobe increasing prices][adobe-prices] to whatever they want.

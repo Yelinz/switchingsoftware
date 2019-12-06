@@ -6,4 +6,6 @@ order:
     - duckduckgo
     - qwant
     - searx
+aliases:
+    - /ethical-alternatives-to-google-search/
 ---

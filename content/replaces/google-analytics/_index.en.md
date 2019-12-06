@@ -5,6 +5,8 @@ subtitle: Recommended Website Statistics
 order:
     - matomo
     - fathom
+aliases:
+    - /ethical-alternatives-to-google-analytics/
 ---
 
 Analytics software lets websites find out more about how many people visit them, which parts of the site they visit, how long they visit etc as well as more personal stuff such as device type, geographical location and other details. It does this by analysing the information your phone or computer sends to a website when you browse it, [which is a lot more than you may realise][gizmodo]. If you want to reduce the amount of data you share, take a look at [our web browser page][browser] for suggestions.

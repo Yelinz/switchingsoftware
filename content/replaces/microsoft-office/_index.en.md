@@ -2,6 +2,8 @@
 slug: microsoft-office
 title: Bye Microsoft Office
 subtitle: Recommended Office Suites
+aliases:
+    - /ethical-alternatives-to-microsoft-office/
 ---
 Microsoft Office has some serious problems with privacy, as this [official report for the Dutch government][report] explains:
 

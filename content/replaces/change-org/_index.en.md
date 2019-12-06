@@ -2,6 +2,8 @@
 slug: change-org
 title: Bye Change.org
 subtitle: Recommended Petition Platforms
+aliases:
+    - /ethical-alternatives-to-change-org/
 ---
 
 The petition site change.org is extremely popular, but many are surprised to learn it is a for-profit corporation. It isn’t a charity, it exists to make money and has investors who expect a return.

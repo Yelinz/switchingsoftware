@@ -3,6 +3,8 @@ slug: amazon-books
 title: Bye Amazon Books
 subtitle: Recommended Book Stores
 order: [local-bookshops, public-libraries, better-world-books, hive, open-library, libreture, inventaire]
+aliases:
+    - /ethical-alternatives-to-amazon-and-goodreads/
 ---
 
 Amazon is very convenient to use, but the convenience comes at a price, both for the [zero hours workers in their warehouses][workers] and for the communities that [Amazon deprives of taxes][taxes]. Amazon also has a [history of tracking][trackers] its users.

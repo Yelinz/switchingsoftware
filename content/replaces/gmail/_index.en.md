@@ -11,4 +11,6 @@ order:
     - thexyz
     - kolab-now
     - mailbox-org
+aliases:
+    - /ethical-alternatives-to-gmail-yahoo-mail-and-outlook/
 ---
