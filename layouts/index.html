@@ -12,13 +12,16 @@
             </li>
         {{ end }}
         <li>---<li>
-        {{ with .Site.GetPage "/page/about" }}
-            <li>
-                <a href="{{ .Page.Permalink }}"><strong>{{ .Page.Title }}</strong></a>
-            </li>
-            <li>
-                <a rel="me" href="https://mstdn.swiso.org/@switchingsoftware"><strong>Follow on Mastodon</strong></a>
-            </li>
+        {{ with .Site.GetPage "section" "articles" }}
+            {{ range .Pages }}
+                <li>
+                    <a href="{{ .Page.Permalink }}"><strong>{{ .Page.Title }}</strong></a>
+                </li>
+            {{ end }}
         {{ end }}
+
+        <li>
+            <a rel="me" href="https://mstdn.swiso.org/@switchingsoftware"><strong>Follow on Mastodon</strong></a>
+        </li>        
     </ul>
 {{ end }}

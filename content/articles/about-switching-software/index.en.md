@@ -1,6 +1,6 @@
 ---
-slug: about
 title: About this Site
+url: "/about"
 ---
 #### What is this?
 
