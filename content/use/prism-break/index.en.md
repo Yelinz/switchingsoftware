@@ -4,7 +4,7 @@ icon: icon.svg
 replaces: [switching-software]
 ---
 
-**PRISM Brean** is collecting libre software alternatives to bypass global surveillance programs, with a focus on privacy and security.
+**PRISM Break** is collecting libre software alternatives to bypass global surveillance programs, with a focus on privacy and security.
 
 {{% infobox %}}
 - **Website:** 
