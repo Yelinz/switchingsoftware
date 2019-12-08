@@ -2,7 +2,7 @@
 slug: amazon-books
 title: Bye Amazon Books
 subtitle: Recommended Book Stores
-order: [local-bookshops, public-libraries, better-world-books, hive, open-library, libreture, inventaire]
+order: [local-bookshops, public-libraries, better-world-books, hive, public-domain-ebooks, open-library, libreture, inventaire]
 aliases:
     - /ethical-alternatives-to-amazon-and-goodreads/
 ---
