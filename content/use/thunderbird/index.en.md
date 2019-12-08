@@ -1,6 +1,6 @@
 ---
 title: Thunderbird
-icon: logo.png
+icon: icon.png
 replaces: [microsoft-office]
 ---
 The most popular [open source][floss] email app for computers is Thunderbird. While primarily focused on email management, Thunderbird also comes with some extra features such as: viewing [RSS feeds][rss], [calendar extension][calendar], events/tasks list, and integration with some external chat services.
