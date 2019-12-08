@@ -2,6 +2,7 @@
 title: WordPress Federated
 icon: icon.svg
 replaces: [medium]
+lists: [wordpress-plugins]
 ---
 
 If you run a **blog powered by WordPress**, you can add a plugin that makes it federate with Mastodon and other social networks using the ActivityPub standard.
