@@ -13,5 +13,5 @@ You can try out Ubuntu before installing it. Furthermore, aside from replacing y
     - [Ubuntu.com](https://ubuntu.com)
 - **Download:**
     - [Ubuntu Desktop](https://ubuntu.com/download/desktop)
-    - [Different Flavours](https://ubuntu.com/download/flavours)
+    - [Different variants](https://ubuntu.com/download/flavours)
 {{% /infobox %}}
