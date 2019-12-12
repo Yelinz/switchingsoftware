@@ -12,9 +12,12 @@ DefaultContentLanguage = "en"
     replaces = "/replace/:slug"
     lists = "/list/:slug"
 
-[blackfriday]
-	hrefTargetBlank = true
-    noreferrerLinks = true
+[markup]
+    defaultMarkdownHandler = "blackfriday"
+
+    [markup.blackFriday]
+        hrefTargetBlank = true
+        noreferrerLinks = true
 
 [languages]
     [languages.en]
