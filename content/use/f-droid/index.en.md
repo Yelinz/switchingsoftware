@@ -27,10 +27,10 @@ After doing all these steps, you should be able to install apps within F-Droid w
 
 Many apps are available in both Google Play and F-Droid, but installing them through F-Droid will be better for your privacy.
 
-{{% infobox %}}
+{{< infobox >}}
 - **Website:** 
     - [f-droid.org](https://f-droid.org/)
-{{% /infobox %}}
+{{< /infobox >}}
 
 [floss]: https://web.archive.org/web/20180904102804/https://switching.social/what-is-open-source-software/
 [fdroid]: https://f-droid.org/

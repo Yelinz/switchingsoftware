@@ -8,10 +8,10 @@ replaces: [imgur, photobucket]
 
 If you enjoy using the service [you can donate to Framasoft][frama-donate], but that’s entirely optional.
 
-{{% infobox %}}
+{{< infobox >}}
 - **Website:** 
     - [framapic.org](https://framapic.org/)
-{{% /infobox %}}
+{{< /infobox >}}
 
 [framasoft]: https://framasoft.org/
 [frama-donate]: https://soutenir.framasoft.org/en/

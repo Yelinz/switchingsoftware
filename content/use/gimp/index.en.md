@@ -8,10 +8,10 @@ replaces: [adobe-cloud]
 
 Hint: With Glimpse, there also exists a variant with a less [mistakable name][gimp].
 
-{{% infobox %}}
+{{< infobox >}}
 - **Website:**
     - [gimp.org](https://gimp.org/)
     - [Download](https://www.gimp.org/downloads/)
-{{% /infobox %}}
+{{< /infobox >}}
 
 [gimp]: https://en.wiktionary.org/wiki/gimp#Noun_2

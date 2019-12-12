@@ -12,12 +12,12 @@ Most font download sites have a mixture of non-free and free fonts, so make sure
 
 Also, you don’t actually have to use Google Fonts to use its fonts, because they are under free licences anyway. There’s an [unofficial site which makes it as easy as possible to download these fonts][gfont-download] and self-host them instead.
 
-{{% infobox %}}
+{{< infobox >}}
 - **Websites:**
     - [DaFont.com](https://www.dafont.com/)
     - [FontLibrary.org](https://fontlibrary.org/)
     - [Font Squirrel](https://www.fontsquirrel.com/)
     - [Velvetyne](https://velvetyne.fr/)
-{{% /infobox %}}
+{{< /infobox >}}
 
 [gfont-download]: https://google-webfonts-helper.herokuapp.com/fonts

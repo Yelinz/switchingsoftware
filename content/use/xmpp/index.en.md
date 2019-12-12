@@ -10,7 +10,7 @@ Because it’s federated, there are lots of sites you can register on. It doesn�
 
 If these apps and sites are too complicated, try the much easier Zom and Quicksy alternatives. They’re part of the XMPP network as well.
 
-{{% infobox %}}
+{{< infobox >}}
 - **Sign up:** 
     - [chinwag.im](https://chinwag.im/)
     - [xmpp.jp](https://www.xmpp.jp/)
@@ -26,4 +26,4 @@ If these apps and sites are too complicated, try the much easier Zom and Quicksy
 - **Desktop app:**
     - [Pidgin](https://pidgin.im/) (any)
     - [Gajim](https://gajim.org/download) (Windows/Linux)
-{{% /infobox %}}
+{{< /infobox >}}

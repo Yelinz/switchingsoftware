@@ -8,11 +8,11 @@ replaces: [whatsapp, facebook-messenger]
 
 Das Projekt wird von der gemeinnützigen Signal-Stiftung entwickelt, welche großen Wert auf Datensparsamkeit und Sicherheit legt. Die Registrierung erfolgt per Handynummer über die Android- oder iOS-App.
 
-{{% infobox %}}
+{{< infobox >}}
 - **Entdecken:** 
     - [Webseite](https://signal.org/de/)
 - **Download:** 
     - [Android](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms&noprocess)
     - [iOS](https://itunes.apple.com/us/app/signal-private-messenger/id874139669)
     - [Desktop](https://signal.org/de/download/)
-{{% /infobox %}}
+{{< /infobox >}}

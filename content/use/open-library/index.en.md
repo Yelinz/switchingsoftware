@@ -8,7 +8,7 @@ replaces: [amazon-books]
 
 The site is libre and run by the Internet Archive, a non-profit organisation dedicated to sharing knowledge.
 
-{{% infobox %}}
+{{< infobox >}}
 - **Website:** 
     - [Open Library](https://openlibrary.org/)
-{{% /infobox %}}
+{{< /infobox >}}

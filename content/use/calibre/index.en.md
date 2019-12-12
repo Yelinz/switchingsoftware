@@ -8,7 +8,7 @@ replaces: [amazon-books]
 
 It’s free and available to download for Windows, Mac and Linux from the website below.
 
-{{% infobox %}}
+{{< infobox >}}
 - **Website:** 
     - [Calibre](https://www.calibre-ebook.com/)
-{{% /infobox %}}
+{{< /infobox >}}

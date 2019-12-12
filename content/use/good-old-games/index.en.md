@@ -12,12 +12,12 @@ There’s a games management app called GOG Galaxy, but it’s totally optional.
 
 There’s also a service called [GOG Connect][gog-connect] which lets you transfer certain games you already bought on Steam onto GOG free of charge.
 
-{{% infobox %}}
+{{< infobox >}}
 - **Website:** 
     - [GOG.com](https://www.gog.com/)
     - [GOG Connect](https://www.gog.com/connect)
 - **Download:**
     - [GOG Galaxy](https://www.gog.com/galaxy) (Windows)
-{{% /infobox %}}
+{{< /infobox >}}
 
 [gog-connect]: https://www.gog.com/connect

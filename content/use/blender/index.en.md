@@ -10,11 +10,11 @@ It has been used extensively to create many excellent free short films such as [
 
 It’s available for Windows, Mac and Linux from the official site.
 
-{{% infobox %}}
+{{< infobox >}}
 - **Website:**
     - [darktable.org](https://www.darktable.org/)
     - [Download](https://www.darktable.org/install/)
-{{% /infobox %}}
+{{< /infobox >}}
 
 [glass-half]: https://video.blender.org/videos/watch/64222c8a-c4c7-4b3b-9850-7fb2078edcf6
 [sintel]: https://video.blender.org/videos/watch/0eb052d0-fd51-43e6-aa33-ecdbf77a5d40

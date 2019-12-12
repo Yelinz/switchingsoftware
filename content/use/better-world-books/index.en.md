@@ -8,7 +8,7 @@ replaces: [amazon-books]
 
 Delivery is free worldwide.
 
-{{% infobox %}}
+{{< infobox >}}
 - **Website:** 
     - [Better World Books](https://www.betterworldbooks.com/)
-{{% /infobox %}}
+{{< /infobox >}}

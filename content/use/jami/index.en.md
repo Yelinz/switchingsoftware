@@ -8,7 +8,7 @@ replaces: [whatsapp, facebook-messenger, skype]
 
 It is open source and designed to respect its users’ privacy, with calls going directly from one user to another without using servers. It gives all its members a unique code, which they can share with others, so that they can add each other on the service.
 
-{{% infobox %}}
+{{< infobox >}}
 - **Website:**
     - [Jami](https://jami.net/)
 - **Mobile app:**
@@ -18,4 +18,4 @@ It is open source and designed to respect its users’ privacy, with calls going
     - [Windows](https://jami.net/download-jami-windows/)
     - [macOS](https://jami.net/download-jami-macos/)
     - [Linux](https://jami.net/download-jami-linux/)
-{{% /infobox %}}
+{{< /infobox >}}

@@ -8,9 +8,9 @@ replaces: [switching-software]
 
 Their focus is transparency: Every software recommendation is open for discussion, every change to the website can be retraced.
 
-{{% infobox %}}
+{{< infobox >}}
 - **Website:** 
     - [PrivacyTools.io](https://www.privacytools.io/)
     - [List of services](https://www.privacytools.io/services/)
     - [Mastodon account](https://social.privacytools.io/@privacytools)
-{{% /infobox %}}
+{{< /infobox >}}

@@ -9,8 +9,8 @@ If you run a **blog powered by WordPress**, you can add a plugin that makes it f
 
 There are currently a couple of plugins available, one simply called “ActivityPub” and another called “Pterotype”.
 
-{{% infobox %}}
+{{< infobox >}}
 - **Download:** 
     - [ActivityPub](https://wordpress.org/plugins/activitypub/)
     - [Pterotype](https://wordpress.org/plugins/pterotype/)
-{{% /infobox %}}
+{{< /infobox >}}

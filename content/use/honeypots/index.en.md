@@ -9,10 +9,10 @@ Honeypots are web page elements that are invisible to real humans, but visible t
 
 There are many websites with more details about this method.
 
-{{% infobox %}}
+{{< infobox >}}
 - **Websites:**
     - [Mailpoet: How to use honeypot traps](https://www.mailpoet.com/blog/email-honeypot-traps/)
     - [Project Honeypot](https://www.projecthoneypot.org/)
     - [Solution Factor: Honeypot Technique](https://solutionfactor.net/blog/2014/02/01/honeypot-technique-fast-easy-spam-prevention/)
     - [Kijana Woodard: To Catch A Bot](https://kijanawoodard.com/to-catch-a-bot-use-a-honeypot)
-{{% /infobox %}}
+{{< /infobox >}}

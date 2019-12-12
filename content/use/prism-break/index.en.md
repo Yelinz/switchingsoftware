@@ -6,7 +6,7 @@ replaces: [switching-software]
 
 **PRISM Break** is collecting libre software alternatives to bypass global surveillance programs, with a focus on privacy and security.
 
-{{% infobox %}}
+{{< infobox >}}
 - **Website:** 
     - [PRISM-Break.org](https://prism-break.org/en/)
-{{% /infobox %}}
+{{< /infobox >}}

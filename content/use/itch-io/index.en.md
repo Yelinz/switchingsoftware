@@ -10,9 +10,9 @@ It specialises in games from independent publishers, and encourages a community 
 
 For those who want it, Itch.io also offers an optional open source app too.
 
-{{% infobox %}}
+{{< infobox >}}
 - **Website:** 
     - [Itch.io](https://itch.io/)
 - **Download:**
     - [Windows / macOS / Linux](https://itch.io/app)
-{{% /infobox %}}
+{{< /infobox >}}

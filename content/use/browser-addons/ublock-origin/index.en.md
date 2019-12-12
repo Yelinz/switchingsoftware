@@ -10,12 +10,12 @@ By subscribing to additional filter lists, other components of websites can be r
 
 (Important: there’s a totally different add-on called simply “uBlock” which is NOT recommended.)
 
-{{% infobox %}}
+{{< infobox >}}
 - **Downloads:**
     - [Firefox](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
     - [Google Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
     - [Microsoft Edge](https://www.microsoft.com/store/p/app/9nblggh444l4)
     - [Opera](https://addons.opera.com/en/extensions/details/ublock/)
-{{% /infobox %}}
+{{< /infobox >}}
 
 [floss]: https://web.archive.org/web/20180904102804/https://switching.social/what-is-open-source-software/

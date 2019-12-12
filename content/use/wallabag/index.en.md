@@ -8,9 +8,9 @@ replaces: [pocket]
 
 You can sign up for an easy-to-use online service aimed at non-technical people. If you’re a technical person, you can also host your own Wallabag.
 
-{{% infobox %}}
+{{< infobox >}}
 - **Sign up:**
     - [wallabag.it](https://www.wallabag.it/en)
 - **Website:**
     - [wallabag.org](https://wallabag.org/en)
-{{% /infobox %}}
+{{< /infobox >}}

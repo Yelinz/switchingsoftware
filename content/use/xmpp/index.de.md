@@ -10,7 +10,7 @@ Aufgrund der dezentralen Funktionsweise gibt es viele Seiten, auf denen Du Dich 
 
 Bei der Registrierung kannst Du Deinen Usernamen frei wählen. Eine Handynummer wird nicht benötigt. Alternativ gibt es mit Quicksy eine XMPP-Variante auf Basis der Handynummer.
 
-{{% infobox %}}
+{{< infobox >}}
 - **Registrierung:** 
     - [wiuwiu.de](https://wiuwiu.de/)
     - [simplewire.de](https://simplewire.de/register.html)
@@ -25,4 +25,4 @@ Bei der Registrierung kannst Du Deinen Usernamen frei wählen. Eine Handynummer 
 - **Desktop-Apps:** 
     - [Pidgin](https://pidgin.im/) (any)
     - [Gajim](https://gajim.org/downloads.php?lang=de) (Windows/Linux)
-{{% /infobox %}}
+{{< /infobox >}}
