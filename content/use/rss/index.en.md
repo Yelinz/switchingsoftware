@@ -26,7 +26,7 @@ For those of you using the [Friendica][friendica] social network, you can add RS
 
 Here are some reader apps you can use to subscribe to RSS feeds:
 
-{{% infobox %}}
+{{< infobox >}}
 - **Android apps:**
     - [Flym](https://play.google.com/store/apps/details?id=net.frju.flym) ([FDroid](https://f-droid.org/en/packages/net.frju.flym/))
     - [Feeder](https://f-droid.org/en/packages/com.nononsenseapps.feeder/)
@@ -39,7 +39,7 @@ Here are some reader apps you can use to subscribe to RSS feeds:
     - [Thunderbird](https://www.thunderbird.net/)
 - **Windows apps:**
     - [Thunderbird](https://www.thunderbird.net/)
-{{% /infobox %}}
+{{< /infobox >}}
 
 Note: Thunderbird is mainly promoted as an email app, but it also has a full RSS feed reader too. You can find out more from [the official Thunderbird RSS guide][thunderbird-guide].
 

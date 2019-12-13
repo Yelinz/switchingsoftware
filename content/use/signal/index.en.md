@@ -8,11 +8,11 @@ replaces: [whatsapp, facebook-messenger]
 
 Note: You register with your phone number. That's why Signal requires you to activate your account via a smartphone app.
 
-{{% infobox %}}
+{{< infobox >}}
 - **Website:** 
     - [signal.org](https://signal.org/)
 - **Download:**
     - [Android](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms)
     - [iOS](https://itunes.apple.com/us/app/signal-private-messenger/id874139669)
     - [Desktop](https://signal.org/download/)
-{{% /infobox %}}
+{{< /infobox >}}

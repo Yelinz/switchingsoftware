@@ -10,8 +10,8 @@ The basic account is free, and there are also paid options for people who want e
 
 It's siter site **The Epubizer** explains all the basics of DRM-free eBooks: what they are, how to read them and where to buy them.
 
-{{% infobox %}}
+{{< infobox >}}
 - **Website:** 
     - [Libreture](https://www.libreture.com/)
     - [The Epubizer](https://theepubizer.com/)
-{{% /infobox %}}
+{{< /infobox >}}

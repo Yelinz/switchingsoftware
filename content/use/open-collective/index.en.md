@@ -8,7 +8,7 @@ replaces: [patreon]
 
 It lets projects accept both one-time and recurring donations/sponsorships, but also lets them give detailed open accounts of expenditure, and helps members of the project file or discuss expenses.
 
-{{% infobox %}}
+{{< infobox >}}
 - **Website:** 
     - [Open Collective](https://opencollective.com/)
-{{% /infobox %}}
+{{< /infobox >}}

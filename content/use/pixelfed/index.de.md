@@ -9,10 +9,10 @@ tag: [fediverse]
 
 Pixelfed ist dezentral organisiert und Teil des [Fediverse](/de/use/fediverse). Das bedeutet: Wie bei Deiner E-Mail-Adresse hast Du die freie Wahl des "Anbieters" (der Instanz). Egal welche Instanz Du wählst, über *@nutzername@instanzname* kannst Du jede beliebige andere Person erreichen - und sie Dich ebenfalls. Du kannst damit auch Inhalte mit Benutzern anderer Dienste wie z.B. Mastodon teilen.
 
-{{% infobox %}}
+{{< infobox >}}
 - **Registrierung:** 
     - [pixelfed.de](https://pixelfed.de)
     - [selbst betreiben](https://app.spacebear.ee/)
 - **Entdecken:** 
     - [Beispiel-Account](https://pixelfed.social/earth)
-{{% /infobox %}}
+{{< /infobox >}}

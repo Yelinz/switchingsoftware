@@ -8,7 +8,7 @@ replaces: [meetup]
 
 It’s still very new and most of the events are currently related to software development, but anyone can set up a team and events for any topic.
 
-{{% infobox %}}
+{{< infobox >}}
 - **Website:**
     - [GetTogether.community](https://gettogether.community/)
-{{% /infobox %}}
+{{< /infobox >}}

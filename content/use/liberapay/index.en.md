@@ -8,7 +8,7 @@ replaces: [patreon]
 
 Unlike commercial platforms, Liberapay is open source and is itself also funded through crowdfunding, so it does not take a cut of your donations.
 
-{{% infobox %}}
+{{< infobox >}}
 - **Website**:
   - [Liberapay](https://liberapay.com/)
-{{% /infobox %}}
+{{< /infobox >}}

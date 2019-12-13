@@ -8,7 +8,7 @@ For political issues, you should **petition governments directly** on issues. Th
 
 In some countries, popular petitions may trigger a parliamentary debate or even a referendum.
 
-{{% infobox %}}
+{{< infobox >}}
 - **Brazil:** 
     - [Ideia Legislativa](https://www12.senado.leg.br/ecidadania/principalideia)
 - **European Union:**
@@ -31,4 +31,4 @@ In some countries, popular petitions may trigger a parliamentary debate or even 
 - **United States:**
     - [Whitehouse Petitions](https://petitions.whitehouse.gov/)
     - [Ballot Initiatives](https://oag.ca.gov/initiatives) (California)
-{{% /infobox %}}
+{{< /infobox >}}

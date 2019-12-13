@@ -8,7 +8,7 @@ The charity initiative **Humble Bundle** also has an online store that sells bot
 
 The store’s games are often sold in co-operation with other platforms (including Steam and GOG), but by buying them through Humble a portion of the sales go to charity.
 
-{{% infobox %}}
+{{< infobox >}}
 - **Website:** 
     - [Humble Store](https://www.humblebundle.com/store/search?sort=bestselling&drm=download) (DRM-free section)
-{{% /infobox %}}
+{{< /infobox >}}

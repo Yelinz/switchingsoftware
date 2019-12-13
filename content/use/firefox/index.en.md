@@ -8,7 +8,7 @@ replaces: [google-chrome]
 
 There are a large number of Add-ons that can be install, futher extending the browser. We've listed some [recommended add-ons][addons] to help protect you from most privacy threats on the web.
 
-{{% infobox %}}
+{{< infobox >}}
 - **Website**: 
     - [Mozilla Firefox](https://www.mozilla.org/firefox/)
 - **Android Apps:** 
@@ -19,7 +19,7 @@ There are a large number of Add-ons that can be install, futher extending the br
     - [Firefox Klar](https://apps.apple.com/app/firefox-focus-privacy-browser/id1055677337)
 - **Addons:** 
     - [Recommended Add-ons](/en/use/firefox/addons)
-{{% /infobox %}}
+{{< /infobox >}}
 
 [floss]: https://web.archive.org/web/20180904102804/https://switching.social/what-is-open-source-software/
 [addons]: {{< ref "/lists/firefox-addons" >}}

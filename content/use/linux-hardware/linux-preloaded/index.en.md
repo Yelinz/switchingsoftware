@@ -6,7 +6,7 @@ lists: [linux-hardware]
 
 **Linux Preloaded** offers a list of computer shops, that ship with Linux preinstalled.
 
-{{% infobox %}}
+{{< infobox >}}
 - **Website:**
     - [LinuxPreloaded.com](https://linuxpreloaded.com/)
-{{% /infobox %}}
+{{< /infobox >}}

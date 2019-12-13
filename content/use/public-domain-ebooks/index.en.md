@@ -7,7 +7,7 @@ Many classic books are old enough to be in the public domain, so they are legal 
 
 There are several major sites which distribute free public domain eBooks and audiobooks. All of these downloads are unrestricted and without [DRM][drm]. If you need help with formats etc., have a look at [The Epubizer][epubizer].
 
-{{% infobox %}}
+{{< infobox >}}
 - **Website:** 
     - [Project Gutenberg](https://www.gutenberg.org/)
     - [Project Gutenberg Australia](http://gutenberg.net.au/)
@@ -21,7 +21,7 @@ There are several major sites which distribute free public domain eBooks and aud
     - [Wikisource](https://en.wikisource.org/)
 - **Help:**
     - [The Epubizer](https://epubizer.com/)
-{{% /infobox %}}
+{{< /infobox >}}
 
 [drm]: {{< relref "/articles/drm" >}}
 [epubizer]: https://epubizer.com/

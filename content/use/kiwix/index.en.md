@@ -10,7 +10,7 @@ You install the app and download the content you want from the Kiwix website. Yo
 
 Kiwix content can also be sent through the post on a memory stick, or physically carried to remote regions. In short, it makes the internet more like a set of books that can be taken to places without the internet.
 
-{{% infobox %}}
+{{< infobox >}}
 - **Website:**
     - [Kiwix.org](https://www.kiwix.org/)
     - [Available content](https://wiki.kiwix.org/wiki/Content)
@@ -21,4 +21,4 @@ Kiwix content can also be sent through the post on a memory stick, or physically
     - [iOS](https://itunes.apple.com/app/kiwix/id997079563)
 - **Explore:**
     - [Create content for Kiwix](https://wiki.openzim.org/wiki/Build_your_ZIM_file)
-{{% /infobox %}}
+{{< /infobox >}}

@@ -2,7 +2,7 @@
 slug: adobe-creative-cloud
 title: Bye Adobe Creative Cloud
 subtitle: Recommended Design Software
-order: [gimp, inkscape, krita, darktable, rawtherapee, blender, kdenlive, shotcut, flowblade, scribus]
+order: [gimp, glimpse-editor, inkscape, krita, darktable, rawtherapee, blender, kdenlive, shotcut, flowblade, scribus]
 aliases:
     - /ethical-alternatives-to-adobe-creative-cloud/
 ---

@@ -8,10 +8,10 @@ replaces: [windows]
 
 You can try out Ubuntu before installing it. Furthermore, aside from replacing your current operating system, you can install it next to it (called a "dual boot" system). Furthermore, a lot of other Linux distributions are based on Ubuntu.
 
-{{% infobox %}}
+{{< infobox >}}
 - **Website:**
     - [Ubuntu.com](https://ubuntu.com)
 - **Download:**
     - [Ubuntu Desktop](https://ubuntu.com/download/desktop)
     - [Different variants](https://ubuntu.com/download/flavours)
-{{% /infobox %}}
+{{< /infobox >}}

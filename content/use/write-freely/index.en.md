@@ -10,7 +10,7 @@ The site is open source and extremely privacy-friendly, collecting the absolute 
 
 Write Freely has just started federating using the ActivityPub standard, so you can follow Write Freely blogs through e.g. Mastodon account.
 
-{{% infobox %}}
+{{< infobox >}}
 - **Sign up:** 
     - [Write.as](https://write.as/)
     - [Qua.name](https://qua.name/)
@@ -25,4 +25,4 @@ Write Freely has just started federating using the ActivityPub standard, so you 
     - [Write.as](https://itunes.apple.com/app/apple-store/id1000755153)
 - **Website:**
     - [WriteFreely.org](https://writefreely.org/)
-{{% /infobox %}}
+{{< /infobox >}}

@@ -11,7 +11,7 @@ Unlike YouTube, PeerTube is made up of lots of independent sites that talk to ea
 
 Even better, because PeerTube uses the ActivityPub standard its channels can be followed by millions of people on [Mastodon][mastodon] and other ActivityPub-powered social networks.
 
-{{% infobox %}}
+{{< infobox >}}
 - **Sign up:** 
     - [pe.ertu.be](https://pe.ertu.be)
     - [spacepub.space](https://spacepub.space)
@@ -25,7 +25,7 @@ Even better, because PeerTube uses the ActivityPub standard its channels can be 
 - **Example videos:**
     - [What is PeerTube?](https://framatube.org/videos/watch/9c9de5e8-0a1e-484a-b099-e80766180a6d)
     - [PeerTube demo with Mastodon](https://peertube.cpy.re/videos/watch/da2b08d4-a242-4170-b32a-4ec8cbdca701)
-{{% /infobox %}}
+{{< /infobox >}}
 
 [floss]: https://web.archive.org/web/20180904102804/https://switching.social/what-is-open-source-software/
 [federation]: https://web.archive.org/web/20190115215249/https://switching.social/federated-sites/

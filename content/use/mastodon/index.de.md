@@ -9,7 +9,7 @@ tag: [fediverse, f-droid]
 
 Ferner ist Mastodon dezentral organisiert. Das bedeutet: Wie bei Deiner E-Mail-Adresse hast Du die freie Wahl des "Anbieters" (der Instanz). Egal welche Instanz Du wählst, über *@nutzername@instanzname* kannst Du jede beliebige andere Person erreichen - und sie Dich ebenfalls. Das funktioniert sogar über Mastodon hinaus, im so genannten ["Fediverse"](de/use/fediverse).
 
-{{% infobox %}}
+{{< infobox >}}
 - **Registrierung:** 
     - [troet.cafe](https://troet.cafe)
     - [mstdn.at](https://mstdn.at)
@@ -23,4 +23,4 @@ Ferner ist Mastodon dezentral organisiert. Das bedeutet: Wie bei Deiner E-Mail-A
     - [Mast](https://itunes.apple.com/de/app/mast/id1437429129)
 - **Entdecken:** 
     - [Englische Themenlisten](https://communitywiki.org/trunk/)
-{{% /infobox %}}
+{{< /infobox >}}

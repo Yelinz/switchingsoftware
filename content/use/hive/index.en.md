@@ -10,7 +10,7 @@ Delivery is free within the UK, and a bit extra overseas.
 
 IMPORTANT NOTE: For maximum ethical points, get in touch with your local bookshop and order from them directly, your book will cost the same but the indie will get a bigger cut of the sale than they do through Hive.
 
-{{% infobox %}}
+{{< infobox >}}
 - **Website:** 
     - [Hive.co.uk](https://www.hive.co.uk/)
-{{% /infobox %}}
+{{< /infobox >}}

@@ -13,7 +13,7 @@ It also provides various other services:
 * Qwant Boards (allows you to save pages or share a public board centered around a topic).
 * Qwant Maps (Google Maps replacement built upon [OpenStreetMap][osm]).
 
-{{% infobox %}}
+{{< infobox >}}
 - **Websites:** 
     - [Qwant](https://www.qwant.com)
     - [Qwant Junior](https://www.qwantjunior.com/)
@@ -24,6 +24,6 @@ It also provides various other services:
     - [Qwant](https://play.google.com/store/apps/details?id=com.qwant.liberty)
 - **iOS app:** 
     - [Qwant](https://apps.apple.com/app/qwant/id924470452)
-{{% /infobox %}}
+{{< /infobox >}}
 
 [osm]: {{< relref "/use/openstreetmap" >}}
