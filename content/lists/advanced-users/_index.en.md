@@ -9,8 +9,11 @@ order:
     - fediverse-party
     - the-federation
     - compute-freely
-    - linux-games
+    - open-source-games
 ---
-Switching.software is for non-technical people, and it’s always going to stay that way.
+Switching.software is for non-technical people, and it’s always going to stay
+that way.
 
-However, if you use technology a lot and know a fair bit about computers, you might want to check out these sites. They too provide ethical privacy-friendly alternatives, but they assume a lot more prior knowledge:
+However, if you use technology a lot and know a fair bit about computers, you
+might want to check out these sites. They too provide ethical privacy-friendly
+alternatives, but they assume a lot more prior knowledge:
