@@ -1,5 +1,6 @@
 {{ define "main" }}
-    <article>
+    {{ $template := .Params.listtype }}
+    <article class="list {{ $template }}">
         {{ .Content }}
         
         {{/* Fixed-ordered entries first, rest second */}}
@@ -9,15 +10,12 @@
         {{ end }}
         {{ $entries = $entries | append ( .Data.Pages | complement $entries ) }}
 
-        {{ $template := .Params.listtype }}
-        <div class="list {{ $template }}">
-            {{ range $entries }}
-                {{ if ( eq $template "simple" ) }}
-                    {{ partial "entry-simple.html" . }}
-                {{ else }}
-                    {{ partial "entry.html" . }}
-                {{ end }}
+        {{ range $entries }}
+            {{ if ( eq $template "simple" ) }}
+                {{ partial "entry-simple.html" . }}
+            {{ else }}
+                {{ partial "entry.html" . }}
             {{ end }}
-        </div>
+        {{ end }}
     </article>
 {{ end }}
