@@ -9,8 +9,15 @@
         {{ end }}
         {{ $entries = $entries | append ( .Data.Pages | complement $entries ) }}
 
-        {{ range $entries }}
-            {{ partial "entry.html" . }}
-        {{ end }}
+        {{ $template := .Params.listtype }}
+        <div class="list {{ $template }}">
+            {{ range $entries }}
+                {{ if ( eq $template "simple" ) }}
+                    {{ partial "entry-simple.html" . }}
+                {{ else }}
+                    {{ partial "entry.html" . }}
+                {{ end }}
+            {{ end }}
+        </div>
     </article>
 {{ end }}
