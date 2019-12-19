@@ -30,6 +30,7 @@ You can try Mastodon by signing up at one of the sites below, and you can use yo
     - [Mast](https://itunes.apple.com/app/mast/id1437429129)
 - **Discover:** 
     - [Accounts by topic](https://communitywiki.org/trunk/)
+    - [Instances by requirements](https://instances.social)
 {{< /infobox >}}
 
 [federation]: https://web.archive.org/web/20190508232759/https://switching.social/federated-sites/
