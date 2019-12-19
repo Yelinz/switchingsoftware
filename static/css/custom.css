@@ -87,6 +87,7 @@ a, .btn-link, .menu .menu-item > a {
 .entry-icon {
     max-height: 2rem;
     max-width: 2rem;
+    height: 99rem;
     margin: 0;
     position: absolute;
     top: 50%;
