@@ -15,7 +15,7 @@ Even better, your Mastodon account lets you follow people on other alternative s
 
 You can try Mastodon by signing up at one of the sites below, and you can use your account on one of the Mastodon phone apps. We’ve also done some [hints and tips][howto-masto] for new users.
 
-{{% infobox %}}
+{{< infobox >}}
 - **Sign-up:** 
     - [mastodon.host](https://mastodon.host)
     - [mastodon.xyz](https://mastodon.xyz/)
@@ -30,7 +30,8 @@ You can try Mastodon by signing up at one of the sites below, and you can use yo
     - [Mast](https://itunes.apple.com/app/mast/id1437429129)
 - **Discover:** 
     - [Accounts by topic](https://communitywiki.org/trunk/)
-{{% /infobox %}}
+    - [Instances by requirements](https://instances.social)
+{{< /infobox >}}
 
 [federation]: https://web.archive.org/web/20190508232759/https://switching.social/federated-sites/
 [peertube]: {{< relref "/use/peertube" >}}

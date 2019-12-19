@@ -1,6 +1,6 @@
 ---
 title: Matomo
-icon: icon.png
+icon: icon.svg
 replaces: [google-analytics]
 ---
 
@@ -8,9 +8,9 @@ replaces: [google-analytics]
 
 Matomo’s software is free and [open source][floss], so anyone can install and use it on their own servers completely free of charge. There are also paid options for those who don’t want to host analytics software themselves.
 
-{{% infobox %}}
+{{< infobox >}}
 - **Website:** 
     - [matomo.org](https://matomo.org)
-{{% /infobox %}}
+{{< /infobox >}}
 
 [floss]: https://web.archive.org/web/20180904102804/https://switching.social/what-is-open-source-software/

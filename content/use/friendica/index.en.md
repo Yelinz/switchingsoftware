@@ -12,7 +12,7 @@ Friendica is also connected to [Mastodon][mastodon], Diaspora, [PixelFed][pixelf
 If you decide to sign up, you can register at the sites below. You might also want read our [hints and tips on how to get started][howto-switch].
 
 
-{{% infobox %}}
+{{< infobox >}}
 - **Sign-up:** 
     - [Nerdica.net](https://nerdica.net/)
     - [Libranet.de](https://libranet.de/)
@@ -20,7 +20,7 @@ If you decide to sign up, you can register at the sites below. You might also wa
 - **Android apps:** 
     - [Fedilab](https://fedilab.app/) 
     - [DiCa](https://play.google.com/store/apps/details?id=cool.mixi.dica&noprocess)
-{{% /infobox %}}
+{{< /infobox >}}
 
 [federation]: https://web.archive.org/web/20190508232759/https://switching.social/federated-sites/
 [mastodon]: {{< relref "/use/mastodon" >}}

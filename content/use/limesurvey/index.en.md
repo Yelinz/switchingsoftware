@@ -8,10 +8,10 @@ replaces: [google-forms]
 
 The self-hosted version is completely free of charge, while the version hosted by LimeSurvey comes in free and paid versions.
 
-{{% infobox %}}
+{{< infobox >}}
 - **Website:** 
     - [LimeSurvey.org](https://limesurvey.org/)
-{{% /infobox %}}
+{{< /infobox >}}
 
 [floss]: https://web.archive.org/web/20180904102804/https://switching.social/what-is-open-source-software/
 [limesurvey]: https://limesurvey.org/

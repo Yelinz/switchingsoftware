@@ -8,9 +8,9 @@ replaces: [google-drive]
 
 The service is free up to a certain storage limit, with paid accounts for additional storage. You can even use the free service without registering if you want, though it’s worth registering as it lets you keep documents permanently online.
 
-{{% infobox %}}
+{{< infobox >}}
 - **Website:** 
     - [cryptpad.fr](https://cryptpad.fr/)
-{{% /infobox %}}
+{{< /infobox >}}
 
 [1]: https://web.archive.org/web/20180904102804/https://switching.social/what-is-open-source-software/

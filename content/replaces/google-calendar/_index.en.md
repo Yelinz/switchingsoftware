@@ -6,4 +6,6 @@ order:
     - nextcloud
     - kolab-now
     - tutanota
+aliases:
+    - /ethical-alternatives-to-google-calendar/
 ---
