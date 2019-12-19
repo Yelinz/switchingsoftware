@@ -26,13 +26,17 @@ Die meisten werden diese vier Freiheiten niemals vollständig nutzen. Doch wir a
 
 Kurzgesagt: Mehr Vertrauen in Deine Software und mehr Flexibilität bei ihrer Nutzung. Das lässt sich in etwas mehr Worten mit einer Analogie verdeutlichen. 
 
-![Freier Kuchen](cake.png)
-
 Angenommen, Du möchtest deinen Freunden Kuchen anbieten. Du kannst natürlich sehr einfach einen fertigen Kuchen an der Backtheke kaufen. Bei diesem **proprietärem Kuchen** ist jedoch nicht offensichtlich, was genau er enthält. Natürlich legen Aussehen und Geschmack einige Zutaten nahe. Doch *alle* Zutaten allein darüber herauszufinden ist schwer bis unmöglich.
+
+{{< img src="cake.svg" title="Proprietärer Kuchen" height="180px" >}}
 
 Das ist besonders bei Allergien und Unverträglichkeiten ein Problem. Mehr Offenheit - quasi ein **Open-Source-Kuchen** - hilft Dir hier weiter. Tatsächlich gibt es vielerorts Gesetze, welche die Kennzeichnung von Allergenen und oft auch komplette Zutatenlisten einfordern. Sollte am Tag der Feier allerdings Dein Wunschkuchen nicht mehr angeboten werden, hast Du auch dann ein Problem. 
 
+{{< img src="ingredients.svg" title="Offener Kuchen" width="170px"  >}}
+
 Ist das Rezept frei verfügbar, so kannst Du den Kuchen jederzeit selbst backen (oder backen lassen). Du kannst alle Schritte nachvollziehen und auf Wunsch einzelne Zutaten ändern. Und Du kannst das Rezept an Interessierte weitergeben. So kommen auch sie in den vollen Genuss von **Freiem/Libre Kuchen**.
+
+{{< img src="recipe.svg" title="Freies Kuchenrezept" width="170px"  >}}
 
 Ähnlich verhält es sich bei Software: Auch proprietäre Software macht Dich abhängig von einem Anbieter und kann unerwünschte "Zutaten" enthalten. Bestimmte Praktiken müssen zwar ebenfalls (z.B. in seitenlangen [AGB][AGB]) gekennzeichnet werden, wirklich offen und transparent ist das aber nicht.
 
