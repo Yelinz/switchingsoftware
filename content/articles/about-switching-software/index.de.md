@@ -1,6 +1,6 @@
 ---
-slug: about
 title: switching.software
+url: "/about"
 ---
 
 #### Was ist switching.software?
