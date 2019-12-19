@@ -23,11 +23,11 @@ Erzähle Deinen Freunden von neuen Diensten oder Programmen, die Du verwendest. 
 
 Für manche Anwendungsfälle findest Du vielleicht nichts, dass Deinen Bedürfnissen entspricht. Es ist in Ordnung, nur an den Stellen zu wechseln, an denen Du es auch kannst.
 
-Ständig entstehen neue spannende Entwicklungsprojekte, die eine Lücke schließen möchten. Mit etwas Glück findest Du zu einem späteren Zeitpunkt etwas passendes für Dich. Ein paar spannende Projekte, die sich noch in Entwicklung befinden, folgt demnächst auch auf dieser Webseite.
+Ständig entstehen neue spannende Entwicklungsprojekte, die eine Lücke schließen möchten. Mit etwas Glück findest Du zu einem späteren Zeitpunkt etwas passendes für Dich. Ein paar spannende Projekte, die sich noch in Entwicklung befinden, folgen demnächst auch auf dieser Webseite.
 
 ### Frage nach Hilfe
 
-Es ist in Ordnung, wenn Du Dich an manchen Stellen nicht alleine zurecht findest. Falls Du keine passende Anlaufstelle im Internet oder im Freundeskreis findest, dann kannst Du auch [diese Seite kontaktieren](https://www.brickup.de/kontakt).
+Es ist in Ordnung, wenn Du Dich an manchen Stellen nicht alleine zurecht findest. Falls Du keine passende Anlaufstelle im Internet oder im Freundeskreis findest, dann kannst Du auch [diese Seite kontaktieren][contact].
 
 ### Hilf anderen
 
@@ -44,3 +44,5 @@ Manche Webseites, die über den Datenschutz im Internet diskutieren, sind ziemli
 Allerdings wollen nicht alle von der Bedrohung durch eine Massenüberwachung hören, wenn sie grade Cornflakes essen oder sich bereits um Job / Familie / Rechnungen sorgen.
 
 Ein positiver, ruhiger Ansatz kann manchmal die bessere Möglichkeit sein, Menschen über ihre Optionen zu informieren. Zum Beispiel haben viele beobachtet, dass Mastodon deutlich freundlicher im Umgangston ist als beispielsweise Twitter oder Facebook.
+
+[contact]: https://www.brickup.de/kontakt
