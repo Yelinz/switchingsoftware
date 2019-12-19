@@ -30,5 +30,5 @@ If you can, try to buy DRM-free. It will give you a better product, more choice,
 [game-broken]: https://web.archive.org/web/20180904104351/https://twinfinite.net/2018/06/metal-gear-rising-no-longer-playable-on-mac-due-to-drm-shutdown/
 [gog]: https://www.gog.com/
 [kobo]: https://swiso.org/unofficial-kobo-search/
-[piracy-intro]: https://www.youtube.com/watch?v=HmZm8vNHBSU
+[piracy-intro]: https://ia800204.us.archive.org/15/items/youtube-K_vHwfDNGdg/Piracy_It_s_A_Crime-K_vHwfDNGdg.mp4
 [simcity-drm]: https://www.mic.com/articles/29213/simcity-drm-always-online-mode-results-in-disaster-for-gamers
