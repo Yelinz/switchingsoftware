@@ -1,10 +1,6 @@
 <section id="{{ .File.ContentBaseName | urlize }}" class="entry mb-2">
-    {{ if .Params.Icon }}
-        <img class="entry-icon float-left mr-2" 
-            src="{{ "/" | relURL }}{{ .File.Dir }}{{ .Params.Icon }}" 
-            alt="{{ .Title }}"
-        />
-    {{ end }}
+
+    {{ partial "icon.html" . }}
 
     <h3>{{ .Title }}</h3>
 

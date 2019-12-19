@@ -1,0 +1,10 @@
+<div class="entry-icon-wrapper float-left mr-2">
+    {{ if .Params.Icon }}
+        <img class="entry-icon" 
+            src="{{ "/" | relURL }}{{ .File.Dir }}{{ .Params.Icon }}" 
+            alt="{{ .Title }}"
+        />
+    {{ else }}
+        <span class="entry-icon">...</span>
+    {{ end }}
+</div>
