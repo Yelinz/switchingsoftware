@@ -150,6 +150,19 @@ p > img {
     max-width: 100%;
 }
 
+.mx-auto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Articles */
+.type-articles h3 {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
 /* Footer */
 html, body {
     height: 100%
