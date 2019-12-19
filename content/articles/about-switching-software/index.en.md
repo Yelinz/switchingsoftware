@@ -2,15 +2,15 @@
 title: About this Site
 url: "/about"
 ---
-#### What is this?
+### What is this?
 
 Switching.software is a grassroots website, that is trying to let people know about ethical and easy-to-use alternatives to well-known websites, apps and other software. 
 
-#### Where can I follow this site?
+### Where can I follow this site?
 
 You can follow switching.software on the Fediverse via [our Mastodon account][swiso-mastodon]. Other channels may follow in the future.
 
-#### Where does this site come from?
+### Where does this site come from?
 
 Switching.software is a fork of a former website known as ['switching.social'][switching.social]. It was created and maintained by an anonymous person and gained popularity in 2018 and 2019 - especially on the [Fediverse][fediverse].
 
@@ -18,13 +18,13 @@ In September 2019, the author took down all social media channels and the websit
 
 To keep the project alive, the site was restored from different sources - resulting in [a bunch of HTML pages][swiso-archive]. Since then, a loose team of enthusiasts has started a fork based on the original articles. We want to maintain and improve the project. Progress on this endeavor can be seen in [our repository][swiso-repo].
 
-#### What about the Copyright?
+### What about the Copyright?
 
 The content of this site and of 'switching.social' is available under a [Creative Commons Attribution Sharealike 4.0 Licence][cc]. 
 
 If you use it, please remember to give proper credit to this site, [switching.software]({{< ref "/" >}}), and to the [license][cc]. We, in turn, will always give credit to the original site ['switching.social'][switching.social].
 
-#### Why was this site founded?
+### Why was this site founded?
 
 As we haven't founded this site ourselves, we want to quote from the [original answer from 'switching.social'][swisoc-about] here:
 
@@ -34,12 +34,12 @@ As we haven't founded this site ourselves, we want to quote from the [original a
 
 > **What can an individual do to stop all this?** How can one person make a difference? By using apps and services that do not steal data, and encouraging others to do the same. That’s what switching.social is for: To make it as easy as possible for people to find ethical alternatives that respect privacy.
 
-#### What about privacy on this site?
+### What about privacy on this site?
 
 This site collects no data on its visitors. There are no analytics, no cookies and no trackers involved.
 
 [cc]: https://creativecommons.org/licenses/by-sa/4.0/
-[fediverse]: {{< relref "/use/federated-sites" >}}
+[fediverse]: {{< relref "/articles/federated-sites" >}}
 [swiso-archive]: https://codeberg.org/swiso-en/archive
 [swiso-mastodon]: https://mstdn.swiso.org/@switchingsoftware
 [swiso-repo]: https://codeberg.org/swiso-en/website
