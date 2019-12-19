@@ -1,6 +1,7 @@
 ---
 title: Advanced Users
 subtitle: Technical Resources
+listtype: simple
 order:
     - de-google-ify-internet
     - prism-break
