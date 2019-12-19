@@ -6,9 +6,6 @@ order:
     - de-google-ify-internet
     - prism-break
     - lineage-os
-    - instances-social
-    - fediverse-party
-    - the-federation
     - compute-freely
     - open-source-games
 ---
