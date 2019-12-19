@@ -115,6 +115,10 @@ a, .btn-link, .menu .menu-item > a {
     content: '|';
 }
 
+.list.simple .infobox strong {
+    display: none;
+}
+
 @media only screen and (min-width: 856px) { 
     .d-md-none {
         display: none;
