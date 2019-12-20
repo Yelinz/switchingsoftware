@@ -2,10 +2,9 @@
 @font-face {
 	font-family: cookiesmilk;  
     src: 
-        url(../assets/cookies_milk_Regular.woff2) format('woff2'),
-        url(../assets/cookies_milk_Regular.woff) format('woff'),
-        url(../assets/cookies_milk_Regular.eot) format('eot'),
-        url(../assets/cookies_milk_Regular.ttf) format('ttf');
+        url(../assets/cookiesmilk.woff2) format('woff2'),
+        url(../assets/cookiesmilk.woff) format('woff'),
+        url(../assets/cookiesmilk.eot) format('eot');
 	font-weight: normal;  
 }
 
