@@ -1,7 +1,9 @@
 /* Fonts */
 @font-face {
 	font-family: cookiesmilk;  
-	src: url(../assets/cookiesmilk.ttf);  
+    src: 
+        url(../assets/cookies&milk-Regular.woff2) format('woff2'),
+        url(../assets/cookies&milk-Regular.woff) format('woff');
 	font-weight: normal;  
 }
 
@@ -42,7 +44,7 @@ a, .btn-link, .menu .menu-item > a {
 
 @media only screen and (min-width: 856px) { 
     html { font-size: 1.5em; }
-    h1 { font-size: 4.8em; }
+    h1 { font-size: 4.9em; }
     h2 { font-size: 1.8em; }
 }
 
