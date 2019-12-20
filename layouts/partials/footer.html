@@ -8,7 +8,9 @@
         {{ with .GitInfo }}            
             <em>
                 last edited on {{ dateFormat "2006-01-02 15:04:05 MST" .AuthorDate.UTC }}
-                by {{ .AuthorName }} 
+                by <a href="https://codeberg.org/{{ .AuthorName }}?tab=activity" title="Profile of {{ .Subject }}" target="_blank" rel="noopener noreferrer">
+                    {{ .AuthorName }}
+                </a>
                 via <a href="https://codeberg.org/swiso-en/website/commit/{{ .Hash }}" title="{{ .Subject }}" target="_blank" rel="noopener noreferrer">
                     {{ .AbbreviatedHash }}
                 </a>
