@@ -1,21 +1,27 @@
-## About
+![switching.social](static/images/switchingsoftware.png)
 
 **switching.software** is a collection of ethical, easy-to-use and privacy-conscious alternatives to well-known software.
 
-This site is only possible thanks to a few free and open projects:
-
-- [switching.social](https://web.archive.org/web/20190915101437/https://switching.social/): The original site, that went offline in September 2019, but was restored [here](https://codeberg.org/swiso-en/archive)
-- [Hugo](https://gohugo.io/): A powerful open-source static site generator 
-- [Codeberg.org](https://codeberg.org/): A non-profit and non-government organization, that gives our codebase a home - powered by [Gitea](http://gitea.com/).
-
 ## License
 
-[Switching.software](https://switching.software) is based on the work of [switching.social](https://web.archive.org/web/20190915101437/https://switching.social/). There has been a lot of adaptions since its shutdown in September 2019, but it still guides us.
+[Switching.software](https://switching.software) is based on the work of [switching.social](https://web.archive.org/web/20190915101437/https://switching.social/). There has been a lot of adaptions since its shutdown in September 2019. We added graphics, rearranged entries, updated texts and much more. Nevertheless, it still guides us on our way.
 
 All content was, is and will always be licensed as [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
+## Surroundings
+
+This site is only possible thanks to free and open projects like:
+
+- [switching.social](https://web.archive.org/web/20190915101437/https://switching.social/): The original site, that went offline in September 2019, but was restored [here](https://codeberg.org/swiso-en/archive)
+- [Hugo](https://gohugo.io/): A powerful open-source static site generator 
+- [Codeberg.org](https://codeberg.org/): A non-profit and non-government organization, that gives our codebase a home - powered by [Gitea](http://gitea.io/).
+
 ## Contribute
 
-Currently, this project is in a very early stage of redesigning and reorganizing the codebase. So, there is no fixed process or similar stuff.
+We try our best to refurbisch, update and maintain this website. Right now, we are preparing the first release to replace the original "switching.social" backup.
 
-First Todo would be, to migrate every entry of every list on [switching.software](https://switching.software) - see [ticket #1](https://codeberg.org/swiso-en/website/issues/1).
+Nevertheless, this project has a lot of content. So please, have a look around and **open an issue in case you find mistakes** or deprecated information. 
+
+We also **appreciate your proposals** and ideas for new content. If you want to create some yourself, feel free to fork this repository and send us a pull request with your changes. 
+
+Currently used Hugo version: v0.61.0
