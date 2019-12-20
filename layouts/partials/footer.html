@@ -9,7 +9,9 @@
             <em>
                 last edited on {{ dateFormat "2006-01-02 15:04:05 MST" .AuthorDate.UTC }}
                 by {{ .AuthorName }} 
-                via <a href="https://codeberg.org/swiso-en/website/commit/{{ .Hash }}" title="{{ .Subject }}">{{ .AbbreviatedHash }}</a>
+                via <a href="https://codeberg.org/swiso-en/website/commit/{{ .Hash }}" title="{{ .Subject }}" target="_blank" rel="noopener noreferrer">
+                    {{ .AbbreviatedHash }}
+                </a>
             </em>
         {{ end }}
         </small>
