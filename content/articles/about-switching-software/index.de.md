@@ -1,6 +1,8 @@
 ---
 title: switching.software
-url: "/about"
+url: "/de/about"
+aliases:
+    - /ueber-diese-seite/
 ---
 
 ### Was ist switching.software?
