@@ -1,6 +1,8 @@
 ---
 title: About this Site
 url: "/about"
+aliases:
+    - /about-this-site/
 ---
 #### What is this?
 
