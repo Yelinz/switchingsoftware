@@ -5,12 +5,6 @@
         {{ partial "meta.html" . }}
     {{ end }}
 
-{{ with .File }}
-    {{ $slug := lower .ContentBaseName }}
-{{ else }}
-    {{ $slug := urlize .LinkTitle }}
-{{ end }}
-
 <body id="top" 
     class="type-{{ .Type }} m-0 p-0
         {{ with .File }}

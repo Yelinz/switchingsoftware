@@ -4,7 +4,18 @@
             <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC-BY-SA 4.0</a>
             by <a href="{{ "/" | relLangURL }}">switching.software</a>
             &amp; <a href="https://web.archive.org/web/20190915101437/https://switching.social/" target="_blank">switching.social</a> |
-            <a href="{{ "/about" | relLangURL }}">About</a>
+            <a href="{{ "/about" | relLangURL }}">About</a><br>
+        {{ with .GitInfo }}            
+            <em>
+                last edited on {{ dateFormat "2006-01-02 15:04:05 MST" .AuthorDate.UTC }}
+                by <a href="https://codeberg.org/{{ .AuthorName }}?tab=activity" title="Profile of {{ .Subject }}" target="_blank" rel="noopener noreferrer">
+                    {{ .AuthorName }}
+                </a>
+                via <a href="https://codeberg.org/swiso-en/website/commit/{{ .Hash }}" title="{{ .Subject }}" target="_blank" rel="noopener noreferrer">
+                    {{ .AbbreviatedHash }}
+                </a>
+            </em>
+        {{ end }}
         </small>
     </div>
 </footer>
