@@ -1,4 +1,4 @@
-![switching.social](static/images/favicon.png)
+![switching.social](static/images/switchingsoftware_small.jpg)
 
 **switching.software** is a collection of ethical, easy-to-use and privacy-conscious alternatives to well-known software.
 
