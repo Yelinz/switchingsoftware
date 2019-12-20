@@ -86,6 +86,7 @@ a, .btn-link, .menu .menu-item > a {
 .entry-icon-wrapper {
     height: 2rem;
     width: 2rem;
+    margin-right: 1rem;
     position: relative;
 }
 
