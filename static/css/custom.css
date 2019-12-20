@@ -1,10 +1,12 @@
 /* Fonts */
 @font-face {
-	font-family: cookiesmilk;  
-    src: 
-        url(../assets/cookiesmilk.woff2) format('woff2'),
-        url(../assets/cookiesmilk.woff) format('woff'),
-        url(../assets/cookiesmilk.eot) format('eot');
+    font-family: "cookiesmilk";
+    src: url(../assets/cookiesmilk.eot); /* IE9 Compat Modes */
+    src:
+        url(../assets/cookiesmilk.eot?#iefix) format('embedded-opentype'), /* IE6-IE8 */
+        url(../assets/cookiesmilk.woff2) format('woff2'), /* Modern Browsers */
+        url(../assets/cookiesmilk.woff) format('woff'), /* Modern Browsers */
+        url(../assets/cookiesmilk.ttf) format('truetype'); /* Safari, Android, iOS */
 	font-weight: normal;  
 }
 
