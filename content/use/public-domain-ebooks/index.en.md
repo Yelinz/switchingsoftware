@@ -23,5 +23,5 @@ There are several major sites which distribute free public domain eBooks and aud
     - [The Epubizer](https://epubizer.com/)
 {{< /infobox >}}
 
-[drm]: {{< relref "/articles/drm" >}}
+[drm]: {{< relref "/articles/digital-rights-management" >}}
 [epubizer]: https://epubizer.com/

@@ -2,6 +2,7 @@
 title: Digital Rights Management
 aliases:
     - /drm
+    - /digital-rights-management-drm
 ---
 
 Digital Rights Management (DRM) is where something digital (such as an app, a video or an eBook) is artificially restricted or crippled in some way.
