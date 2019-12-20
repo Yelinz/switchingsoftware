@@ -7,7 +7,7 @@ url: "/thanks"
 **We say thanks** <br>
 to each and every one <br>
 who participated in<br>
-creating this site.
+creating this.
 
 **Be it directly** <br>
 via opening issues, <br>
@@ -23,22 +23,22 @@ spreading the word.
 
 **Be it essentially** <br>
 by contributing to any<br>
-free/libre/open project of <br>
-any shape, size or form <br>
-for public benefit.
+free / libre / open projects <br>
+of any shape, size or form <br>
+for a public benefit.
 
 **This is yours.** <br>
-A tribute to this space <br>
-of hope, trust, and freedom <br>
+A tribute to a space of <br>
+hope, trust, and freedom <br>
 with all its imperfections <br>
 and inspirations.
 
 **We say thanks** <br>
 to you, and especially <br>
 to the anonymous author <br>
-for starting the journey <br>
-we are now enjoying <br>
-
+who made this small website <br>
+a part of the digital journey <br>
+we keep on enjoying<br>
 **Together.**
 
 </center>
