@@ -1,6 +1,6 @@
-<div class="entry-icon-wrapper float-left">
+<div class="entry-icon-wrapper">
     {{ if .Params.Icon }}
-        <img class="entry-icon" 
+        <img class="entry-icon img-fit-contain" 
             src="{{ "/" | relURL }}{{ .File.Dir }}{{ .Params.Icon }}" 
             alt="{{ .Title }}"
         />

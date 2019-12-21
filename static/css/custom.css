@@ -88,6 +88,7 @@ a, .btn-link, .menu .menu-item > a {
     width: 2rem;
     margin-right: 1rem;
     position: relative;
+    float: left;
 }
 
 .entry-icon {
@@ -100,6 +101,16 @@ a, .btn-link, .menu .menu-item > a {
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+}
+
+.list.simple .entry-title {
+    display: none;
+}
+
+.list.simple .entry-icon-wrapper {
+    float: right;
+    margin-left: 1rem;
+    margin-right: 0;
 }
 
 .infobox :last-child {
