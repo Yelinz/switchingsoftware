@@ -5,7 +5,7 @@ subtitle: More than free of charge
 
 Most pages and tools on switching.software are **Free/Libre Software** or at least **Open Source**. What is the difference? And what's the benefit of it all? Let's find out here.
 
-### What is Free Software?
+### What is Free/Libre Software?
 
 Frei/Libre means, simply put, that everyone can **use, study, distribute and adapt** a piece of software as they please. These four freedoms are the foundation of Free Software.
 
