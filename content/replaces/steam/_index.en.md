@@ -23,7 +23,7 @@ It’s a troubling situation, so here are some better alternatives:
 
 
 
-[drm]: {{< relref "/articles/drm" >}}
+[drm]: {{< relref "/articles/digital-rights-management" >}}
 [drm-free-steam]: https://steam.fandom.com/wiki/List_of_DRM-free_games
 [minecraft]: https://www.polygon.com/2018/1/31/16955204/microsoft-valve-acquisition-xbox-steam
 [steam-doubt]: https://www.polygon.com/2017/5/16/15622366/valve-gabe-newell-sales-origin-destructive
