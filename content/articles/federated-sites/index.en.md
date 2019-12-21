@@ -36,10 +36,11 @@ Despite all these advantages, the Fediverse is essentially a social network. It 
 The Fediverse still has a few weaknesses. Private communication remains more secure by using services with end-to-end encryption.
 {{% /infobox %}}
 
-Nevertheless the Fediverse is more than worth a try - a [list of Fediverse services][fedi-list] can be seen here.
+Nevertheless the Fediverse is more than worth a try. There are [a lot of people][fed-stats] who already use it - a [list of Fediverse services][fedi-list] can be seen here.
 
 [ap]: https://activitypub.rocks/
 [fedi-list]:  {{< ref "/lists/fediverse" >}}
+[fed-stats]: https://the-federation.info/
 [masto.host]: https://masto.host
 [masto-video]: https://peertube.social/videos/watch/d7fabc85-f110-4699-beb0-7edf6d4082ba
 [ostatus]: https://en.wikipedia.org/wiki/OStatus
