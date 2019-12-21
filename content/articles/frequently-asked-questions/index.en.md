@@ -28,7 +28,7 @@ Currently not, as switching.software's site costs are relatively low.
 
 However, switching.software recommends that you instead donate to free and open source projects linked on the various pages. Choose the ones you appreciate.
 
-If you want to support switching.software non-financially, please tell people about it and help to spread the word.
+If you want to [support us non-financially][support-us], follow the link.
 
 
 ### Why was this site founded?
@@ -74,6 +74,7 @@ The Maps.me site was bought by the Russian tech giant Mail.Ru in 2014. Nowadays 
 [codeberg-issue]: https://codeberg.org/swiso-en/website/issues
 [federated-sites]: {{< relref "/articles/federated-sites" >}}
 [floss]: {{< relref "/articles/free-libre-open-software" >}}
+[support-us]: {{< relref "/articles/support-us" >}}
 [swiso-mastodon]: https://mstdn.swiso.org/@switchingsoftware
 [swisoc-about]: https://web.archive.org/web/20190730203805/https://switching.social/about-this-site/
 [wiktionary]: https://en.wiktionary.org/wiki/ethical#Adjective
