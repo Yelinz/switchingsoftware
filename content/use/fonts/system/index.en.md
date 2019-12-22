@@ -1,5 +1,6 @@
 ---
 title: System fonts
+icon: disk.svg
 replaces: [google-fonts]
 ---
 Alternatively, a site can use the system fonts already built into visitors’ computers or phones.
