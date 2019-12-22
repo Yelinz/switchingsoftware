@@ -1,6 +1,9 @@
 ---
 title: Free & Open Software
 subtitle: More than free of charge
+aliases:
+    - /what-is-open-source-software/
+    - /floss/
 ---
 
 Most pages and tools on switching.software are **Free/Libre Software** or at least **Open Source**. What is the difference? And what's the benefit of it all? Let's find out here.
