@@ -26,4 +26,5 @@ If these apps and sites are too complicated, try the much easier Zom and Quicksy
 - **Desktop app:**
     - [Pidgin](https://pidgin.im/) (any)
     - [Gajim](https://gajim.org/download) (Windows/Linux)
+    - [Monal](https://apps.apple.com/us/app/monal-free-xmpp-chat/id1060957067) (macOS)
 {{< /infobox >}}
