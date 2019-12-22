@@ -1,11 +1,12 @@
 /* Fonts */
 @font-face {
-	font-family: cookiesmilk;  
-    src: 
-        url(../assets/cookies_milk_Regular.woff2) format('woff2'),
-        url(../assets/cookies_milk_Regular.woff) format('woff'),
-        url(../assets/cookies_milk_Regular.eot) format('eot'),
-        url(../assets/cookies_milk_Regular.ttf) format('ttf');
+    font-family: "cookiesmilk";
+    src: url(../assets/cookiesmilk.eot); /* IE9 Compat Modes */
+    src:
+        url(../assets/cookiesmilk.eot?#iefix) format('embedded-opentype'), /* IE6-IE8 */
+        url(../assets/cookiesmilk.woff2) format('woff2'), /* Modern Browsers */
+        url(../assets/cookiesmilk.woff) format('woff'), /* Modern Browsers */
+        url(../assets/cookiesmilk.ttf) format('truetype'); /* Safari, Android, iOS */
 	font-weight: normal;  
 }
 
@@ -85,7 +86,9 @@ a, .btn-link, .menu .menu-item > a {
 .entry-icon-wrapper {
     height: 2rem;
     width: 2rem;
+    margin-right: 1rem;
     position: relative;
+    float: left;
 }
 
 .entry-icon {
@@ -98,6 +101,16 @@ a, .btn-link, .menu .menu-item > a {
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+}
+
+.list.simple .entry-title {
+    display: none;
+}
+
+.list.simple .entry-icon-wrapper {
+    float: right;
+    margin-left: 1rem;
+    margin-right: 0;
 }
 
 .infobox :last-child {
@@ -139,6 +152,18 @@ a, .btn-link, .menu .menu-item > a {
 
 blockquote {
     font-style: italic;
+}
+
+.mx-auto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Articles */
+.type-articles h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
 }
 
 /* Footer */

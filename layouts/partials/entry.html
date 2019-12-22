@@ -2,7 +2,7 @@
 
     {{ partial "icon.html" . }}
 
-    <h3>{{ .Title }}</h3>
+    <h3 id="{{ .Title | anchorize }}" class="entry-title">{{ .Title }}</h3>
 
     {{ .Content }}<br>
 </section>

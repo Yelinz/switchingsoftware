@@ -2,7 +2,7 @@
 title: Pixelfed
 icon: icon.svg
 replaces: [instagram]
-tag: [fediverse]
+lists: [fediverse]
 ---
 
 **Pixelfed** ist der Name einer [freien](/de/use/free-software) Software und des gleichnamigen, schnell wachsenden Netzwerks. Es ist auf das Teilen von Fotos ausgerichtet und orientiert sich in der Bedienung an Instagram.

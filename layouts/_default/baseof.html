@@ -5,7 +5,12 @@
         {{ partial "meta.html" . }}
     {{ end }}
 
-<body id="top" class="slug-{{ lower .LinkTitle }} m-0 p-0">
+<body id="top" 
+    class="type-{{ .Type }} m-0 p-0
+        {{ with .File }}
+            slug-{{ lower .ContentBaseName }}
+        {{ end }}">
+
     <div id="container">
         {{ partial "header.html" . }}
 

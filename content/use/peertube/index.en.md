@@ -2,7 +2,7 @@
 title: PeerTube
 icon: icon.svg
 replaces: [youtube]
-tags: [fediverse, f-droid, google]
+lists: [fediverse]
 ---
 
 **PeerTube** is an [open source][floss] [federated][federation] alternative to YouTube. It’s a video-oriented social network that doesn’t have ads and doesn’t track you. It’s still very new so there isn’t much content to view, but it’s growing very fast.
