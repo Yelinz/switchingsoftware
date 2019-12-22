@@ -1,6 +1,7 @@
 ---
 title: Going Offline
 subtitle: Tools for Dead Spots
+order: [kiwix, briar, scuttlebutt]
 aliases:
     - /ethical-alternatives-to-the-internet/
 ---
