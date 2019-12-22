@@ -6,7 +6,11 @@ aliases:
 ---
 
 <br>
-<form class="form-group text-center" action="https://duckduckgo.com/" target="_blank">
+<form 
+    class="form-group" 
+    action="https://duckduckgo.com/" 
+    target="_blank"
+>
     <div class="input-group">
         <input 
             name="sites"
@@ -31,7 +35,9 @@ aliases:
             <i class="icon icon-search"></i>
         </button>
     </div>
-    <p><small>Powered by DuckDuckGo</small></p>
+    <p class="text-center">
+        <small>Powered by DuckDuckGo</small>
+    </p>
 </form>
 <br>
 <br>
