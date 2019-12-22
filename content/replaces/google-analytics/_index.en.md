@@ -3,7 +3,7 @@ slug: google-analytics
 title: Bye Google Analytics
 subtitle: Recommended Website Statistics
 order:
-    - matomo
+    - matomo-org
     - fathom
 aliases:
     - /ethical-alternatives-to-google-analytics/
