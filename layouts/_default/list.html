@@ -1,6 +1,10 @@
 {{ define "main" }}
     <article class="list {{ .Params.listtype}}">
-        {{ .Content }}
+        {{ with .Content }}
+            <section id="intro">
+                {{ . }}
+            </section>
+        {{ end }}
         
         {{/* Fixed-ordered entries first, rest second */}}
         {{ $entries := slice }}
