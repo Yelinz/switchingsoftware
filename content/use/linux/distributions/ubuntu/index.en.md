@@ -6,7 +6,7 @@ replaces: [windows]
 
 **Ubuntu** is the most well-known Linux operating system variant. It became popular by its universal usability, as it doesn't require technical knowledge to use it. 
 
-You can try out Ubuntu before installing it. Furthermore, aside from replacing your current operating system, you can install Ubuntu next to it (called a "dual boot" system). A lot of other Linux distributions are based on Ubuntu.
+You can try out Ubuntu before installing it. Furthermore, aside from replacing your current operating system, you can install Ubuntu next to it (called a "dual boot" system). Both can be done with most Linux distributions.
 
 {{< infobox >}}
 - **Website:**
