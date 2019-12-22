@@ -16,7 +16,7 @@ RSS feeds respect privacy because they do not contain any way of tracking subscr
 
 Most sites with a feed will have a section of the site called “RSS”, or they may have an RSS logo which usually looks like this:
 
-![RSS - Really Simple Syndication][rss-icon]
+{{< img src="/use/rss/icon.png" title="RSS icon" alt="RSS icon" >}}
 
 If you still can’t find a site’s RSS feed, try searching via your [favourite search engine][search-engine] (for example search for “cbc rss feed”). Some apps include built-in lists of popular feeds, and features to help you discover new feeds.
 
@@ -44,7 +44,6 @@ Here are some reader apps you can use to subscribe to RSS feeds:
 Note: Thunderbird is mainly promoted as an email app, but it also has a full RSS feed reader too. You can find out more from [the official Thunderbird RSS guide][thunderbird-guide].
 
 [rss-example]: https://www.cbc.ca/rss/
-[rss-icon]: /use/rss/icon.png "RSS - Really Simple Syndication"
 [search-engine]: /replace/google-search
 [thunderbird-guide]: https://support.mozilla.org/en-US/kb/how-subscribe-news-feeds-and-blogs
 [friendica]: /use/friendica
