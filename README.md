@@ -6,7 +6,7 @@
 
 [Switching.software](https://switching.software) is based on the work of [switching.social](https://web.archive.org/web/20190915101437/https://switching.social/). There has been a lot of adaptions since its shutdown in September 2019. We added graphics, rearranged entries, updated texts and much more. Nevertheless, it still guides us on our way.
 
-All content was, is and will always be licensed as [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+All content was, is and will always be licensed as [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Excluded are the logos/icons of the entries, which are included under [Fair Use](https://en.wikipedia.org/wiki/Fair_use) and keep their original licensing.
 
 ## Surroundings
 
