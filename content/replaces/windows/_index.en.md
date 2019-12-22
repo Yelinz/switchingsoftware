@@ -2,6 +2,12 @@
 slug: windows
 title: Bye Windows
 subtitle: Recommended Operating Systems
+order:
+    - distrochooser
+    - ubuntu
+    - linux-mint
+    - zorin-os
+    - elementary-os
 aliases:
     - /ethical-alternatives-to-windows/
 ---
