@@ -29,6 +29,7 @@ You can try Mastodon by signing up at one of the sites below, and you can use yo
     - [Toot!](https://itunes.apple.com/app/toot/id1229021451/)
     - [Mast](https://itunes.apple.com/app/mast/id1437429129)
 - **Discover:** 
+    - [Guide to Mastodon](https://github.com/joyeusenoelle/GuideToMastodon/blob/master/README.md#readme)
     - [Accounts by topic](https://communitywiki.org/trunk/)
     - [Instances by requirements](https://instances.social)
 {{< /infobox >}}
