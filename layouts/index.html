@@ -1,17 +1,29 @@
 {{ define "main" }}
     <ul id="main-list" class="text-center ls-none">
+
         {{ range .Site.Taxonomies.replaces }}
             <li>
                 <a href="{{ .Page.Permalink }}"><strong>{{ .Page.Title }}:</strong><br class="show-md"> {{ .Page.Params.Subtitle }}</a>
             </li>
         {{ end }}
-        <li>---<li>
+        <li>---</li>
+
         {{ range .Site.Taxonomies.lists }}
             <li>
                 <a href="{{ .Page.Permalink }}"><strong>{{ .Page.Title }}:</strong><br class="show-md"> {{ .Page.Params.Subtitle }}</a>
             </li>
         {{ end }}
-        <li>---<li>
+        <li>---</li>
+
+        {{ with .Site.GetPage "section" "tools" }}
+            {{ range .Pages  }}
+                <li>
+                    <a href="{{ .Page.Permalink }}"><strong>{{ .Page.Title }}:</strong><br class="show-md"> {{ .Page.Params.Subtitle }}</a>
+                </li>
+            {{ end }}
+        {{ end }}
+        <li>---</li>
+
         {{ with .Site.GetPage "section" "articles" }}
             {{ range .Pages }}
                 <li>
@@ -19,7 +31,6 @@
                 </li>
             {{ end }}
         {{ end }}
-
         <li>
             <a rel="me" href="https://mstdn.swiso.org/@switchingsoftware"><strong>Follow on Mastodon</strong></a>
         </li>        
