@@ -8,6 +8,8 @@ order:
     - lineage-os
     - compute-freely
     - open-source-games
+aliases:
+    - /ethical-alternatives-for-advanced-users/
 ---
 Switching.software is for non-technical people, and it’s always going to stay
 that way.

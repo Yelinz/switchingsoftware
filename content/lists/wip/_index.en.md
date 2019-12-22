@@ -8,4 +8,9 @@ order:
     - translation-projects
     - scuttlebutt
     - dat-project
+aliases:
+    - /bubbling-under/
+    - /lists/wip/
+    - /list/wip/
+    - /wip/
 ---

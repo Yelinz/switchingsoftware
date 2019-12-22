@@ -2,6 +2,8 @@
 title: The Fediverse
 subtitle: What are Federated Sites?
 icon: icon.svg
+aliases:
+    - /federated-sites/
 ---
 
 Most alternative social media are federated, decentralised or "part of the Fediverse". But what does this actually mean?

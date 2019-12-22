@@ -1,6 +1,8 @@
 ---
 title: How to Switch
 subtitle: A List of Hints
+aliases:
+    - /guide-to-switching/
 ---
 
 Here are some things to remember when you’re switching to privacy-friendly alternatives.

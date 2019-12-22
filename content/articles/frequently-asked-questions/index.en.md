@@ -1,8 +1,8 @@
 ---
 title: Frequently Asked Questions
 aliases:
-    - /faq
     - /frequently-asked-questions/
+    - /faq/
 ---
 
 ### How do I request / suggest an alternative?
