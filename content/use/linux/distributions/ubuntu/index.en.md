@@ -1,7 +1,9 @@
 ---
 title: Ubuntu
 icon: icon.svg
-replaces: [windows]
+replaces: 
+    - windows
+    - mac-os
 ---
 
 **Ubuntu** is the most well-known Linux operating system variant. It became popular by its universal usability, as it doesn't require technical knowledge to use it. 

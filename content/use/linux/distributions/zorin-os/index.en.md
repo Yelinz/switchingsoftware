@@ -1,7 +1,9 @@
 ---
 title: Zorin OS
 icon: icon.svg
-replaces: [windows]
+replaces: 
+    - windows
+    - mac-os
 ---
 
 **Zorin OS** is a beautiful Ubuntu-based operating system. It's focussed on making the transition from Windows or macOS to Linux as easy as possible.
