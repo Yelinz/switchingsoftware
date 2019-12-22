@@ -55,6 +55,11 @@ a, .btn-link, .menu .menu-item > a {
     font-size: 1.4em;
 }
 
+code {
+    color: #1E4147;
+    background: #E6F7D4;
+}
+
 /* Header (Sticky menu bar) */
 #header {
     top: 0;
