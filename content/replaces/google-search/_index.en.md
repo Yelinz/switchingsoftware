@@ -1,7 +1,7 @@
 ---
 slug: google-search
-title: Bye Google Search
-subtitle: Recommended Search Engines
+title: Google Search
+subtitle: Search Engines
 order: 
     - duckduckgo
     - qwant

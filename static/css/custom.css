@@ -41,9 +41,9 @@ h4 {
     font-weight: 700;
 }
 
-a, .btn-link, .menu .menu-item > a {
+/* a, .btn-link, .menu .menu-item > a {
     text-decoration: underline;
-}
+} */
 
 @media only screen and (min-width: 856px) { 
     html { font-size: 1.5em; }

@@ -1,7 +1,7 @@
 ---
 slug: meetup
-title: Bye MeetUp
-subtitle: Recommended Event Platforms
+title: MeetUp
+subtitle: Event Platforms
 aliases:
     - /ethical-alternatives-to-meetup/
 ---

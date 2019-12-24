@@ -1,7 +1,7 @@
 ---
 slug: instagram
-title: Bye Instagram
-subtitle: Recommended Photo Platforms
+title: Instagram
+subtitle: Photo Platforms
 aliases:
     - /ethical-alternatives-to-instagram/
 ---

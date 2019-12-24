@@ -1,7 +1,7 @@
 ---
 slug: switching-software
-title: Bye switching.software
-subtitle: Recommended Similar Projects
+title: switching.software
+subtitle: Similar Projects
 order:
     - privacytools
     - prism-break

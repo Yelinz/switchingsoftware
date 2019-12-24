@@ -1,7 +1,7 @@
 ---
 slug: windows
-title: Bye Windows
-subtitle: Recommended Operating Systems
+title: Windows
+subtitle: Operating Systems
 order:
     - distrochooser
     - ubuntu

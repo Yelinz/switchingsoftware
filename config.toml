@@ -5,6 +5,10 @@ description= ""
 DefaultContentLanguage = "en"
 enableGitInfo = true
 
+[params]
+    [homepage]
+        filter = ["google", "facebook", "amazon", "microsoft", "apple"]
+
 [taxonomies]
     replace = "replaces"
     list = "lists"

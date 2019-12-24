@@ -1,7 +1,7 @@
 ---
 slug: google-recaptcha
-title: Bye Google reCAPTCHA
-subtitle: Recommended Captcha Services
+title: Google reCAPTCHA
+subtitle: Captcha Services
 aliases:
     - /ethical-alternatives-to-google-recaptcha/
 ---

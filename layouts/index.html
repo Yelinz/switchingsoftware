@@ -1,38 +1,36 @@
 {{ define "main" }}
-    <ul id="main-list" class="text-center ls-none">
-
-        {{ range .Site.Taxonomies.replaces }}
-            <li>
-                <a href="{{ .Page.Permalink }}"><strong>{{ .Page.Title }}:</strong><br class="show-md"> {{ .Page.Params.Subtitle }}</a>
-            </li>
-        {{ end }}
-        <li>---</li>
-
-        {{ range .Site.Taxonomies.lists }}
-            <li>
-                <a href="{{ .Page.Permalink }}"><strong>{{ .Page.Title }}:</strong><br class="show-md"> {{ .Page.Params.Subtitle }}</a>
-            </li>
-        {{ end }}
-        <li>---</li>
-
-        {{ with .Site.GetPage "section" "tools" }}
-            {{ range .Pages  }}
-                <li>
-                    <a href="{{ .Page.Permalink }}"><strong>{{ .Page.Title }}:</strong><br class="show-md"> {{ .Page.Params.Subtitle }}</a>
-                </li>
+    <div class="filter">
+        <input type="radio" id="tag-0" class="filter-tag" name="filter-radio" hidden checked="true">
+        <input type="radio" id="tag-1" class="filter-tag" name="filter-radio" hidden>
+        <input type="radio" id="tag-2" class="filter-tag" name="filter-radio" hidden>
+        <input type="radio" id="tag-3" class="filter-tag" name="filter-radio" hidden>
+        <input type="radio" id="tag-4" class="filter-tag" name="filter-radio" hidden>
+        <input type="radio" id="tag-5" class="filter-tag" name="filter-radio" hidden>
+        <input type="radio" id="tag-6" class="filter-tag" name="filter-radio" hidden>
+    
+        <div class="filter-nav text-center mb-2">
+            <label class="chip" for="tag-0">All</label>
+            <label class="chip" for="tag-1">Google</label>
+            <label class="chip" for="tag-2">Facebook</label>
+            <label class="chip" for="tag-3">Amazon</label>
+            <label class="chip" for="tag-4">Microsoft</label>
+            <label class="chip" for="tag-5">Apple</label>
+            <label class="chip" for="tag-6">...</label>
+        </div>
+    
+        <div class="filter-body columns">
+            {{ range .Site.Taxonomies.replaces }}
+                <div class="column col-4 col-md-6 col-sm-12 filter-item p-2" data-tag="tag-1">
+                    <div class="card">
+                        <a href="{{ .Page.Permalink }}" title="{{ .Page.Title }}">
+                            <div class="card-header">
+                                <div class="card-title text-bold">{{ .Page.Title }}</div>
+                                <div class="card-subtitle text-gray">{{ .Page.Params.Subtitle }}</div>
+                            </div>
+                        </a>
+                    </div>
+                 </div>
             {{ end }}
-        {{ end }}
-        <li>---</li>
-
-        {{ with .Site.GetPage "section" "articles" }}
-            {{ range .Pages }}
-                <li>
-                    <a href="{{ .Page.Permalink }}"><strong>{{ .Page.Title }}</strong></a>
-                </li>
-            {{ end }}
-        {{ end }}
-        <li>
-            <a rel="me" href="https://mstdn.swiso.org/@switchingsoftware"><strong>Follow on Mastodon</strong></a>
-        </li>        
-    </ul>
+        </div>
+    </div>
 {{ end }}

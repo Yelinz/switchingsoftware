@@ -1,7 +1,7 @@
 ---
 slug: doodle
-title: Bye Doodle
-subtitle: Recommended Date Matchers
+title: Doodle
+subtitle: Date Matchers
 aliases:
     - /ethical-alternatives-to-doodle/
 ---

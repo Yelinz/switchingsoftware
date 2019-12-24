@@ -1,7 +1,7 @@
 ---
 slug: facebook
-title: Bye Facebook
-subtitle: Recommended Social Networks
+title: Facebook
+subtitle: Social Networks
 order: 
     - mastodon
     - friendica

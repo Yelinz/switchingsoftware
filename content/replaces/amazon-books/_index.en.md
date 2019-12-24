@@ -1,7 +1,7 @@
 ---
 slug: amazon-books
-title: Bye Amazon Books
-subtitle: Recommended Book Stores
+title: Amazon Books
+subtitle: Book Stores
 order: 
     - local-bookshops
     - public-libraries

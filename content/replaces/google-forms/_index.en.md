@@ -1,7 +1,7 @@
 ---
 slug: google-forms
-title: Bye Google Forms
-subtitle: Recommended Survey Services
+title: Google Forms
+subtitle: Survey Services
 aliases:
     - /ethical-alternatives-to-google-forms/
 ---

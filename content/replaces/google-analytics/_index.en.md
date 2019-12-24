@@ -1,7 +1,7 @@
 ---
 slug: google-analytics
-title: Bye Google Analytics
-subtitle: Recommended Website Statistics
+title: Google Analytics
+subtitle: Website Statistics
 order:
     - matomo-org
     - fathom

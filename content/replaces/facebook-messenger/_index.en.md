@@ -1,7 +1,7 @@
 ---
 slug: facebook-messenger
-title: Bye Facebook Messenger
-subtitle: Recommended Instant Messengers
+title: Facebook Messenger
+subtitle: Instant Messengers
 order: 
     - signal
     - zom

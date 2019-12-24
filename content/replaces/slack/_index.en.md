@@ -1,7 +1,7 @@
 ---
 slug: slack
-title: Bye Slack
-subtitle: Recommended Collaboration Software
+title: Slack
+subtitle: Collaboration Software
 aliases:
     - /ethical-alternatives-to-slack/
 ---

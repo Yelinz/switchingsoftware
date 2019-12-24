@@ -1,7 +1,7 @@
 ---
 slug: adobe-creative-cloud
-title: Bye Adobe Creative Cloud
-subtitle: Recommended Design Software
+title: Adobe Creative Cloud
+subtitle: Design Software
 order: 
     - gimp
     - glimpse-editor

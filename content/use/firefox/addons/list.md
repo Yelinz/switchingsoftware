@@ -1,6 +1,6 @@
 ---
 title: Browser Extensions
-subtitle: Recommended Add-ons
+subtitle: Add-ons
 
 content:
   items:
