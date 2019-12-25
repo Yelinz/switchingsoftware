@@ -87,6 +87,17 @@ code {
     padding-top: 4rem;
 }
 
+/* Homepage */
+.card a:hover,
+.card a:focus {
+    text-decoration: none;
+}
+
+.card a:hover .card-title,
+.card a:focus .card-title {
+    text-decoration: underline;
+}
+
 /* Lists */
 .entry-icon-wrapper {
     height: 2rem;

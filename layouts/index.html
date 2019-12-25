@@ -1,26 +1,36 @@
 {{ define "main" }}
     <div class="filter">
+        <!-- hidden radio buttons for filters -->
         <input type="radio" id="tag-0" class="filter-tag" name="filter-radio" hidden checked="true">
-        <input type="radio" id="tag-1" class="filter-tag" name="filter-radio" hidden>
-        <input type="radio" id="tag-2" class="filter-tag" name="filter-radio" hidden>
-        <input type="radio" id="tag-3" class="filter-tag" name="filter-radio" hidden>
-        <input type="radio" id="tag-4" class="filter-tag" name="filter-radio" hidden>
-        <input type="radio" id="tag-5" class="filter-tag" name="filter-radio" hidden>
-        <input type="radio" id="tag-6" class="filter-tag" name="filter-radio" hidden>
-    
+        {{ range $i, $provider := $.Site.Params.homepage.filters }}
+            <input type="radio" id="tag-{{ add $i 1 }}" class="filter-tag" name="filter-radio" hidden>
+        {{ end }}
+
+        {{ $others := add 1 ( len $.Site.Params.homepage.filters ) }}
+        <input type="radio" id="tag-{{ $others }}" class="filter-tag" name="filter-radio" hidden>
+
+        <!-- filter buttons -->
         <div class="filter-nav text-center mb-2">
             <label class="chip" for="tag-0">All</label>
-            <label class="chip" for="tag-1">Google</label>
-            <label class="chip" for="tag-2">Facebook</label>
-            <label class="chip" for="tag-3">Amazon</label>
-            <label class="chip" for="tag-4">Microsoft</label>
-            <label class="chip" for="tag-5">Apple</label>
-            <label class="chip" for="tag-6">...</label>
+            {{ range $i, $provider := $.Site.Params.homepage.filters }}
+                <label class="chip" for="tag-{{ add $i 1 }}">{{ $provider | title }}</label>
+            {{ end }}
+            <label class="chip" for="tag-{{ $others }}">...</label>
         </div>
     
-        <div class="filter-body columns">
+        <!-- entries -->
+        <div class="filter-body columns pb-2">
             {{ range .Site.Taxonomies.replaces }}
-                <div class="column col-4 col-md-6 col-sm-12 filter-item p-2" data-tag="tag-1">
+                {{ $index := $others }}
+                {{ with $provider := .Page.Params.provider }}
+                    {{ range $i, $p := $.Site.Params.homepage.filters }}
+                        {{ if eq $provider $p }}
+                            {{ $index = add $i 1 }}
+                        {{ end }}
+                    {{ end }}
+                {{ end }}
+
+                <div class="column col-4 col-md-6 col-sm-12 filter-item p-1" data-tag="tag-{{ $index }}">
                     <div class="card">
                         <a href="{{ .Page.Permalink }}" title="{{ .Page.Title }}">
                             <div class="card-header">

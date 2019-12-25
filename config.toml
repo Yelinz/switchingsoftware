@@ -6,8 +6,8 @@ DefaultContentLanguage = "en"
 enableGitInfo = true
 
 [params]
-    [homepage]
-        filter = ["google", "facebook", "amazon", "microsoft", "apple"]
+    [params.homepage]
+        filters = ["google", "facebook", "amazon", "microsoft"]
 
 [taxonomies]
     replace = "replaces"
