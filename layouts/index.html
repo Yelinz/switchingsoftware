@@ -30,7 +30,7 @@
                     {{ end }}
                 {{ end }}
 
-                <div class="column col-4 col-md-6 col-sm-12 filter-item p-1" data-tag="tag-{{ $index }}">
+                <div class="column col-4 col-md-6 col-sm-12 mx-auto filter-item p-1" data-tag="tag-{{ $index }}">
                     <div class="card">
                         <a href="{{ .Page.Permalink }}" title="{{ .Page.Title }}">
                             <div class="card-header">
@@ -43,4 +43,26 @@
             {{ end }}
         </div>
     </div>
+
+    <ul id="main-list" class="text-center ls-none">
+        {{ with .Site.GetPage "section" "tools" }}
+            {{ range .Pages  }}
+                <li>
+                    <a href="{{ .Page.Permalink }}"><strong>{{ .Page.Title }}:</strong><br class="show-md"> {{ .Page.Params.Subtitle }}</a>
+                </li>
+            {{ end }}
+        {{ end }}
+        <li>---</li>
+
+        {{ with .Site.GetPage "section" "articles" }}
+            {{ range .Pages }}
+                <li>
+                    <a href="{{ .Page.Permalink }}"><strong>{{ .Page.Title }}</strong></a>
+                </li>
+            {{ end }}
+        {{ end }}
+        <li>
+            <a rel="me" href="https://mstdn.swiso.org/@switchingsoftware"><strong>Follow on Mastodon</strong></a>
+        </li>        
+    </ul>
 {{ end }}
