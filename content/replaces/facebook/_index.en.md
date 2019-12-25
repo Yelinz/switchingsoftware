@@ -2,6 +2,7 @@
 slug: facebook
 title: Facebook
 subtitle: Social Networks
+provider: facebook
 order: 
     - mastodon
     - friendica

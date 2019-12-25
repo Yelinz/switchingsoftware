@@ -2,6 +2,7 @@
 slug: google-drive
 title: Google Drive & Docs
 subtitle: Productivity Suites
+provider: google
 order:
     - nextcloud
 aliases:

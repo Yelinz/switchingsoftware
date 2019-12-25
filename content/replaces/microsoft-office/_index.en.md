@@ -2,6 +2,7 @@
 slug: microsoft-office
 title: Microsoft Office
 subtitle: Office Suites
+provider: microsoft
 aliases:
     - /ethical-alternatives-to-microsoft-office/
 ---

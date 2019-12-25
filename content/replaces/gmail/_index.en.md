@@ -2,6 +2,7 @@
 slug: gmail
 title: GMail
 subtitle: E-Mail Providers
+provider: google
 order:
     - tutanota
     - protonmail

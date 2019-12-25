@@ -2,6 +2,7 @@
 slug: google-recaptcha
 title: Google reCAPTCHA
 subtitle: Captcha Services
+provider: google
 aliases:
     - /ethical-alternatives-to-google-recaptcha/
 ---

@@ -2,6 +2,7 @@
 slug: google-fonts
 title: Google Fonts
 subtitle: Font Hosting
+provider: google
 aliases:
     - /ethical-alternatives-to-google-fonts/
 ---

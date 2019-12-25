@@ -2,6 +2,7 @@
 slug: amazon-books
 title: Amazon Books
 subtitle: Book Stores
+provider: amazon
 order: 
     - local-bookshops
     - public-libraries

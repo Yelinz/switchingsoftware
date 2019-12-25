@@ -2,6 +2,7 @@
 slug: mac-os
 title: macOS
 subtitle: Operating Systems
+provider: apple
 order:
     - distrochooser
     - ubuntu
