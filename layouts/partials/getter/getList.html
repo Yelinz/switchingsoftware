@@ -1,0 +1,7 @@
+{{ $list := . }}
+
+{{ if .Params.mirror }}
+    {{ $list = (.Site.GetPage (print .Parent.File.Dir .Params.mirror)) }}
+{{ end }}
+
+{{ return $list }}
