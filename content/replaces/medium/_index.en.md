@@ -1,5 +1,4 @@
 ---
-slug: medium
 title: Medium
 subtitle: Publishing Platforms
 order:

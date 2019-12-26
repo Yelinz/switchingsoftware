@@ -1,5 +1,4 @@
 ---
-slug: amazon-books
 title: Amazon Books
 subtitle: Book Stores
 provider: amazon

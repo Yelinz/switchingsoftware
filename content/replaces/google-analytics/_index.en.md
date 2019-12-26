@@ -1,5 +1,4 @@
 ---
-slug: google-analytics
 title: Google Analytics
 subtitle: Website Statistics
 provider: google

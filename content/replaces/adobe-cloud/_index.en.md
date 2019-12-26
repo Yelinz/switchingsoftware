@@ -1,5 +1,4 @@
 ---
-slug: adobe-creative-cloud
 title: Adobe Creative Cloud
 subtitle: Design Software
 provider: adobe

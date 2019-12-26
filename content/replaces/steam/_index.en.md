@@ -1,5 +1,4 @@
 ---
-slug: steam
 title: Steam
 subtitle: Video Games Platform
 order:

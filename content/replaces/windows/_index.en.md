@@ -1,5 +1,4 @@
 ---
-slug: windows
 title: Windows
 subtitle: Operating Systems
 provider: microsoft

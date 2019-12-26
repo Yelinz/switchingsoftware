@@ -1,5 +1,4 @@
 ---
-slug: change-org
 title: Change.org
 subtitle: Petition Platforms
 aliases:

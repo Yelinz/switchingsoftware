@@ -1,5 +1,4 @@
 ---
-slug: skype
 title: Skype
 subtitle: Video Messengers
 provider: microsoft

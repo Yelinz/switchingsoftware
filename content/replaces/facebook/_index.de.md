@@ -1,7 +1,6 @@
 ---
-slug: facebook
-title: Ciao Facebook
-subtitle: Empfohlene Soziale Netzwerke
+title: Facebook
+subtitle: Soziale Netzwerke
 provider: facebook
 order: 
     - mastodon

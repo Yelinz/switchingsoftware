@@ -1,5 +1,4 @@
 ---
-slug: doodle
 title: Doodle
 subtitle: Date Matchers
 aliases:

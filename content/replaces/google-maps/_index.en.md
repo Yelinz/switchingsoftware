@@ -1,5 +1,4 @@
 ---
-slug: google-maps
 title: Google Maps
 subtitle: Mapping Services
 provider: google

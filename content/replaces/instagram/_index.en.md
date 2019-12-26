@@ -1,5 +1,4 @@
 ---
-slug: instagram
 title: Instagram
 subtitle: Photo Platforms
 provider: facebook

@@ -1,5 +1,4 @@
 ---
-slug: google-forms
 title: Google Forms
 subtitle: Survey Services
 provider: google

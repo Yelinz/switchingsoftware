@@ -1,5 +1,4 @@
 ---
-slug: switching-software
 title: switching.software
 subtitle: Similar Projects
 order:

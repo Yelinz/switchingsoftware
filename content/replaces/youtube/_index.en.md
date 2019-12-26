@@ -1,5 +1,4 @@
 ---
-slug: youtube
 title: Youtube
 subtitle: Video Platforms
 provider: google

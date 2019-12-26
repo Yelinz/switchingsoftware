@@ -1,5 +1,4 @@
 ---
-slug: twitter
 title: Twitter
 subtitle: Short Message Services
 order: 

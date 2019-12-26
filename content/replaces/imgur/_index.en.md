@@ -1,5 +1,4 @@
 ---
-slug: imgur
 title: Imgur
 subtitle: Image Platforms
 aliases:

@@ -1,5 +1,4 @@
 ---
-slug: minecraft
 title: Minecraft
 subtitle: Building Block Games
 provider: microsoft

@@ -1,5 +1,4 @@
 ---
-slug: google-fonts
 title: Google Fonts
 subtitle: Font Hosting
 provider: google

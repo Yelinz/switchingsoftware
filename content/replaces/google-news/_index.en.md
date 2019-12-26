@@ -1,5 +1,4 @@
 ---
-slug: google-news
 title: Google News
 subtitle: News Service
 provider: google

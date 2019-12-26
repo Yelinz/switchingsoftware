@@ -1,5 +1,4 @@
 ---
-slug: google-chrome
 title: Google Chrome
 subtitle: Browsers
 provider: google

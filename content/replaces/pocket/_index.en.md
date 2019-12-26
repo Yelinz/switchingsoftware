@@ -1,5 +1,4 @@
 ---
-slug: pocket
 title: Pocket
 subtitle: Bookmark Services
 provider: mozilla

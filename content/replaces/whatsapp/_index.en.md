@@ -1,5 +1,4 @@
 ---
-slug: whatsapp
 title: Whatsapp
 subtitle: Instant Messengers
 provider: facebook

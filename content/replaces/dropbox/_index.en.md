@@ -1,5 +1,4 @@
 ---
-slug: dropbox
 title: Dropbox
 subtitle: Online Storage
 aliases:

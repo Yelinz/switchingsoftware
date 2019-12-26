@@ -1,5 +1,4 @@
 ---
-slug: google-search
 title: Google Search
 subtitle: Search Engines
 provider: google

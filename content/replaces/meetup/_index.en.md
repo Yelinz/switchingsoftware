@@ -1,5 +1,4 @@
 ---
-slug: meetup
 title: MeetUp
 subtitle: Event Platforms
 aliases:

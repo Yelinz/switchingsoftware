@@ -1,5 +1,4 @@
 ---
-slug: google-play
 title: Google Play
 subtitle: App Stores
 provider: google

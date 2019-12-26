@@ -1,5 +1,4 @@
 ---
-slug: slack
 title: Slack
 subtitle: Collaboration Software
 aliases:

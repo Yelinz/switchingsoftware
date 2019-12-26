@@ -1,5 +1,4 @@
 ---
-slug: google-recaptcha
 title: Google reCAPTCHA
 subtitle: Captcha Services
 provider: google

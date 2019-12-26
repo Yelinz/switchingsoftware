@@ -1,5 +1,4 @@
 ---
-slug: gmail
 title: GMail
 subtitle: E-Mail Providers
 provider: google
