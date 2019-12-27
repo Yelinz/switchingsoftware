@@ -1,5 +1,5 @@
 ---
-title: Ciao Instagram
-subtitle: Empfohlene Fotoplattformen
+title: Instagram
+subtitle: Fotoplattformen
 provider: facebook
 ---
