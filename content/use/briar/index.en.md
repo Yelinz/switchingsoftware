@@ -1,7 +1,8 @@
 ---
 title: Briar
 icon: icon.png
-lists: [going-offline]
+lists: 
+    - going-offline
 ---
 
 **Briar** is an encrypted instant messenger that connects to contacts via the Tor network. If internet isn't available, you can also connect directly via Wi-Fi and Bluetooth.

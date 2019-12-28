@@ -1,7 +1,8 @@
 ---
 title: Humble Store
 icon: icon.svg
-replaces: [steam]
+replaces:
+    - steam
 ---
 
 The charity initiative **Humble Bundle** also has an online store that sells both DRM and DRM-free games (the link below goes to their DRM-free section).

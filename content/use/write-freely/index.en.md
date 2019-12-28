@@ -1,7 +1,8 @@
 ---
 title: Write Freely
 icon: icon.svg
-replaces: [medium]
+replaces: 
+    - medium
 ---
 
 **Write Freely** is a blogging service like Medium where the focus is on the text itself, with a clean uncluttered aesthetic.

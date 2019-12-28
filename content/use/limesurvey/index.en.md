@@ -1,7 +1,8 @@
 ---
 title: LimeSurvey
 icon: icon.png
-replaces: [google-forms]
+replaces:
+    - google-forms
 ---
 
 **LimeSurvey** is a free [open source][floss] survey software, it can be used on the [LimeSurvey.org][limesurvey] site, or you can install it on your own server if you have one.

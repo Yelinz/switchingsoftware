@@ -1,7 +1,8 @@
 ---
 title: GNU Image Manipulation Program
 icon: icon.svg
-replaces: [adobe-cloud]
+replaces:
+    - adobe-cloud
 ---
 
 **GNU Image Manipulation Program** (short: GIMP) is one of the longest-running and best-supported free open graphics apps. It offers Photoshop-style raster graphics and photo editing for Windows, Mac and Linux.

@@ -1,8 +1,10 @@
 ---
 title: Open Source Games
 icon: icon.png
-replaces: [steam]
-lists: [advanced-users]
+replaces:
+    - steam
+lists:
+    - advanced-users
 ---
 
 Although they are relatively rare, there are some good games available as open source projects. This means they’re available without any kind of DRM restrictions, and free of charge too.

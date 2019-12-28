@@ -1,7 +1,8 @@
 ---
 title: Itch.io
 icon: icon.svg
-replaces: [steam]
+replaces: 
+    - steam
 ---
 
 **Itch.io** sells games without DRM, so you can buy games and keep them forever.

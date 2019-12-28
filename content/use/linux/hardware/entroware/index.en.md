@@ -1,7 +1,8 @@
 ---
 title: Entroware
 icon: icon.png
-lists: [linux-hardware]
+lists:
+    - linux-hardware
 ---
 
 **Entroware**, based in the UK, ships Ubuntu Laptops to Europe.

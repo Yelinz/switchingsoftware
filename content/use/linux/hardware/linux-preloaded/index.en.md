@@ -1,7 +1,8 @@
 ---
 title: Linux Preloaded
 icon: icon.png
-lists: [linux-hardware]
+lists:
+    - linux-hardware
 ---
 
 **Linux Preloaded** offers a list of computer shops, that ship with Linux preinstalled.

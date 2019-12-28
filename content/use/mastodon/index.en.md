@@ -1,8 +1,11 @@
 ---
 title: Mastodon
 icon: icon.svg
-replaces: [facebook, twitter]
-lists: [fediverse]
+replaces:
+    - facebook
+    - twitter
+lists:
+    - fediverse
 ---
 
 **Mastodon** is by far the most popular ethical social network with millions of users. You can watch their official video above, which explains how the site works. It’s a bit like Twitter, but with a much longer character limit and more flexible interface.

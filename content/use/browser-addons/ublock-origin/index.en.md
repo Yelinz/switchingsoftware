@@ -1,7 +1,9 @@
 ---
 title: uBlock Origin
 icon: icon.svg
-lists: [firefox-addons, chrome-addons]
+lists:
+    - firefox-addons
+    - chrome-addons
 ---
 
 **uBlock Origin** is an [open source][floss] browser extension that blocks unwanted content from web pages. In addition to advertising, this includes tracker and malware by default.

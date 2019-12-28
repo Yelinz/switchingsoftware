@@ -1,7 +1,8 @@
 ---
 title: PrivacyTools
 icon: icon.svg
-replaces: [switching-software]
+replaces:
+    - switching-software
 ---
 
 **PrivacyTools** is a non-profit organization dedicaded to strengthening online privacy in the face of global mass surveillance. They provide libre services, a collection of software recommendations and more.

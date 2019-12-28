@@ -2,7 +2,8 @@
 title: Fairphone
 icon: icon.png
 image: fairphone-3.jpg
-lists: [fairtrade-smartphones]
+lists:
+    - fairtrade-smartphones
 ---
 Fairphone tries to get as much of its raw materials as possible from sources
 with decent working conditions and fair wages. The latest model, the

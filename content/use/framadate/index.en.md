@@ -1,7 +1,8 @@
 ---
 title: Framadate
 icon: icon.png
-replaces: [doodle]
+replaces:
+    - doodle
 ---
 
 **Framadate** is an easy-to-use libre Doodle-style event and poll service, provided by France’s largest ethical software organisation Framasoft. It costs nothing, it doesn’t track you and you don’t need to register.

@@ -1,7 +1,8 @@
 ---
 title: Inventaire
 icon: icon.png
-replaces: [amazon-books]
+replaces:
+    - amazon-books
 ---
 
 **Inventaire** is a libre volunteer-run book lending site where you can make friends and create collaborative libraries together. You can make lists of books you want to lend to friends, and browse other friends’ lists.

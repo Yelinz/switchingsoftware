@@ -1,7 +1,8 @@
 ---
 title: GetTogether
 icon: icon.png
-replaces: [meetup]
+replaces:
+    - meetup
 ---
 
 **GetTogether** is a free open source event management site. Groups are called “teams”, and the site automatically searches for teams and events near you.

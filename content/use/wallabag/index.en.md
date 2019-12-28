@@ -1,7 +1,8 @@
 ---
 title: Wallabag
 icon: icon.svg
-replaces: [pocket]
+replaces: 
+    - pocket
 ---
 
 **Wallabag** is a privacy-friendly, libre online service which lets you save articles from the web so you can read them later.

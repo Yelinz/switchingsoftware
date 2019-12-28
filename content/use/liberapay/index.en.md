@@ -1,7 +1,8 @@
 ---
 title: Liberapay
 icon: icon.svg
-replaces: [patreon]
+replaces:
+    - patreon
 ---
 
 **Liberapay** is an easy-to-use, free open donations platform and lets your fans send you a set amount every week, month or year.

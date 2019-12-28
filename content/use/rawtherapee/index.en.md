@@ -1,7 +1,8 @@
 ---
 title: RawTherapee
 icon: icon.svg
-replaces: [adobe-cloud]
+replaces:
+    - adobe-cloud
 ---
 
 **RawTherapee** is a raw image processing app available for Windows, Mac and Linux from the official site.

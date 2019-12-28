@@ -1,7 +1,8 @@
 ---
 title: Libreture
 icon: icon.png
-replaces: [amazon-books]
+replaces:
+    - amazon-books
 ---
 
 **Libreture** is a Goodreads-style site which lets you store and organise your DRM-free eBooks online, browse DRM-free bookshops, discover new titles and share reading lists. 

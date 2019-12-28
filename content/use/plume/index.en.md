@@ -1,7 +1,8 @@
 ---
 title: Plume
 icon: icon.svg
-replaces: [medium]
+replaces:
+    - medium
 ---
 
 **Plume** is an open source federated blogging platform, which lets you create a federated blog. This means it can be followed from Mastodon and other social networks powered by the ActivityPub standard.

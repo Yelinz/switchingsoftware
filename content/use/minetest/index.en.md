@@ -1,7 +1,8 @@
 ---
 title: Minetest
 icon: icon.png
-replaces: [minecraft]
+replaces:
+    - minecraft
 ---
 
 **Minetest** is a free open source  Minecraft-style game with huge worlds, a variety of different playing modes, online and offline gameplay, multiplayer servers, lots of user-created mods and more.

@@ -1,8 +1,12 @@
 ---
 title: Friendica
 icon: icon.svg
-replaces: [facebook, twitter]
-list: [fediverse, f-droid]
+replaces:
+    - facebook
+    - twitter
+list:
+    - fediverse
+    - f-droid
 ---
 
 **Friendica** ist ein [freies](/de/nutze/freie-software) und dezentrales soziales Netzwerk, dessen Funktionen an Facebook angelehnt sind. Es bietet neben den Kommunikationsmöglichkeiten Funktionen wie Events/Kalender, Fotoalben und Gruppen.

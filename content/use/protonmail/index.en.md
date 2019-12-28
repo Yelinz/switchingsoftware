@@ -1,8 +1,8 @@
 ---
 title: ProtonMail
 icon: icon.png
-replaces: [gmail]
-tag: [email]
+replaces:
+    - gmail
 ---
 
 **ProtonMail** is a Swiss-based email service with no advertising and maximum possible privacy for its users, funded entirely by donations and subscriptions. The basic account is free, with paid-for accounts that have more features and storage.

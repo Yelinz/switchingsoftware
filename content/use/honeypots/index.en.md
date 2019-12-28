@@ -1,7 +1,8 @@
 ---
 title: Honeypots
 icon: honey-jar.svg
-replaces: [google-recaptcha]
+replaces:
+    - google-recaptcha
 ---
 Instead of asking humans to verify themselves, you can try tricking bots into revealing themselves by interacting with “honeypots”.
 

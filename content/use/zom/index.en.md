@@ -1,7 +1,9 @@
 ---
 title: Zom
 icon: icon.svg
-replaces: [whatsapp, facebook-messenger]
+replaces: 
+    - whatsapp
+    - facebook-messenger
 ---
 
 **Zom** is an extremely easy to use and free open source messenger app. You don’t need to register to use it, just think of a username.

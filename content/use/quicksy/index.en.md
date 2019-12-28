@@ -1,7 +1,9 @@
 ---
 title: Quicksy
 icon: icon.png
-replaces: [whatsapp, facebook-messenger]
+replaces:
+    - whatsapp
+    - facebook-messenger
 ---
 
 **Quicksy** is an easy-to-use chat app. You can register with just your phone number.

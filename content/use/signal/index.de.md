@@ -1,7 +1,9 @@
 ---
 title: Signal
 icon: icon.svg
-replaces: [whatsapp, facebook-messenger]
+replaces: 
+    - whatsapp
+    - facebook-messenger
 ---
 
 **Signal** ist eine populäre Anwendung für private Chats, Sprach- und Videoanrufe. Sie kommt mit standardmäßig aktivierter Ende-zu-Ende-Verschlüsselung.

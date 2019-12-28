@@ -1,8 +1,11 @@
 ---
 title: Mastodon
 icon: icon.svg
-replaces: [twitter, facebook]
-lists: [fediverse]
+replaces:
+    - twitter
+    - facebook
+lists:
+    - fediverse
 ---
 
 **Mastodon** ist das populärste [freie](/de/use/free-software) soziale Netzwerk mit Millionen von Nutzern weltweit. Es orientiert sich an Twitter, besitzt aber neben einem höheren Zeichenlimit auch eine strikt chronologische Zeitleiste.

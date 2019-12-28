@@ -1,7 +1,8 @@
 ---
 title: Firefox
 icon: icon.svg
-replaces: [google-chrome]
+replaces:
+    - google-chrome
 ---
 
 **Firefox** is the most popular independent [open source][floss] web browser, Firefox is non-commercial, free and maintained by volunteers.

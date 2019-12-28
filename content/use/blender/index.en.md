@@ -1,7 +1,8 @@
 ---
 title: Blender
 icon: icon.png
-replaces: [adobe-cloud]
+replaces: 
+    - adobe-cloud
 ---
 
 **Blender** is a professional suite of tools for doing 3D and 2D animations, visual effects, compositing and video editing.

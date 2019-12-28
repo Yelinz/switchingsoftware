@@ -1,7 +1,8 @@
 ---
 title: Inkscape
 icon: icon.svg
-replaces: [adobe-cloud]
+replaces:
+    - adobe-cloud
 ---
 
 **Inkscape** is a professional Illustrator-style vector graphics editor for creating things like illustrations, charts and logos. It’s available for Windows, Mac and Linux from the official site.

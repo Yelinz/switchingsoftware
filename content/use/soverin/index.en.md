@@ -1,8 +1,8 @@
 ---
 title: Soverin
 icon: icon.jpg
-replaces: [gmail]
-tag: [email]
+replaces:
+    - gmail
 ---
 
 **Soverin** is based in the Netherlands and offers privacy-oriented email including custom domain name and optional web page too.

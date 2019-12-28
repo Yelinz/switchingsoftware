@@ -1,7 +1,8 @@
 ---
 title: Kiwix
 icon: icon.svg
-lists: [going-offline]
+lists: 
+    - going-offline
 ---
 
 **Kiwix** is an app that lets you browse educational resources (such as Wikipedia, Stack Exchange, Wiktionary etc.) without an internet connection.

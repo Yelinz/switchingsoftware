@@ -1,7 +1,9 @@
 ---
 title: Framapic
 icon: icon.png
-replaces: [imgur, photobucket]
+replaces:
+    - imgur
+    - photobucket
 ---
 
 **Framapic** is a privacy-friendly and libre photo sharing service, run by French privacy campaigners [Framasoft][framasoft].

@@ -1,7 +1,9 @@
 ---
 title: Qwant
 icon: icon.jpg
-replaces: [google-search, google-maps]
+replaces:
+    - google-search
+    - google-maps
 ---
 
 **Qwant** is a search engine based in Europe which doesn’t track users or personalise results.

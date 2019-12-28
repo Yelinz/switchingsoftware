@@ -1,7 +1,9 @@
 ---
 title: XMPP
 icon: icon.svg
-replaces: [whatsapp, facebook-messenger]
+replaces:
+    - whatsapp
+    - facebook-messenger
 ---
 
 **XMPP** (früher Jabber) ist ein offenes und weit verbreitetes Kommunikationsprotokoll. Die Nutzung ist einfach: Registriere Dich auf einem der XMPP-Server und installiere eine der XMPP-Apps.

@@ -1,7 +1,8 @@
 ---
 title: De-google-ify Internet
 icon: icon.png
-lists: [advanced-users]
+lists: 
+    - advanced-users
 ---
 **De-google-ify Internet** is an initiative started by [Framasoft][framasoft] that provides a list of privacy-friendly apps and internet services.
 Despite what the name might suggest, the list offers more than just alternatives to Google software. For example: [Evernote][evernote-list], [Trello][trello-list],

@@ -1,7 +1,8 @@
 ---
 title: Dat Project
 icon: icon.png
-lists: [wip]
+lists: 
+    - wip
 ---
 
 **The Dat project** is creating a new set of technical standards called “Dat”, which provide a privacy-conscious alternative to HTTP. 

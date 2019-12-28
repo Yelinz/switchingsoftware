@@ -1,7 +1,8 @@
 ---
 title: Local Bookshops
 icon: icon.svg
-replaces: [amazon-books]
+replaces:
+    - amazon-books
 ---
 
 The most ethical way of buying books is from **your nearest bookstore**. Local bookshops tend to have better working conditions, pay their fair share of taxes and don’t track their users. They also have a human being who can give you free one-to-one advice on books, and a hand-curated selection of titles. If they don’t have what you want they can order it from their suppliers, often within 24 hours.
