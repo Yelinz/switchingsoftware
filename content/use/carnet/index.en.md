@@ -1,7 +1,8 @@
 ---
 title: Carnet
 icon: icon.svg
-lists: [wip]
+lists:
+    - wip
 ---
 
 **Carnet** is a free open alternative to Google Keep, featuring notetaking, todo lists, images, audio and syncing with [NextCloud][nextcloud], with Google Drive support planned. 

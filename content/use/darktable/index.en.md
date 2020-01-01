@@ -1,7 +1,8 @@
 ---
 title: darktable
 icon: icon.svg
-replaces: [adobe-cloud]
+replaces: 
+    - adobe-cloud
 ---
 
 **darktable** is a raw photo editor for non-destructive post-production work. It's aimed at photographers and available from the official website for Windows, Mac and Linux.

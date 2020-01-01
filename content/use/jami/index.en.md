@@ -1,7 +1,10 @@
 ---
 title: Jami
 icon: icon.svg
-replaces: [whatsapp, facebook-messenger, skype]
+replaces: 
+    - whatsapp
+    - facebook-messenger
+    - skype
 ---
 
 **Jami** (formerly "Ring") is a free easy-to-use alternative to Skype, with voice call, video call and messaging. 

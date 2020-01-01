@@ -1,7 +1,8 @@
 ---
 title: Governmental Petition Portals
 icon: icon.svg
-replaces: [change-org]
+replaces:
+    - change-org
 ---
 
 For political issues, you should **petition governments directly** on issues. This more easily gets the attention of people in power, is less likely to sell your data, and governments are often compelled by law to respond to petitions which receive enough signatures.

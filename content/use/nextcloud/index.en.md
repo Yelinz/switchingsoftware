@@ -1,7 +1,10 @@
 ---
 title: Nextcloud
 icon: icon.svg
-replaces: [google-calendar, google-drive, dropbox]
+replaces: 
+    - google-calendar
+    - google-drive
+    - dropbox
 ---
 
 **Nextcloud** is an easy-to-use service that provides a range of optional add-ons, such as: file storage, document editing, calendars, contacts, video calling, text-chat. You can view the full list of add-ons at the [Nextcloud app store](https://apps.nextcloud.com/).

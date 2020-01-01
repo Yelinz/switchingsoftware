@@ -1,7 +1,8 @@
 ---
 title: mailbox.org
 icon: icon.png
-replaces: [gmail]
+replaces: 
+    - gmail
 ---
 
 Run by a German family business, **mailbox.org** offers email, online file storage and online office features such as calendars. There’s a one month free trial.

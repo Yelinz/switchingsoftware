@@ -1,7 +1,9 @@
 ---
 title: XMPP
 icon: icon.svg
-replaces: [whatsapp, facebook-messenger]
+replaces: 
+    - whatsapp
+    - facebook-messenger
 ---
 
 **XMPP** (also known as Jabber) is a widely-used free and open internet messaging standard. It’s very easy to use: just register an XMPP account and install an XMPP app. No phone number required.

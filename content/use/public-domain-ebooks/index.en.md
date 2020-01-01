@@ -1,7 +1,8 @@
 ---
 title: Public Domain eBooks
 icon: icon.svg
-replaces: [amazon-books]
+replaces:
+    - amazon-books
 ---
 Many classic books are old enough to be in the public domain, so they are legal to download and distribute free of charge.
 

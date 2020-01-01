@@ -1,7 +1,8 @@
 ---
 title: Shotcut
 icon: icon.png
-replaces: [adobe-cloud]
+replaces: 
+    - adobe-cloud
 ---
 
 **Shotcut** is a free open NLE video editor for Windows, Mac and Linux, available from the official website.

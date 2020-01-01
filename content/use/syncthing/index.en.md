@@ -1,7 +1,9 @@
 ---
 title: Syncthing
 icon: icon.svg
-replaces: [google-drive, dropbox]
+replaces: 
+    - google-drive
+    - dropbox
 ---
 
 **Syncthing** is a program to easily synchronize folders across two or more computers. Instead of uploading your files to a central server for sharing them, Syncthing sends files directly from one computer to the other.

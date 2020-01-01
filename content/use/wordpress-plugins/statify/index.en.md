@@ -1,8 +1,10 @@
 ---
 title: Statify for WordPress
 icon: icon.png
-replaces: [google-analytics]
-lists: [wordpress-plugins]
+replaces: 
+    - google-analytics
+lists:
+    - wordpress-plugins
 ---
 
 **Statify** is a straightforward Wordpress plugin to collect statistics on your site. It only counts page request instead of collecting personal data.

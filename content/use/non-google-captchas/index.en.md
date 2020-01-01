@@ -1,7 +1,8 @@
 ---
 title: Non-Google Captchas
 icon: clueless-robot.svg
-replaces: [google-recaptcha]
+replaces:
+    - google-recaptcha
 ---
 Google did not invent the captcha, and there are others available which are more privacy-friendly.
 

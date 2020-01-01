@@ -1,7 +1,8 @@
 ---
 title: searx
 icon: icon.png
-replaces: [google-search]
+replaces: 
+    - google-search
 ---
 
 **Searx** is an open source “metasearch” engine, which searches several other search engines without telling them anything about you.

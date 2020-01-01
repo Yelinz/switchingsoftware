@@ -1,8 +1,10 @@
 ---
 title: PRISM Break
 icon: icon.svg
-replaces: [switching-software]
-lists: [advanced-users]
+replaces:
+    - switching-software
+lists:
+    - advanced-users
 ---
 
 **PRISM Break** is collecting libre software alternatives to bypass global surveillance programs, with a strong focus on privacy and security. 

@@ -2,7 +2,10 @@
 slug: riot
 title: Riot / Matrix
 icon: icon.svg
-replaces: [whatsapp, facebook-messenger, slack]
+replaces:
+    - whatsapp
+    - facebook-messenger
+    - slack
 ---
 
 **Riot.im** is a libre instant messaging client based on the Matrix protocol. It includes text chats, audio/video calls and file transfers.

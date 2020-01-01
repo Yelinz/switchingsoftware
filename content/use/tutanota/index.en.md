@@ -1,8 +1,9 @@
 ---
 title: Tutanota
 icon: icon.png
-replaces: [gmail, google-calendar]
-tags: [email]
+replaces: 
+    - gmail
+    - google-calendar
 ---
 
 **Tutanota** is an encrypted email and calendar service based in Germany, with no advertising and the emphasis on privacy. The basic account is free, with paid-for accounts that have more features and storage. They also have their own apps for Android and iPhone.

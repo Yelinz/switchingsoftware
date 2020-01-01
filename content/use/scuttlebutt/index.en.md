@@ -1,7 +1,9 @@
 ---
 title: Scuttlebutt
 icon: icon.png
-lists: [going-offline, wip]
+lists: 
+    - going-offline
+    - wip
 ---
 
 **Scuttlebutt** is a social network with no servers. All your data is stored on your own computer or phone, and you can use it offline. 

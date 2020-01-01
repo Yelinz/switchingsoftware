@@ -1,7 +1,9 @@
 ---
 title: Decentraleyes
 icon: icon.png
-lists: [firefox-addons, chrome-addons]
+lists: 
+    - firefox-addons
+    - chrome-addons
 ---
 
 **Decentraleyes** is an add-on which emulates a Content Delivery Network (CDN) to improve your privacy.

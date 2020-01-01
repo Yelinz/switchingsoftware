@@ -1,7 +1,8 @@
 ---
 title: Webform
 icon: icon.png
-replaces: [google-forms]
+replaces: 
+    - google-forms
 ---
 
 **Webform** is a free open source form software, available to either self-host or host on Webform.com. The version hosted on Webform.com comes in free and paid versions.

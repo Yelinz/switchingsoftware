@@ -1,7 +1,8 @@
 ---
 title: Funkwhale
 icon: icon.svg
-lists: [wip]
+lists:
+    - wip
 ---
 
 **Funkwhale** is a libre federated music platform, similar to Grooveshark or SoundCloud. It lets you easily discover and share music online through a music-oriented social network. 

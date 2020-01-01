@@ -1,7 +1,8 @@
 ---
 title: LibreOffice
 icon: icon.png
-replaces: [microsoft-office]
+replaces:
+    - microsoft-office
 ---
 The most popular free [open source][open source] alternative to Microsoft Office is the LibreOffice suite.
 

@@ -172,7 +172,15 @@ code {
 }
 
 .infobox ul ul li:not(:first-child)::before {
-    content: '|';
+    content: '| ';
+}
+
+@media (max-width:600px) {
+    .infobox ul ul li:not(:first-child)::before,
+    .infobox ul ul li:first-child::before {
+        content: "\A"; 
+        white-space: pre; 
+    }
 }
 
 .list.simple .infobox strong {

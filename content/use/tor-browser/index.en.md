@@ -1,8 +1,8 @@
 ---
 title: Tor Browser
 icon: icon.png
-replaces: [google-chrome]
-tag: [browser]
+replaces: 
+    - google-chrome
 ---
 
 **Tor Browser** is a specially modified version of Firefox. It’s a bit harder to use than standard Firefox, but it does a more thorough job at protecting your privacy.

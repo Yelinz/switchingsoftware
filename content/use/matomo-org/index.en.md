@@ -1,7 +1,8 @@
 ---
 title: Matomo
 icon: icon.svg
-replaces: [google-analytics]
+replaces: 
+    - google-analytics
 ---
 
 **Matomo** analytics lets sites keep their visitor data private without sharing it with anyone else, and is compliant with GDPR regulations. It also respects the web browser No Follow standard (which lets users opt out of web tracking by selecting “No Follow” in their browser options).

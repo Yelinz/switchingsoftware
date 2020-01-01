@@ -1,7 +1,8 @@
 ---
 title: DuckDuckGo
 icon: icon.svg
-replaces: [google-search]
+replaces:
+    - google-search
 ---
 
 The most popular and easiest to use privacy-conscious search engine, **DuckDuckGo** is funded by advertising but does not track its users. It is based in the USA.

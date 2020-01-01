@@ -1,7 +1,8 @@
 ---
 title: Fathom
 icon: icon.svg
-replaces: [google-analytics]
+replaces:
+    - google-analytics
 ---
 
 **Fathom** is [open source][floss] analytics software that avoids tracking or storing personal data. The self-hosted version is free, and there are paid accounts that are hosted by the makers of Fathom.

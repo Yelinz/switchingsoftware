@@ -1,10 +1,11 @@
 ---
 title: Libreture
 icon: icon.png
-replaces: [amazon-books]
+replaces:
+    - amazon-books
 ---
 
-**Libreture** is a Goodreads-style site which lets you store and organise your DRM-free eBooks online, browse DRM-free bookshops, discover new titles and share reading lists. 
+**Libreture** is a Goodreads-style site which lets you store and organise your [DRM][drm]-free eBooks online, browse DRM-free bookshops, discover new titles and share reading lists. 
 
 The basic account is free, and there are also paid options for people who want extra storage space (including an unlimited plan).
 
@@ -15,3 +16,5 @@ It's siter site **The Epubizer** explains all the basics of DRM-free eBooks: wha
     - [Libreture](https://www.libreture.com/)
     - [The Epubizer](https://theepubizer.com/)
 {{< /infobox >}}
+
+[drm]: {{< relref "/articles/digital-rights-management" >}}

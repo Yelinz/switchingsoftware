@@ -1,7 +1,8 @@
 ---
 title: Open Collective
 icon: icon.svg
-replaces: [patreon]
+replaces:
+    - patreon
 ---
 
 **Open Collective** is a more advanced platform specially designed for crowdfunded projects and organisations that want to be as transparent as possible about how donations are spent.

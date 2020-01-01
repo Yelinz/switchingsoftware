@@ -1,7 +1,8 @@
 ---
 title: CryptPad
 icon: icon.png
-replaces: [google-drive]
+replaces:
+    - google-drive
 ---
 
 **CryptPad** is an [open source][1] privacy-friendly alternative to Google Docs. It lets you easily edit many kinds of documents online and collaboratively, and is based on the “zero knowledge” concept where no one except you (and whoever you give your access keys to) can access your document.

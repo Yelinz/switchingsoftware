@@ -1,7 +1,9 @@
 ---
 title: Signal
 icon: icon.svg
-replaces: [whatsapp, facebook-messenger]
+replaces: 
+    - whatsapp
+    - facebook-messenger
 ---
 
 **Signal** is a popular private messaging, voice call and video call service. All communication between its users is end-to-end-encrypted by default.

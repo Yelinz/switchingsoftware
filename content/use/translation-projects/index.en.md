@@ -1,7 +1,8 @@
 ---
 title: Translation Projects
 icon: icon.svg
-lists: [wip]
+lists: 
+    - wip
 ---
 
 There are some free open alternatives to Google Translate in development.

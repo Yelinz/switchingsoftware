@@ -2,7 +2,8 @@
 slug: no-recaptcha
 title: Do you really need reCAPTCHA?
 icon: ../../images/info.svg
-replaces: [google-recaptcha]
+replaces:
+    - google-recaptcha
 ---
 There’s [a very good essay][essay] thoroughly exploring the topic of Google reCAPTCHA, captchas in general and whether your site needs them.
 

@@ -1,7 +1,8 @@
 ---
 title: Good Old Games (GOG)
 icon: icon.svg
-replaces: [steam]
+replaces:
+    - steam
 ---
 
 **GOG** is a Steam-like video games platform without any Digital Rights Management: games you buy are yours forever, no one can take them away from you.

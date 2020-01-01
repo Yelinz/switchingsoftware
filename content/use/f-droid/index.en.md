@@ -1,7 +1,8 @@
 ---
 title: F-Droid
 icon: icon.jpg
-replaces: [google-play]
+replaces:
+    - google-play
 ---
 
 **F-Droid** is an [open source][floss] alternative app store. The store does not track users, and the apps it lists are also all open source, so they are much less likely to invade your privacy.

@@ -2,7 +2,8 @@
 slug: self-hosted
 title: Self-hosted fonts
 icon: server.svg
-replaces: [google-fonts]
+replaces:
+    - google-fonts
 ---
 You don’t need to use an external service at all. You can host your site’s fonts yourself and refer to them in the page’s code.
 

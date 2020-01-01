@@ -1,7 +1,8 @@
 ---
 title: OpenStreetMap
 icon: icon.svg
-replaces: [google-maps]
+replaces:
+    - google-maps
 ---
 
 **OpenStreetMap** is a huge user-made map site that anyone can use and edit (sort of like the Wikipedia of the map world). It’s sponsored by various universities and other organisations, and does not track its users.
