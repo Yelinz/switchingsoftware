@@ -21,6 +21,7 @@ There are several major sites which distribute free public domain eBooks and aud
     - [Faded Page](https://www.fadedpage.com/)
     - [Wikisource](https://en.wikisource.org/)
 - **Help:**
+    - [Public Domain eBook Search Tool]({{< relref "/tools/ebook-search" >}})
     - [The Epubizer](https://epubizer.com/)
 {{< /infobox >}}
 

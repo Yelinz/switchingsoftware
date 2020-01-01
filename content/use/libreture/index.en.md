@@ -15,6 +15,7 @@ It's siter site **The Epubizer** explains all the basics of DRM-free eBooks: wha
 - **Website:** 
     - [Libreture](https://www.libreture.com/)
     - [The Epubizer](https://theepubizer.com/)
+    - [DRM-free bookshops](https://www.libreture.com/bookshops/)
 {{< /infobox >}}
 
 [drm]: {{< relref "/articles/digital-rights-management" >}}
