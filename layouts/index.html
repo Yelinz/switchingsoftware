@@ -1,38 +1,38 @@
 {{ define "main" }}
 
     <div class="filter">
-        <!-- hidden radio buttons for filters -->
+        {{"<!-- hidden radio buttons for filters -->" | safeHTML }}
         <input type="radio" id="tag-0" class="filter-tag" name="filter-radio" hidden checked="true">
-        {{ range $i, $provider := $.Site.Params.homepage.filters }}
+        {{ range $i, $provider := $.Site.Params.homepage.filters -}}
             <input type="radio" id="tag-{{ add $i 1 }}" class="filter-tag" name="filter-radio" hidden>
         {{ end }}
 
-        {{ $others := add 1 ( len $.Site.Params.homepage.filters ) }}
+        {{- $others := add 1 ( len $.Site.Params.homepage.filters ) -}}
         <input type="radio" id="tag-{{ $others }}" class="filter-tag" name="filter-radio" hidden>
 
-        <!-- filter buttons -->
+        {{"<!-- filter buttons -->" | safeHTML }}
         <div class="filter-nav text-center mb-2">
             <label class="btn mb-1 col-1 col-sm-2" for="tag-0">All</label>
-            {{ range $i, $provider := $.Site.Params.homepage.filters }}
+            {{- range $i, $provider := $.Site.Params.homepage.filters }}
                 <label class="btn mb-1 col-2 col-sm-4" for="tag-{{ add $i 1 }}">{{ $provider | title }}</label>
-                {{ if (eq 0 (mod (add $i -1) 3)) }}
+                {{- if (eq 0 (mod (add $i -1) 3)) -}}
                     <span><br class="show-sm"/></span>
                 {{ end }}
             {{ end }}
             <label class="btn mb-1 col-1 col-sm-2" for="tag-{{ $others }}">...</label>
         </div>
     
-        <!-- entries -->
+        {{"<!-- entries -->" | safeHTML }}
         <div class="filter-body columns pb-2">
-            {{ range .Site.Taxonomies.replaces }}
-                {{ $index := $others }}
-                {{ with $provider := .Page.Params.provider }}
-                    {{ range $i, $p := $.Site.Params.homepage.filters }}
-                        {{ if eq $provider $p }}
-                            {{ $index = add $i 1 }}
-                        {{ end }}
-                    {{ end }}
-                {{ end }}
+            {{ range .Site.Taxonomies.replaces -}}
+                {{- $index := $others -}}
+                {{- with $provider := .Page.Params.provider -}}
+                    {{- range $i, $p := $.Site.Params.homepage.filters -}}
+                        {{- if eq $provider $p -}}
+                            {{- $index = add $i 1 -}}
+                        {{- end -}}
+                    {{- end -}}
+                {{- end }}
 
                 <div class="column col-4 col-md-6 col-sm-10 mx-auto filter-item p-1" data-tag="tag-{{ $index }}">
                     <div class="card">
@@ -49,24 +49,18 @@
     </div>
 
     <ul id="main-list" class="text-center ls-none">
-        {{ with .Site.GetPage "section" "tools" }}
-            {{ range .Pages  }}
-                <li>
-                    <a href="{{ .Page.Permalink }}"><strong>{{ .Page.Title }}:</strong><br class="show-md"> {{ .Page.Params.Subtitle }}</a>
-                </li>
-            {{ end }}
-        {{ end }}
+        {{ with .Site.GetPage "section" "tools" -}}
+            {{- range .Pages  }}
+                <li><a href="{{ .Page.Permalink }}"><strong>{{ .Page.Title }}:</strong><br class="show-md"> {{ .Page.Params.Subtitle }}</a></li>
+            {{- end -}}
+        {{- end }}
         <li>---</li>
 
-        {{ with .Site.GetPage "section" "articles" }}
-            {{ range .Pages }}
-                <li>
-                    <a href="{{ .Page.Permalink }}"><strong>{{ .Page.Title }}</strong></a>
-                </li>
-            {{ end }}
-        {{ end }}
-        <li>
-            <a rel="me" href="https://mstdn.swiso.org/@switchingsoftware"><strong>Follow on Mastodon</strong></a>
-        </li>        
+        {{- with .Site.GetPage "section" "articles" -}}
+            {{- range .Pages }}
+                <li><a href="{{ .Page.Permalink }}"><strong>{{ .Page.Title }}</strong></a></li>
+            {{- end -}}
+        {{- end }}
+        <li><a rel="me" href="https://mstdn.swiso.org/@switchingsoftware"><strong>Follow on Mastodon</strong></a></li>        
     </ul>
 {{ end }}
