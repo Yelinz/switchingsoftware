@@ -8,6 +8,7 @@ order:
     - better-world-books
     - hive
     - kobo
+    - libro-fm
     - public-domain-ebooks
     - open-library
     - libreture
