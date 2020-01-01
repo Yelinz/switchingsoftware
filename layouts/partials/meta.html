@@ -9,4 +9,5 @@
 <meta property="og:title" content="{{ .Title }}" />
 <meta property="og:site_name" content="{{ .Site.Title }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
-{{ with .Site.LanguageCode }}<meta property="og:locale" content="{{ . }}" />{{ end }}
+{{- with .Site.LanguageCode }}
+<meta property="og:locale" content="{{ . }}" />{{ end }}
