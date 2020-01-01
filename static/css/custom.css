@@ -151,7 +151,7 @@ code {
     content: '| ';
 }
 
-@media (max-width:600px) {
+@media (max-width:480px) {
     .infobox ul ul li:not(:first-child)::before,
     .infobox ul ul li:first-child::before {
         content: "\A"; 
