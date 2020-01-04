@@ -28,7 +28,6 @@ h1 {
 
 h2 {
     font-size: calc(1em + 2.0vw); 
-    font-size: 1.4em;
     color: #777;
 }
 
@@ -41,18 +40,18 @@ h4 {
     font-weight: 700;
 }
 
-/* a, .btn-link, .menu .menu-item > a {
-    text-decoration: underline;
-} */
-
 @media only screen and (min-width: 856px) { 
     html { font-size: 1.5em; }
     h1 { font-size: 4.9em; }
     h2 { font-size: 1.8em; }
 }
 
-.slug-switching\.software h2 {
-    font-size: 1.4em;
+.slug-_index h2 {
+    font-size: 1.3em;
+    max-width: 500px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 code {
