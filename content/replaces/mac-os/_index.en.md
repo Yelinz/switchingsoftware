@@ -13,7 +13,7 @@ aliases:
     - /ethical-alternatives-to-mac-os/
 ---
 
-While being good at privacy, masOS uses closed source software. So we can’t be sure of what they are doing. If you want a ready-to-use computer, head over to our [hardware recommendations][hardware].
+While being good at privacy, macOS uses closed source software. So we can’t be sure of what they are doing. If you want a ready-to-use computer, head over to our [hardware recommendations][hardware].
 
 
 [hardware]: {{< relref "/lists/linux-hardware" >}}
