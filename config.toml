@@ -29,6 +29,6 @@ enableGitInfo = true
     [languages.en]
         title = "switching.software"
         weight = 1
-    [languages.de]
-        title = "switchingsocial.de"
-        weight = 2
+    # [languages.de]
+    #     title = "switchingsocial.de"
+    #     weight = 2
