@@ -40,10 +40,10 @@
                 <div class="column col-4 col-md-6 col-sm-10 mx-auto filter-item p-1" data-tag="tag-{{ $index }}">
                     <div class="card">
                         <a href="{{ .Page.Permalink }}" title="{{ .Page.Title }}">
-                            <div class="card-header">
-                                <div class="card-title text-bold">{{ .Page.Title }}</div>
-                                <div class="card-subtitle text-dark"><small>{{ .Page.Params.Subtitle }}</small></div>
-                            </div>
+                            <span class="card-header d-block">
+                                <span class="card-title text-bold d-block">{{ .Page.Title }}</span>
+                                <span class="d-none">(</span><span class="card-subtitle text-dark d-block"><small>{{ .Page.Params.Subtitle }}</small></span><span class="d-none">)</span>
+                            </span>
                         </a>
                     </div>
                  </div>
