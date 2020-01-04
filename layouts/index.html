@@ -1,4 +1,7 @@
 {{ define "main" }}
+    <div class="text-center">
+        {{ .Content }}
+    </div>
 
     <div class="filter">
         {{"<!-- hidden radio buttons for filters -->" | safeHTML }}
@@ -47,20 +50,4 @@
             {{ end }}
         </div>
     </div>
-
-    <ul id="main-list" class="text-center ls-none">
-        {{ with .Site.GetPage "section" "tools" -}}
-            {{- range .Pages  }}
-                <li><a href="{{ .Page.Permalink }}"><strong>{{ .Page.Title }}:</strong><br class="show-md"> {{ .Page.Params.Subtitle }}</a></li>
-            {{- end -}}
-        {{- end }}
-        <li>---</li>
-
-        {{- with .Site.GetPage "section" "articles" -}}
-            {{- range .Pages }}
-                <li><a href="{{ .Page.Permalink }}"><strong>{{ .Page.Title }}</strong></a></li>
-            {{- end -}}
-        {{- end }}
-        <li><a rel="me" href="https://mstdn.swiso.org/@switchingsoftware"><strong>Follow on Mastodon</strong></a></li>        
-    </ul>
 {{ end }}
