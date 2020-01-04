@@ -22,6 +22,7 @@ Even better, because PeerTube uses the ActivityPub standard its channels can be 
 - **Android apps:** 
     - [Fedilab](https://fedilab.app/)
     - [Thorium](https://github.com/sschueller/peertube-android/blob/develop/README.md)
+    - [NewPipe](https://newpipe.schabi.org/)
 - **Official website:** 
     - [joinpeertube.org](https://joinpeertube.org/)
 - **Example videos:**
