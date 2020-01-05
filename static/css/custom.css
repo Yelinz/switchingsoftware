@@ -46,14 +46,6 @@ h4 {
     h2 { font-size: 1.8em; }
 }
 
-.slug-_index h2 {
-    font-size: 1.3em;
-    max-width: 500px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 code {
     color: #1E4147;
     background: #E6F7D4;
@@ -87,6 +79,18 @@ code {
 }
 
 /* Homepage */
+body.homepage h2 {
+    font-size: 1.3em;
+    max-width: 500px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body.homepage #intro p:last-child {
+    margin-bottom: 0px;
+}
+
 .card a:hover,
 .card a:focus {
     text-decoration: none;
@@ -112,10 +116,6 @@ code {
 
 .divider[data-content]::after {
     color: #3b4351;
-}
-
-.slug-_index #intro p:last-child {
-    margin-bottom: 0px;
 }
 
 /* Lists */
