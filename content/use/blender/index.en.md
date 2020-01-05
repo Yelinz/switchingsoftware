@@ -13,8 +13,8 @@ It’s available for Windows, Mac and Linux from the official site.
 
 {{< infobox >}}
 - **Website:**
-    - [darktable.org](https://www.darktable.org/)
-    - [Download](https://www.darktable.org/install/)
+    - [blender.org](https://www.blender.org/)
+    - [Download](https://www.blender.org/download/)
 {{< /infobox >}}
 
 [glass-half]: https://video.blender.org/videos/watch/64222c8a-c4c7-4b3b-9850-7fb2078edcf6
