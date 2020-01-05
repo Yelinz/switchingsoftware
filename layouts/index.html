@@ -1,9 +1,9 @@
 {{ define "main" }}
-    <div class="text-center">
+    <div id="intro" class="text-center">
         {{ .Content }}
     </div>
 
-    <div class="filter">
+    <div id="filter" class="filter">
         {{"<!-- hidden radio buttons for filters -->" | safeHTML }}
         <input type="radio" id="tag-0" class="filter-tag" name="filter-radio" hidden checked="true">
         {{ range $i, $provider := $.Site.Params.homepage.filters -}}
@@ -49,5 +49,26 @@
                  </div>
             {{ end }}
         </div>
+    </div>
+
+    <div id="{{ i18n "indexMoreAnchor" }}" class="divider text-center" data-content="{{ i18n "indexMoreTitle" | upper }}">
+        <hr class="d-none">
+    </div>
+
+    <div class="columns mb-2">
+        {{ range .Site.Pages }}
+            {{ if .Params.featured }}
+                <div class="column col-4 col-md-6 col-sm-10 mx-auto p-1">
+                    <div class="card">
+                        <a href="{{ .Page.Permalink }}" title="{{ .Page.Title }}">
+                            <span class="card-header d-block">
+                                <span class="card-title text-bold d-block">{{ .Page.Title }}</span>
+                                <span class="d-none">(</span><span class="card-subtitle text-dark d-block"><small>{{ .Page.Params.Subtitle }}</small></span><span class="d-none">)</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            {{ end }}
+        {{ end }}
     </div>
 {{ end }}

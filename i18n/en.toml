@@ -7,6 +7,12 @@
 [indexFilterOther]
     other = "..."
 
+[indexMoreAnchor]
+    other = "more"
+
+[indexMoreTitle]
+    other = "Further Reading"
+
 [footerBy]
     other = "by"
 

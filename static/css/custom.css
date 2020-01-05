@@ -110,6 +110,14 @@ code {
     color:#fff;
 }
 
+.divider[data-content]::after {
+    color: #3b4351;
+}
+
+.slug-_index #intro p:last-child {
+    margin-bottom: 0px;
+}
+
 /* Lists */
 .entry-icon-wrapper {
     height: 2rem;
