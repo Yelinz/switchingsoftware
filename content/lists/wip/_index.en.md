@@ -13,4 +13,5 @@ aliases:
     - /lists/wip/
     - /list/wip/
     - /wip/
+featured: true
 ---

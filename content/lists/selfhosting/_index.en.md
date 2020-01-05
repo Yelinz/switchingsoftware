@@ -4,6 +4,7 @@ subtitle: Run your own server
 order: 
     - yunohost
     - freedombox
+featured: true
 ---
 
 A big reason for privacy being under threat is that your data is usually stored on a large faceless corporation’s computers, and you have to trust them not to do anything bad with it.

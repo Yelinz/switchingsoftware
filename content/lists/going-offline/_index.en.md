@@ -7,6 +7,7 @@ order:
     - scuttlebutt
 aliases:
     - /ethical-alternatives-to-the-internet/
+featured: true
 ---
 	
 **Many cannot easily access the internet**, perhaps because of geography, economics or political problems. People without a reliable connection may be denied important resources which are only available online.
