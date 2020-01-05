@@ -7,7 +7,6 @@ order:
     - prism-break
     - lineage-os
     - compute-freely
-    - open-source-games
 aliases:
     - /ethical-alternatives-for-advanced-users/
 featured: true
