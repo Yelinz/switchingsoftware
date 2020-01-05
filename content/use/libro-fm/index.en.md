@@ -5,7 +5,7 @@ replaces:
     - amazon-books
 ---
 
-**Libre.fm** offer [DRM-free][drm] audiobooks while also supporting local bookstores. Their membership options is [only available in the US and Canada][availability] though.
+**Libre.fm** offer [DRM-free][drm] audiobooks while also supporting local bookstores. Their membership option is [only available in the US and Canada][availability] though.
 
 {{< infobox >}}
 - **Website:** 
