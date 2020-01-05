@@ -56,8 +56,8 @@
     </div>
 
     <div class="columns mb-2">
-        {{ range .Site.Pages }}
-            {{ if .Params.featured }}
+        {{ range .Site.Pages -}}
+            {{- if .Params.featured }}
                 <div class="column col-4 col-md-6 col-sm-10 mx-auto p-1">
                     <div class="card">
                         <a href="{{ .Page.Permalink }}" title="{{ .Page.Title }}">
@@ -68,7 +68,7 @@
                         </a>
                     </div>
                 </div>
-            {{ end }}
-        {{ end }}
+            {{ end -}}
+        {{- end }}
     </div>
 {{ end }}
