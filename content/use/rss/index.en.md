@@ -16,7 +16,7 @@ RSS feeds respect privacy because they do not contain any way of tracking subscr
 
 Most sites with a feed will have a section of the site called “RSS”, or they may have an RSS logo which usually looks like this:
 
-{{< img src="/use/rss/icon.png" title="RSS icon" alt="RSS icon" >}}
+{{< img src="icon.png" title="RSS icon" alt="RSS icon" >}}
 
 If you still can’t find a site’s RSS feed, try searching via your [favourite search engine][search-engine] (for example search for “cbc rss feed”). Some apps include built-in lists of popular feeds, and features to help you discover new feeds.
 

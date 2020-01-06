@@ -1,7 +1,7 @@
 <figure class="text-center">
     <img 
         class="img-responsive mx-auto" 
-        src="{{ .Get "src" }}"
+        src="{{ "/" | relURL }}{{ $.Page.File.Dir }}{{ .Get "src" }}"
 
         {{ with .Get "width" }}
             width="{{ . }}"
