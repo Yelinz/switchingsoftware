@@ -5,7 +5,7 @@
                 {{ . }}
             </section>
         {{ end }}
-        
+
         {{ $list := partial "getter/getList.html" . }}
         {{ with $list }}
             {{/* Fixed-ordered entries first, rest second */}}

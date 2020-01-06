@@ -4,7 +4,7 @@
 
 {{ partial "meta.html" . }}
 
-<body id="top" class="type-{{ .Type }} m-0 p-0 
+<body id="top" class="type-{{ .Type }} m-0 p-0
     {{- with .File }} slug-{{ lower .ContentBaseName }} {{- end }}
     {{- with .IsHome }} homepage {{- end }}">
     <div id="container">
@@ -13,7 +13,7 @@
         <main id="content" class="container grid-md">
             {{ partial "hero.html" . }}
 
-            {{- block "main" . }} 
+            {{- block "main" . }}
             {{ end }}
         </main>
 

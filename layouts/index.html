@@ -24,7 +24,7 @@
             {{ end }}
             <label class="btn mb-1 col-1 col-sm-2" for="tag-{{ $others }}">{{ i18n "indexFilterOther" }}</label>
         </div>
-    
+
         {{"<!-- entries -->" | safeHTML }}
         <div class="filter-body columns pb-2">
             {{ range .Site.Taxonomies.replaces -}}
