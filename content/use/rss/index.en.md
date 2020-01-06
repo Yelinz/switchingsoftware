@@ -36,6 +36,6 @@ For those of you using the [Friendica][friendica] social network, you can add RS
 Note: Thunderbird is mainly promoted as an email app, but it also has a full RSS feed reader too. You can find out more from [the official Thunderbird RSS guide][thunderbird-guide].
 
 [rss-example]: https://www.cbc.ca/rss/
-[search-engine]: {{< relref "/replace/google-search" >}}
+[search-engine]: {{< relref "/replaces/google-search" >}}
 [thunderbird-guide]: https://support.mozilla.org/en-US/kb/how-subscribe-news-feeds-and-blogs
 [friendica]: {{< relref "/use/friendica" >}}
