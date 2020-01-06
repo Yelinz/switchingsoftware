@@ -5,8 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 <meta property="og:type" content="article" />
-<meta property="og:description" content="{{ .Description }}" />
-<meta property="og:title" content="{{ .Title }}" />
+<meta property="og:description" content="{{ partial "getter/getSubtitle" . }}" />
+<meta property="og:title" content="{{ partial "getter/getTitle" . }}" />
 <meta property="og:site_name" content="{{ .Site.Title }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
 {{- with .Site.LanguageCode }}
