@@ -3,14 +3,16 @@
     <div class="container grid-md">
         <div class="navbar">
             <section class="navbar-section">
-                <a href="{{ "/" | relLangURL }}" id="logo" class="navbar-brand" title="{{ .Site.Title }}">
-                    <img class="mt-2" src="{{ "/images/switchingsoftware.png" | relURL }}" alt="{{ .Site.Title }} logo" width="150px">
-                </a>
+                <div class="navbar-brand mt-2">
+                    <a href="{{ "/" | relLangURL }}" id="logo" class="text-dark">
+                        switching.software
+                    </a>                    
+                </div>
             </section>
             <section class="navbar-section">
                 <div class="dropdown dropdown-right">
-                    <a href="{{ "/about" | relLangURL }}" class="btn btn-link">{{ i18n "headerAbout" }}</a> 
-                    <a href="#" class="btn btn-link dropdown-toggle" title="Languages" tabindex="0">
+                    <a href="{{ "/about" | relLangURL }}" class="btn btn-link pt-2">{{ i18n "headerAbout" }}</a> 
+                    <a href="#" class="btn btn-link pt-2 dropdown-toggle" title="Languages" tabindex="0">
                         {{ upper .Site.Language }} <i class="icon icon-caret"></i>
                     </a>
                     <ul class="menu">
