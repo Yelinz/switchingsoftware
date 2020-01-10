@@ -1,7 +1,7 @@
 ---
 title: Decentraleyes
 icon: icon.png
-lists: 
+lists:
     - firefox-addons
     - chrome-addons
 ---
@@ -11,7 +11,7 @@ lists:
 It works by intercepting network requests to CDNs, checking if the requested file is stored locally, serving the locally stored file if it's available.
 
 {{< infobox >}}
-- **Downloads:** 
+- **Downloads:**
     - [Firefox](https://addons.mozilla.org/firefox/addon/decentraleyes/)
     - [Google Chrome](https://chrome.google.com/webstore/detail/decentraleyes/ldpochfccmkkmhdbclfhpagapcfdljkj)
     - [Opera](https://addons.opera.com/extensions/details/decentraleyes/)

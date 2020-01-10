@@ -1,4 +1,6 @@
 ---
 title: Firefox Addons
-subtitle: Extensions
+subtitle: Recommended Extensions
+order:
+    - ublock-origin
 ---
