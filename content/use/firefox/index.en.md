@@ -19,7 +19,7 @@ There are a large number of Add-ons that can be install, futher extending the br
     - [Firefox](https://apps.apple.com/app/firefox-private-safe-browser/id989804926)
     - [Firefox Klar](https://apps.apple.com/app/firefox-focus-privacy-browser/id1055677337)
 - **Addons:** 
-    - [Recommended Add-ons](/en/use/firefox/addons)
+    - [Recommended Add-ons]({{< relref "/lists/firefox-addons" >}})
 {{< /infobox >}}
 
 [floss]: https://web.archive.org/web/20180904102804/https://switching.social/what-is-open-source-software/
