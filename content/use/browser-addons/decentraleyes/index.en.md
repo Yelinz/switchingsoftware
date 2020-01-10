@@ -6,9 +6,7 @@ lists:
     - chrome-addons
 ---
 
-**Decentraleyes** is an add-on which emulates a Content Delivery Network (CDN) to improve your privacy.
-
-It works by intercepting network requests to CDNs, checking if the requested file is stored locally, serving the locally stored file if it's available.
+**Decentraleyes** provides popular website components locally to improve your online privacy. This avoids numerous calls to so-called "Content Delivery Networks" (CDN), that can track the usage of their files. Furthermore, it speeds up browsing.
 
 {{< infobox >}}
 - **Downloads:**
