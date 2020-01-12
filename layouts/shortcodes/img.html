@@ -1,24 +1,18 @@
 <figure class="text-center">
     <img
         class="img-responsive mx-auto"
-        src="{{ "/" | relURL }}{{ $.Page.File.Dir }}{{ .Get "src" }}"
+        src="{{ ($.Page.Resources.GetMatch (.Get "src")).Permalink }}"
 
-        {{ with .Get "width" }}
-            width="{{ . }}"
-        {{ end }}
+        {{- with .Get "width" }} width="{{ . }}"{{ end -}}
 
-        {{ with .Get "height" }}
-            width="{{ . }}"
-        {{ end }}
+        {{- with .Get "height" }} height="{{ . }}"{{ end -}}
 
-        {{ with .Get "alt" }}
-            width="{{ . }}"
-        {{ end }}
+        {{- with .Get "alt" }} alt="{{ . }}"{{ end -}}
     >
 
-    {{ with .Get "title" }}
+    {{- with .Get "title" }}
         <figcaption>
             <small><em>{{ . }}</em></small>
         </figcaption>
-    {{ end }}
+    {{- end }}
 </figure>
