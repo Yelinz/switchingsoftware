@@ -20,7 +20,7 @@ This site is quite large and we are only a few persons working on it in our spar
 
 ### Support the listed projects
 
-Our site is only as good as the alternatives it has to offer. If you think a project heads in the right direction, give them there support. This doesn't have to be financially. Often a helping hand on documentation, translations, discussions, artwork etc. is even more helpful. Something as simple as a motivating personal e-mail to the author may help a lot.
+Our site is only as good as the alternatives it has to offer. If you think a project is on the right track, give them there support. This doesn't have to be financially. Often a helping hand on documentation, translations, discussions, artwork etc. is even more helpful. Something as simple as a motivating personal e-mail to the author may help a lot.
 
 
 ### Contribute on Codeberg.org
