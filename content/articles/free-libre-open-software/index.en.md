@@ -31,9 +31,9 @@ In a nutshell: It creates more trust in software and more flexibility in its use
 
 Suppose you want to offer a cake to your friends. Of course you can easily buy an off-the-shelf cake at the bakery. However, with this **proprietary cake** it's unclear what exactly it contains. Obviously, appearance and taste suggest some ingredients. But deducing *all* the ingredients based on this is difficult or even impossible.
 
-{{< img src="cake.svg" title="Proprietary Cake" height="180px" >}}
+{{< img src="cake.svg" title="Proprietary Cake" width="180px" >}}
 
-This is a problem especially concerning allergies and food intolerances. More transparency - like an **Open-Source-Cake** - helps you out. In fact, there are laws that require the labelling of allergens and often complete lists of ingredients. However, if your desired cake is no longer sold on celebration day, you still have a problem. 
+This is a problem especially concerning allergies and food intolerances. More transparency - like an **Open-Source-Cake** - helps you out. In fact, there are laws that require the labelling of allergens and often complete lists of ingredients. However, if your desired cake is no longer sold on celebration day, you still have a problem.
 
 {{< img src="ingredients.svg" title="Open Cake" width="170px"  >}}
 
