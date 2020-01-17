@@ -31,15 +31,15 @@ In a nutshell: It creates more trust in software and more flexibility in its use
 
 Suppose you want to offer a cake to your friends. Of course you can easily buy an off-the-shelf cake at the bakery. However, with this **proprietary cake** it's unclear what exactly it contains. Obviously, appearance and taste suggest some ingredients. But deducing *all* the ingredients based on this is difficult or even impossible.
 
-{{< img src="cake.svg" title="Proprietary Cake" width="180px" >}}
+{{< img src="cake.png" title="Proprietary Cake" width="180px" >}}
 
 This is a problem especially concerning allergies and food intolerances. More transparency - like an **Open-Source-Cake** - helps you out. In fact, there are laws that require the labelling of allergens and often complete lists of ingredients. However, if your desired cake is no longer sold on celebration day, you still have a problem.
 
-{{< img src="ingredients.svg" title="Open Cake" width="170px"  >}}
+{{< img src="ingredients.png" title="Open Cake" width="170px" >}}
 
 If the recipe is freely available, you can bake the cake yourself (or have it baked) at any time. You can follow all the steps and change individual ingredients as you like. And you can pass on the recipe to anyone interested. So you can enjoy the full flavour of **Free/Libre Cake**.
 
-{{< img src="recipe.svg" title="Free/Libre Cake Recipe" width="170px"  >}}
+{{< img src="recipe.png" title="Free/Libre Cake Recipe" width="170px"  >}}
 
 Same story with software: Proprietary software also renders you dependent on one provider and may contain undesirable "ingredients". Certain practices must likewise be labelled (e.g. in page-long [Terms of Service][ToS]), but this isn't truly open and transparent.
 
