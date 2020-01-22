@@ -10,7 +10,6 @@ replaces:
 {{< infobox >}}
 - **Website:**
     - [EteSync](https://www.etesync.com)
-    - [Web Client](https://client.etesync.com/)
 - **Android App:**
     - [EteSync](https://play.google.com/store/apps/details?id=com.etesync.syncadapter) ([FDroid](https://f-droid.org/app/com.etesync.syncadapter))
 - **iOS App:**
