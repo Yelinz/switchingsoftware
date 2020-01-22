@@ -4,6 +4,7 @@ subtitle: Calendar Services
 provider: google
 order:
     - nextcloud
+    - etesync
     - kolab-now
     - tutanota
 aliases:
