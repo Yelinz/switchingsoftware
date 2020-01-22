@@ -49,6 +49,6 @@ Free and Open Software, on the other hand, essentially exposes everything. So an
 
 Some software companies publish the source code of their software, but do not grant anyone else the rights to modify or redistribute it. This causes some confusion around the term "open source".
 
-Therefore, many in the community prefer to speak of FLOSS or FOSS, which explicitly combines the aspects of **F**ree/**L**ibre and **O**pen-**S**ource-**S**software. For the sake of simplicity, on this website we will mainly use the term Libre.
+Therefore, many in the community prefer to speak of FLOSS or FOSS, which explicitly combines the aspects of **F**ree/**L**ibre and **O**pen-**S**ource-**S**oftware. For the sake of simplicity, on this website we will mainly use the term Libre.
 
 [ToS]: https://en.wikipedia.org/wiki/Terms_of_service
