@@ -16,36 +16,31 @@ $public_dir = '/home/swiso/www/website/';
 
 // check secret is set
 if (empty($secret)) {
-    error_log('FAILED - CODEBERG_DEPLOY_SECRET not set');
-    exit();
+    error('FAILED - CODEBERG_DEPLOY_SECRET not set');
 }
 
 // check for POST request
 if ($_SERVER['REQUEST_METHOD'] != 'POST') {
-    error_log('FAILED - not POST - '. $_SERVER['REQUEST_METHOD']);
-    exit();
+    error('not POST - '. $_SERVER['REQUEST_METHOD']);
 }
 
 // get content type
 $content_type = isset($_SERVER['CONTENT_TYPE']) ? strtolower(trim($_SERVER['CONTENT_TYPE'])) : '';
 
 if ($content_type != 'application/json') {
-    error_log('FAILED - not application/json - '. $content_type);
-    exit();
+    error('not application/json - '. $content_type);
 }
 
 // get payload
 $payload = trim(file_get_contents("php://input"));
 
 if (empty($payload)) {
-    error_log('FAILED - no payload');
-    exit();
+    error('no payload');
 }
 
 // get header signature
 if (!isset($_SERVER['HTTP_X_GITEA_SIGNATURE'])) {
-    error_log('FAILED - header signature missing');
-    exit();
+    error('header signature missing');
 }
 
 $header_signature = $_SERVER['HTTP_X_GITEA_SIGNATURE'];
@@ -54,35 +49,30 @@ $header_signature = $_SERVER['HTTP_X_GITEA_SIGNATURE'];
 $payload_signature = hash_hmac('sha256', $payload, $secret, false);
 
 if ($header_signature != $payload_signature) {
-    error_log('FAILED - payload signature');
-    exit();
+    error('payload signature');
 }
 
 // convert json to array
 $data = json_decode($payload);
 
 if (json_last_error() !== JSON_ERROR_NONE) {
-    error_log('FAILED - json decode - '. json_last_error());
-    exit();
+    error('json decode failed - '. json_last_error());
 }
 
 // determine changed branch
 if (!isset($data->ref)) {
-    error_log('FAILED - no target branch');
-    exit();
+    error('no target branch');
 }
 
 if (substr($data->ref, 0, 11) !== "refs/heads/") {
-    error_log('FAILED - couldn\'t determine branch - '. $data->ref);
-    exit();
+    error('couldn\'t determine branch - '. $data->ref);
 }
 
 $branch = substr($data->ref, 11);
 $subdomain = ($branch == "primary") ? '' : $branch . '.';
 
 if ($branch !== "primary" && $branch !== "develop") {
-    error_log('FAILED - unknown branch - '. $branch);
-    exit();
+    error('unknown branch - '. $branch);
 }
 
 // collect commit messages
@@ -92,8 +82,7 @@ foreach ($data->commits as $commit) {
 }
 
 if (empty($commit_message)) {
-    error_log('FAILED - no commits');
-    exit();
+    error('no commits');
 }
 
 // Do a git checkout and run Hugo
@@ -102,14 +91,19 @@ $return = 0;
 
 exec('cd ' . $source_dir . '&& git fetch --all --prune && git reset --hard origin/' . $branch, $output, $return);
 if ($return != 0) {
-    error_log('FAILED - git fetch/reset failed');
-    exit();
+    error('git fetch/reset failed');
 }
 
 exec('cd ' . $source_dir . '&& ' . $hugo . ' -b https://' . $subdomain . 'switching.software -d ' . $public_dir . $branch, $output, $return);
 if ($return != 0 && $return != 255) {
-    error_log('FAILED - hugo build failed');
-    exit();
+    error('hugo build failed');
+}
+
+if ($branch == "develop") {
+    exec('cp ' . $source_dir . '/deploy.php ' . getcwd() . '/deploy.php', $output, $return);
+    if ($return != 0 && $return != 255) {
+        error('update of deploy script failed');
+    }
 }
 
 // Log the deployment
@@ -118,3 +112,16 @@ file_put_contents(
     date('Y-m-d H:i:s') . " on " .  $branch . ": " . $commit_message,
     FILE_APPEND
 );
+
+/**
+ * Print error message to log and return error code
+ *
+ * @param  String $text the error message
+ * @return void
+ */
+function error($text)
+{
+    error_log('deploy failed - ' . $text);
+    http_response_code(404);
+    exit(4);
+};
