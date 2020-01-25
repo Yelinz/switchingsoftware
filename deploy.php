@@ -10,6 +10,7 @@
  */
 
 $secret = getenv('CODEBERG_DEPLOY_SECRET');
+$hugo = '/home/swiso/src/hugo/hugo';
 $source_dir = '/home/swiso/src/website/';
 $public_dir = '/home/swiso/www/website/';
 
@@ -58,7 +59,7 @@ if ($header_signature != $payload_signature) {
 }
 
 // convert json to array
-$decoded = json_decode($payload, true);
+$data = json_decode($payload);
 
 if (json_last_error() !== JSON_ERROR_NONE) {
     error_log('FAILED - json decode - '. json_last_error());
@@ -76,7 +77,7 @@ if (substr($data->ref, 0, 11) !== "refs/heads/") {
     exit();
 }
 
-$branch = substring($data->ref, 11);
+$branch = substr($data->ref, 11);
 $subdomain = ($branch == "primary") ? '' : $branch . '.';
 
 if ($branch !== "primary" && $branch !== "develop") {
@@ -85,7 +86,7 @@ if ($branch !== "primary" && $branch !== "develop") {
 }
 
 // collect commit messages
-$commit_message;
+$commit_message = '';
 foreach ($data->commits as $commit) {
     $commit_message .= ' ' . $commit->message;
 }
@@ -96,23 +97,17 @@ if (empty($commit_message)) {
 }
 
 // Do a git checkout and run Hugo
-$output;
-$return;
+$output = array();
+$return = 0;
 
-exec('cd ' . $source_dir, $output, $return);
-if ($return != 0) {
-    error_log('FAILED - cd to source failed');
-    exit();
-}
-
-exec('git fetch --all --prune && git reset --hard origin/' . $branch, $output, $return);
+exec('cd ' . $source_dir . '&& git fetch --all --prune && git reset --hard origin/' . $branch, $output, $return);
 if ($return != 0) {
     error_log('FAILED - git fetch/reset failed');
     exit();
 }
 
-exec('hugo -b https://' . $subdomain . 'switching.software -d ' . $public_dir . $branch, $output, $return);
-if ($return != 0) {
+exec('cd ' . $source_dir . '&& ' . $hugo . ' -b https://' . $subdomain . 'switching.software -d ' . $public_dir . $branch, $output, $return);
+if ($return != 0 && $return != 255) {
     error_log('FAILED - hugo build failed');
     exit();
 }
@@ -120,6 +115,6 @@ if ($return != 0) {
 // Log the deployment
 file_put_contents(
     $public_dir . 'deploy.txt',
-    date('Y-m-d H:i:s') . " on " .  $branch . ": " . $commit_message . "\n",
+    date('Y-m-d H:i:s') . " on " .  $branch . ": " . $commit_message,
     FILE_APPEND
 );
