@@ -13,6 +13,12 @@ $secret = getenv('CODEBERG_DEPLOY_SECRET');
 $source_dir = '/home/swiso/src/website/';
 $public_dir = '/home/swiso/www/website/';
 
+// check secret is set
+if (empty($secret)) {
+    error_log('FAILED - CODEBERG_DEPLOY_SECRET not set');
+    exit();
+}
+
 // check for POST request
 if ($_SERVER['REQUEST_METHOD'] != 'POST') {
     error_log('FAILED - not POST - '. $_SERVER['REQUEST_METHOD']);
