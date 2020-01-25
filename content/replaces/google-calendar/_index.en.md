@@ -4,8 +4,9 @@ subtitle: Calendar Services
 provider: google
 order:
     - nextcloud
-    - kolab-now
     - tutanota
+    - kolab-now
+    - etesync
 aliases:
     - /ethical-alternatives-to-google-calendar/
 ---
