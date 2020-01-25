@@ -91,7 +91,7 @@ if (empty($commit_message)) {
 
 // Do a git checkout and run Hugo
 exec('cd ' . $source_dir);
-exec('git fetch --all && git reset --hard origin/' . $branch);
+exec('git fetch --all --prune && git reset --hard origin/' . $branch);
 exec('hugo -b https://' . $subdomain . 'switching.software -d ' . $public_dir . $branch);
 
 // Log the deployment
