@@ -158,6 +158,10 @@ body.homepage #intro p:last-child {
     margin-right: 0;
 }
 
+.list.simple .infobox {
+    padding: 0.5rem;
+}
+
 .infobox :last-child {
     margin-bottom: 0;
 }
@@ -196,6 +200,14 @@ body.homepage #intro p:last-child {
     .infobox ul ul li:first-child::before {
         content: "\A";
         white-space: pre;
+    }
+
+    .list.simple .infobox ul ul li:first-child::before {
+        display: none;
+    }
+
+    .list.simple .infobox ul ul {
+        margin-left: 0;
     }
 }
 
