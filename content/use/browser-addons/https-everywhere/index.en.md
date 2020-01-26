@@ -10,4 +10,6 @@ lists:
 {{< infobox >}}
 - **Downloads:**
     - [Firefox](https://addons.mozilla.org/de/firefox/addon/smart-referer/)
+    - [Google Chrome](https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp)
+    - [Opera](https://addons.opera.com/extensions/details/https-everywhere/)
 {{< /infobox >}}
