@@ -1,6 +1,6 @@
 ---
 title: Krita
-icon: icon.svg
+icon: icon.png
 replaces:
     - adobe-cloud
 ---

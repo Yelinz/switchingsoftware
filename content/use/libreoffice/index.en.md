@@ -1,6 +1,6 @@
 ---
 title: LibreOffice
-icon: icon.png
+icon: icon.svg
 replaces:
     - microsoft-office
 ---

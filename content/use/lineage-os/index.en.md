@@ -1,6 +1,6 @@
 ---
 title: LineageOS
-icon: icon.png
+icon: icon.svg
 lists:
     - advanced-users
 ---

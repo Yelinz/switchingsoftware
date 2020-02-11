@@ -1,7 +1,7 @@
 ---
 title: Blender
-icon: icon.png
-replaces: 
+icon: icon.svg
+replaces:
     - adobe-cloud
 ---
 

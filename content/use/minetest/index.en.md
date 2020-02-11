@@ -1,6 +1,6 @@
 ---
 title: Minetest
-icon: icon.png
+icon: icon.svg
 replaces:
     - minecraft
 ---

@@ -1,7 +1,7 @@
 ---
 title: searx
-icon: icon.png
-replaces: 
+icon: icon.svg
+replaces:
     - google-search
 ---
 

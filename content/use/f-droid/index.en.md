@@ -1,6 +1,6 @@
 ---
 title: F-Droid
-icon: icon.jpg
+icon: icon.svg
 replaces:
     - google-play
 ---
@@ -29,7 +29,7 @@ After doing all these steps, you should be able to install apps within F-Droid w
 Many apps are available in both Google Play and F-Droid, but installing them through F-Droid will be better for your privacy.
 
 {{< infobox >}}
-- **Website:** 
+- **Website:**
     - [f-droid.org](https://f-droid.org/)
 {{< /infobox >}}
 

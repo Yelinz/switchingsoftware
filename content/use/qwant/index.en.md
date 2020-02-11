@@ -1,6 +1,6 @@
 ---
 title: Qwant
-icon: icon.jpg
+icon: icon.svg
 replaces:
     - google-search
     - google-maps
@@ -16,15 +16,15 @@ It also provides various other services:
 * Qwant Maps (Google Maps replacement built upon [OpenStreetMap][osm]).
 
 {{< infobox >}}
-- **Websites:** 
+- **Websites:**
     - [Qwant](https://www.qwant.com)
     - [Qwant Junior](https://www.qwantjunior.com/)
     - [Qwant Music](https://www.qwant.com/music/)
     - [Qwant Boards](https://boards.qwant.com/)
     - [Qwant Maps](https://www.qwant.com/maps)
-- **Android app:** 
+- **Android app:**
     - [Qwant](https://play.google.com/store/apps/details?id=com.qwant.liberty)
-- **iOS app:** 
+- **iOS app:**
     - [Qwant](https://apps.apple.com/app/qwant/id924470452)
 {{< /infobox >}}
 

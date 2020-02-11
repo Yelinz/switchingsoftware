@@ -8,6 +8,6 @@ lists:
 **Framasoft** is a French site run by volunteers. It promotes ethical services and open source software with an extensive library of both. Available in French and English.
 
 {{< infobox >}}
-- **Website:** 
+- **Website:**
     - [framasoft.org](https://framasoft.org/en/)
 {{< /infobox >}}
