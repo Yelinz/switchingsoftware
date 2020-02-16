@@ -12,7 +12,7 @@
 $secret = getenv('CODEBERG_DEPLOY_SECRET');
 $hugo = '/home/swiso/src/hugo/hugo';
 $source_dir = '/home/swiso/src/website/';
-$public_dir = '/home/swiso/www/website/';
+$public_dir = '/home/swiso/www/';
 
 // check secret is set
 if (empty($secret)) {
@@ -85,7 +85,7 @@ if (empty($commit_message)) {
     error('no commits');
 }
 
-// Do a git checkout and run Hugo
+// Do a git checkout
 $output = array();
 $return = 0;
 
@@ -94,11 +94,19 @@ if ($return != 0) {
     error('git fetch/reset failed');
 }
 
-exec('cd ' . $source_dir . '&& ' . $hugo . ' -b https://' . $subdomain . 'switching.software -d ' . $public_dir . $branch, $output, $return);
+// Run Hugo for switching.software
+exec('cd ' . $source_dir . '&& ' . $hugo . ' -b https://' . $subdomain . 'switching.software -d ' . $public_dir . 'switching-software/' . $branch . ' --cleanDestinationDir', $output, $return);
 if ($return != 0 && $return != 255) {
-    error('hugo build failed');
+    error('hugo build failed (switching.software)');
 }
 
+// Run Hugo for swiso.org
+exec('cd ' . $source_dir . '&& ' . $hugo . ' -b https://' . $subdomain . 'swiso.org -d ' . $public_dir . 'swiso-org/' . $branch . ' --cleanDestinationDir', $output, $return);
+if ($return != 0 && $return != 255) {
+    error('hugo build failed (swiso.org)');
+}
+
+// Update deploy script
 if ($branch == "develop") {
     exec('cp ' . $source_dir . '/deploy.php ' . getcwd() . '/deploy.php', $output, $return);
     if ($return != 0 && $return != 255) {
