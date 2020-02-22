@@ -11,6 +11,8 @@ A warm welcome to everyone thinking about supporting this project. Please read t
 
 ## Criteria for Software
 
+Before suggesting a new entry, please use the [issue search][issues] first as it might have been suggested already. Otherwise check for these criteria:
+
 - **Easy to use**: It must be usable by inexperienced persons.
 - **Privacy respecting**: It should collect as few information as possible.
 - **Trust-worthy**: Promises should aline with actions taken.
@@ -21,8 +23,8 @@ A warm welcome to everyone thinking about supporting this project. Please read t
 - **Encryption (if applicable)**: Only verifiable encryption is to be trusted. Downloads should be transport-encrypted.
 
 For hosted proprietary services, additionally:
-- **Location**: Prioritize Products by privacy respecting nationality.
-- **Transport Security:** Connections from/to the server must be encrypted.
+- **Transport Security:** Connections from/to the server must be encrypted (HTTPS, ...).
+- **Location**: We prioritize products by privacy respecting nationality.
 
 ## Entry format
 - **Icon**: At best an web-optimized SVG graphic, otherwise a PNG of size ... ? x ? ... (Todo)
@@ -34,9 +36,18 @@ For hosted proprietary services, additionally:
     - If there's more to say, it should be in a separate article and/or hyperlinked.
 - **Links**: Similar to current entries, especially in the same list.
 
+## Criteria for Website
+
+Before suggesting a feature for the website itself, please think about whether it fits these criteria:
+
+- **All self-hosted**: We won't include any external ressources (like CDNs, trackers).
+- **Small footprint**: We want this website to load fast.
+- **No JavaScript**: This site must be usable with a script-blocker turned on.
+
 ## Licensing
 
 Everything you contribute will be published unter CC-BY-SA 4.0. Differently licensed content must be marked as such and might be removed.
 
 [fediverse]: https://switching.software/articles/federated-sites/
 [swiso-masto]: https://mstdn.swiso.org/@switchingsoftware
+[issues]: https://codeberg.org/swiso-en/website/issues
