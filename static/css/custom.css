@@ -252,3 +252,8 @@ html, body {
 #content {
     padding-bottom: 75px;
 }
+
+@media (max-width:480px) {
+    #footer { height: 90px; }
+    #content { padding-bottom: 90px; }
+}
