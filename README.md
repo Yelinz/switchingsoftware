@@ -24,9 +24,10 @@ All content was, is and will always be licensed as [CC BY-SA 4.0](https://creati
 
 ## Thanks
 
-This site is only possible thanks to free and open projects like:
+This site is only possible thanks to projects like:
 
 - [switching.social](https://web.archive.org/web/20190915101437/https://switching.social/): The original site, that went offline in September 2019, but was restored [here](https://codeberg.org/swiso-en/archive)
 - [Hugo](https://gohugo.io/): A powerful open-source static site generator
-- [Codeberg.org](https://codeberg.org/): A non-profit and non-government organization, that gives our codebase a home - powered by [Gitea](http://gitea.io/).
-- [Greenhost.net](https://greenhost.net/): A sustainable, privacy-friendly hosting provider sponsoring our server and domain.
+- [Mastodon](https://joinmastodon.org/): A federated software running our main [social media account](https://mstdn.swiso.org/@switchingsoftware)
+- [Codeberg.org](https://codeberg.org/): A non-profit and non-government organization, that gives our codebase a home - powered by [Gitea](http://gitea.io/)
+- [Greenhost.net](https://greenhost.net/): A sustainable, privacy-friendly hosting provider sponsoring our server and domain
