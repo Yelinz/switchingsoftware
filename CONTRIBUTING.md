@@ -27,8 +27,11 @@ For hosted proprietary services, additionally:
 - **Location**: We prioritize products by privacy respecting nationality.
 
 ## Entry format
-- **Icon**: At best an web-optimized SVG graphic, otherwise a PNG of size ... ? x ? ... (Todo)
-- **Title**: Official unshortened title
+- **Icon**:
+    - At best an web-optimized squarish SVG graphic
+    - Otherwise a PNG of size 64px x 64px
+    - Either way as lightweight as possible
+- **Title**: Official unshortened name of the software or service
 - **Description**: (PROPOSAL)
     - First sentence giving a wikipedia-like general explanation of what the software is / does. Should be able to stand on its own.
     - First paragraph explaning details on this first sentence.
