@@ -1,27 +1,32 @@
 ![switching.social](static/images/switchingsoftware_small.jpg)
 
-**switching.software** is a collection of ethical, easy-to-use and privacy-conscious alternatives to well-known software.
+_Ethical, easy-to-use and privacy-conscious alternatives to well-known software_
+
+[Website](https://switching.software) | [Contribution Guidelines](https://codeberg.org/swiso-en/website/src/branch/develop/CONTRIBUTING.md) | [Code of Conduct](https://codeberg.org/swiso-en/website/src/branch/develop/CODE_OF_CONDUCT.md) | [License](https://creativecommons.org/licenses/by-sa/4.0/)
+
+## Contribute
+
+We highly **appreciate your proposals** and ideas for new content. Please refer to [our Contribution Guidelines](https://codeberg.org/swiso-en/website/src/branch/develop/CONTRIBUTING.md) before submitting issues or pull requests.
+
+As you might notice, this project has a lot of content. So please, have a look around and [open an issue](https://codeberg.org/swiso-en/website/issues/new) in case you find mistakes, broken links or deprecated information.
+
+## Developing
+
+Please refer to [this guide](https://gohugo.io/getting-started/installing/) to install Hugo for local development.
+
+Current hugo version on the server is `v0.67.0`.
 
 ## License
 
-[Switching.software](https://switching.software) is based on the work of [switching.social](https://web.archive.org/web/20190915101437/https://switching.social/). There has been a lot of adaptions since its shutdown in September 2019. We added graphics, rearranged entries, updated texts and much more. Nevertheless, it still guides us on our way.
+[Switching.software](https://switching.software) is based on the work of [switching.social](https://web.archive.org/web/20190915101437/https://switching.social/).
 
 All content was, is and will always be licensed as [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Excluded are the logos/icons of the entries, which are included under [Fair Use](https://en.wikipedia.org/wiki/Fair_use) and keep their original licensing.
 
-## Surroundings
+## Thanks
 
 This site is only possible thanks to free and open projects like:
 
 - [switching.social](https://web.archive.org/web/20190915101437/https://switching.social/): The original site, that went offline in September 2019, but was restored [here](https://codeberg.org/swiso-en/archive)
-- [Hugo](https://gohugo.io/): A powerful open-source static site generator 
+- [Hugo](https://gohugo.io/): A powerful open-source static site generator
 - [Codeberg.org](https://codeberg.org/): A non-profit and non-government organization, that gives our codebase a home - powered by [Gitea](http://gitea.io/).
-
-## Contribute
-
-We try our best to refurbisch, update and maintain this website. Right now, we are preparing the first release to replace the original "switching.social" backup.
-
-Nevertheless, this project has a lot of content. So please, have a look around and **open an issue in case you find mistakes** or deprecated information. 
-
-We also **appreciate your proposals** and ideas for new content. If you want to create some yourself, feel free to fork this repository and send us a pull request with your changes. 
-
-Currently used Hugo version: v0.61.0
+- [Greenhost.net](https://greenhost.net/): A sustainable, privacy-friendly hosting provider sponsoring our server and domain.
