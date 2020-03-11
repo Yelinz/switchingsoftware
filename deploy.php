@@ -10,7 +10,7 @@
  */
 
 $secret = getenv('CODEBERG_DEPLOY_SECRET');
-$hugo = '/home/swiso/src/hugo/hugo';
+$hugo = 'hugo';
 $source_dir = '/home/swiso/src/website/';
 $public_dir = '/home/swiso/www/';
 
