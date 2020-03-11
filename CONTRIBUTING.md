@@ -41,6 +41,7 @@ For hosted proprietary services, additionally:
 Before suggesting a feature for the website itself, please think about whether it fits these criteria:
 
 - **All self-hosted**: We won't include any external ressources (like CDNs, trackers).
+- **Accessibility**: We want everyone to have equal access to the content of our website.
 - **Small footprint**: We want this website to load fast.
 - **No JavaScript**: This site must be usable with a script-blocker turned on.
 
