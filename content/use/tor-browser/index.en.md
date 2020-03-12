@@ -1,7 +1,7 @@
 ---
 title: Tor Browser
-icon: icon.png
-replaces: 
+icon: icon.svg
+replaces:
     - google-chrome
 ---
 

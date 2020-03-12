@@ -1,6 +1,6 @@
 ---
 title: Fairphone
-icon: icon.png
+icon: icon.svg
 image: fairphone-3.jpg
 lists:
     - fairtrade-smartphones
