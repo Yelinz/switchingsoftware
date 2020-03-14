@@ -11,8 +11,8 @@ replaces:
 - **Sign up:** 
     - [fediverse.blog](https://fediverse.blog/)
     - [plume.mastodon.host](https://plume.mastodon.host/)
-    - [cafe.sunbeam.city](https://cafe.sunbeam.city/)
-    - and many others
+    - [plume.nixnet.xyz](https://plume.nixnet.xyz/)
+    - [more](https://joinplu.me/#instances)
 - **Website:**
     - [Joinplu.me](https://joinplu.me/)
 {{< /infobox >}}
