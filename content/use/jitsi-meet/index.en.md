@@ -12,6 +12,7 @@ It is extremely easy to use: you don’t need to register, all you need to do is
 {{< infobox >}}
 - **Website:**
     - [Jitsi Meet](https://meet.jit.si/)
+    - [List of public instances](https://github.com/jitsi/jitsi-meet/wiki/Jitsi-Meet-Instances)
 - **Mobile app:**
     - [Android](https://play.google.com/store/apps/details?id=org.jitsi.meet) ([FDroid](https://f-droid.org/en/packages/org.jitsi.meet/))
     - [iOS](https://itunes.apple.com/us/app/jitsi-meet/id1165103905)
