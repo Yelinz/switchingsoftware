@@ -57,19 +57,26 @@ Everything you contribute will be published unter CC-BY-SA 4.0. Differently lice
 With all this being said, here is a quick overview on how to contribute text/coding to this project
 
 - **Fork:** Login with your codeberg account and [fork this project][fork].
-- **Branch:** Create a branch for the topic you want to takle. Give it a meaningful name, p.e. "yourname/fix-issue-1234".
-_Hint: Creating a new branch via web interface can be done by typing its name into the branch dropdown on the main page_
-- **Edit:** Make changes to your branch. You can do this directly in the browser on Codeberg. For larger changes though, you should pull the project onto your computer and edit it locally. This way, you can also [live-preview changes][hugo-live] by [installing hugo][hugo-install].
-- **Propose:** Create a pull request against the "develop" branch of this repository. Please give it a meaningful title. The description should contain the related issue ("Fixes #1234") or a short explanation on the purpose of this request.
+- **Branch:** Create a branch for the topic you want to takle.
+  - Give it a meaningful name, p.e. `yourname/fix-issue-1234`.
+  - Hint: Creating a new branch via web interface can be done by typing its name into the branch dropdown on the main page
+- **Edit:** Make changes to your branch.
+  - For minor changes, you can do this directly in the browser on Codeberg.
+  - For larger changes, you should pull the project onto your computer and edit it locally. This way, you can also [live-preview changes][hugo-live] by [installing hugo][hugo-install].
+- **Propose:** Create a pull request against the "develop" branch of this repository.
+  - Please give it a meaningful title.
+  - The description should contain the related issue (p.e. `Fixes #1234`)
+  - If there is no issue, please provide a short explanation on the purpose of your request.
 
-Afterwards, every [maintainer](https://codeberg.org/org/swiso-en/teams/maintainers) is invited to review your proposal. As this project is quite small, this might take a while.
+Afterwards, every [maintainer][swiso-maintainer] is invited to review your proposal. As this project is maintained during spare time, this might take a while. Please be patient.
 
-If everything's fine, it gets merged into the "develop" branch. The changes can be previewed at https://develop.switching.software then. Once a few changes have been collected, they get merged into "primary" and thereby auto-deployed to the main website.
+If everything's fine, it gets merged into the "develop" branch. The changes can be previewed at https://develop.switching.software then. Once a few changes have been collected, they get merged into "primary" by [an admin][swiso-admin] and thereby auto-deployed to the main website.
 
 [fediverse]: https://switching.software/articles/federated-sites/
-[swiso-masto]: https://mstdn.swiso.org/@switchingsoftware
-[issues]: https://codeberg.org/swiso-en/website/issues
 [fork]: https://codeberg.org/repo/fork/1574
-[maintainer]: https://codeberg.org/org/swiso-en/teams/maintainers
 [hugo-install]: https://gohugo.io/getting-started/installing/
 [hugo-live]: https://gohugo.io/getting-started/usage/#livereload
+[issues]: https://codeberg.org/swiso-en/website/issues
+[swiso-maintainer]: https://codeberg.org/org/swiso-en/teams/maintainers
+[swiso-masto]: https://mstdn.swiso.org/@switchingsoftware
+[swiso-admin]: https://codeberg.org/org/swiso-en/teams/owners
