@@ -63,8 +63,9 @@ With all this being said, here is a quick overview on how to contribute text/cod
 - **Edit:** Make changes to your branch.
   - For minor changes, you can do this directly in the browser on Codeberg.
   - For larger changes, you should pull the project onto your computer and edit it locally. This way, you can also [live-preview changes][hugo-live] by [installing hugo][hugo-install].
+  - Hint: Start your commit messages with an imperative verb to keep them short and meaningful, p.e. `Fix typo on About page`
 - **Propose:** Create a pull request against the "develop" branch of this repository.
-  - Please give it a meaningful title.
+  - Please give it a meaningful title, p.e. `Fix typos and dead links on About page`.
   - The description should contain the related issue (p.e. `Fixes #1234`)
   - If there is no issue, please provide a short explanation on the purpose of your request.
 
