@@ -8,4 +8,8 @@
     {{ $title = print ( i18n "listPrefixBye" ) " " $title }}
 {{ end }}
 
+{{ if ( eq .Kind "404") }}
+    {{ $title = "404" }}
+{{ end }}
+
 {{ return $title }}

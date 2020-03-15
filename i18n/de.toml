@@ -27,3 +27,9 @@
 
 [listPrefixRecommended]
     other = "Empfohlene"
+
+[error404Subtitle]
+    other = "Seite nicht gefunden"
+
+[error404HomepageLink]
+    other = "Zur Startseite wechseln"

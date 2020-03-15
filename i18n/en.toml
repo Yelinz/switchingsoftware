@@ -33,3 +33,9 @@
 
 [listPrefixRecommended]
     other = "Recommended"
+
+[error404Subtitle]
+    other = "Page not found"
+
+[error404HomepageLink]
+    other = "Go to homepage"

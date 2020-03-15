@@ -4,4 +4,8 @@
     {{ $subtitle = print ( i18n "listPrefixRecommended" ) " " $subtitle }}
 {{ end }}
 
+{{ if ( eq .Kind "404") }}
+    {{ $subtitle = i18n "error404Subtitle" }}
+{{ end }}
+
 {{ return $subtitle }}
