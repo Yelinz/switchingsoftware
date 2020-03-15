@@ -58,7 +58,7 @@ With all this being said, here is a quick overview on how to contribute text/cod
 
 - **Fork:** Login with your codeberg account and [fork this project][fork].
 - **Branch:** Create a branch for the topic you want to takle.
-  - Give it a meaningful name, p.e. `yourname/fix-issue-1234`.
+  - Please give it a meaningful name, p.e. `yourname/fix-issue-1234`.
   - Hint: Creating a new branch via web interface can be done by typing its name into the branch dropdown on the main page
 - **Edit:** Make changes to your branch.
   - For minor changes, you can do this directly in the browser on Codeberg.
