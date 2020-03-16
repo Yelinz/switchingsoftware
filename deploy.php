@@ -69,9 +69,9 @@ if (substr($data->ref, 0, 11) !== "refs/heads/") {
 }
 
 $branch = substr($data->ref, 11);
-$subdomain = ($branch == "primary") ? '' : $branch . '.';
+$subdomain = ($branch == "main") ? '' : $branch . '.';
 
-if ($branch !== "primary" && $branch !== "develop") {
+if ($branch !== "main" && $branch !== "develop") {
     error('unknown branch - '. $branch);
 }
 
