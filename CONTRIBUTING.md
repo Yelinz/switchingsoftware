@@ -7,7 +7,7 @@ A warm welcome to everyone thinking about supporting this project. Please read t
 - Be nice and respectful.
 - English only.
 - Be constructive.
-- See also our [Code of Conduct](https://codeberg.org/swiso-en/website/src/branch/primary/CODE_OF_CONDUCT.md)
+- See also our [Code of Conduct](https://codeberg.org/swiso-en/website/src/branch/main/CODE_OF_CONDUCT.md)
 
 ## Criteria for Software
 
@@ -71,7 +71,7 @@ With all this being said, here is a quick overview on how to contribute text/cod
 
 Afterwards, every maintainer is invited to review your proposal. As this project is maintained during spare time, this might take a while. Please be patient.
 
-If everything's fine, it gets merged into the "develop" branch. The changes can be previewed at https://develop.switching.software then. Once a few changes have been collected, they get merged into "primary" by an admin and thereby auto-deployed to the main website.
+If everything's fine, it gets merged into the "develop" branch. The changes can be previewed at https://develop.switching.software then. Once a few changes have been collected, they get merged into the "main" branch by an admin and thereby auto-deployed to the website.
 
 [fediverse]: https://switching.software/articles/federated-sites/
 [fork]: https://codeberg.org/repo/fork/1574
