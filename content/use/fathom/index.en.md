@@ -5,13 +5,14 @@ replaces:
     - google-analytics
 ---
 
-**Fathom** is [open source][floss] analytics software that avoids tracking or storing personal data. The self-hosted version is free, and there are paid accounts that are hosted by the makers of Fathom.
+**Fathom** is an analytics software that avoids tracking or storing personal data. The lite version is free and [open source][floss], and there is a paid "pro" version that is hosted by the makers of Fathom.
 
 {{< infobox >}}
-- **Website:** 
+- **Website:**
     - [usefathom.com](https://usefathom.com)
-- **Source Code:** 
+- **Source Code:**
     - [github.com](https://github.com/usefathom/fathom)
+    - [Lite vs. Pro](https://github.com/usefathom/fathom#lite-vs-pro)
 {{< /infobox >}}
 
 [floss]: https://web.archive.org/web/20180904102804/https://switching.social/what-is-open-source-software/
