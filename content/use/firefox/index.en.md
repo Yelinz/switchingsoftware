@@ -5,7 +5,7 @@ replaces:
     - google-chrome
 ---
 
-**Firefox** is the most popular independent [open source][floss] web browser, Firefox is non-commercial, free and maintained by volunteers.
+**Firefox** is the most popular independent [open source][floss] web browser. It is non-commercial, free and maintained by volunteers.
 
 There are a large number of Add-ons that can be install, futher extending the browser. We've listed some [recommended add-ons][addons] to help protect you from most privacy threats on the web.
 
