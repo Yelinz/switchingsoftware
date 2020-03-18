@@ -17,7 +17,7 @@ There are a large number of Add-ons that can be install, futher extending the br
     - [Firefox Focus](https://play.google.com/store/apps/details?id=org.mozilla.focus&noprocess) ([F-Droid](https://f-droid.org/en/packages/org.mozilla.klar/))
 - **iOS Apps:**
     - [Firefox](https://apps.apple.com/app/firefox-private-safe-browser/id989804926)
-    - [Firefox Klar](https://apps.apple.com/app/firefox-focus-privacy-browser/id1055677337)
+    - [Firefox Focus](https://apps.apple.com/app/firefox-focus-privacy-browser/id1055677337)
 - **Addons:**
     - [Recommended Add-ons]({{< relref "/lists/firefox-addons" >}})
 {{< /infobox >}}
