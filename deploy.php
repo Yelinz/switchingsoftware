@@ -129,7 +129,16 @@ file_put_contents(
  */
 function error($text)
 {
+    // log error message
     error_log('deploy failed - ' . $text);
+    file_put_contents(
+        $public_dir . 'deploy.txt',
+        date('Y-m-d H:i:s') . " error: " . $text,
+        FILE_APPEND
+    );
+
+    // return error message to sender
     http_response_code(404);
+    echo($text);
     exit(4);
 };
