@@ -4,41 +4,41 @@ url: "/thanks"
 ---
 <center>
 
-**We say thanks** <br>
-to each and every one <br>
-who participated in<br>
+**We say thanks**  
+to each and every one  
+who participated in  
 creating this.
 
-**Be it directly** <br>
-via opening issues, <br>
-discussing of content, <br>
-drafting of texts and <br>
+**Be it directly**  
+via opening issues,  
+discussing of content,  
+drafting of texts and  
 writing of code.
 
-**Be it indirectly** <br>
-via asking questions, <br>
-searching for answers, <br>
-sharing the results and <br>
+**Be it indirectly**  
+via asking questions,  
+searching for answers,  
+sharing the results and  
 spreading the word.
 
-**Be it essentially** <br>
-by contributing to any<br>
-free / libre / open projects <br>
-of any shape, size or form <br>
+**Be it essentially**  
+by contributing to any  
+free / libre / open projects  
+of any shape, size or form  
 for a public benefit.
 
-**This is yours.** <br>
-A tribute to a space of <br>
-hope, trust, and freedom <br>
-with all its imperfections <br>
+**This is yours.**  
+A tribute to a space of  
+hope, trust, and freedom  
+with all its imperfections  
 and inspirations.
 
-**We say thanks** <br>
-to you, and especially <br>
-to the anonymous author <br>
-who made this small website <br>
-a part of the digital journey <br>
-we keep on enjoying<br>
+**We say thanks**  
+to you, and especially  
+to the anonymous author  
+who made this small website  
+a part of the digital journey  
+we keep on enjoying  
 **Together.**
 
 </center>
