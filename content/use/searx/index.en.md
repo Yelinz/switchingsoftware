@@ -14,6 +14,5 @@ There are many sites that run Searx, you can use any of them (or if you’re tec
     - [searx.me](https://searx.me/)
     - [search.disroot.org](https://search.disroot.org/)
     - [searx.info](https://searx.info/)
-    - [searx.site](https://searx.site/)
     - [searx.xyz](https://searx.xyz/)
 {{< /infobox >}}
