@@ -1,7 +1,7 @@
 ---
 title: Write Freely
 icon: icon.svg
-replaces: 
+replaces:
     - medium
 ---
 
@@ -12,12 +12,11 @@ The site is [open source][floss] and extremely privacy-friendly, collecting the 
 Write Freely has just started [federating][fediverse] using the ActivityPub standard, so you can follow Write Freely blogs through e.g. Mastodon account.
 
 {{< infobox >}}
-- **Sign up:** 
+- **Sign up:**
     - [Write.as](https://write.as/)
     - [Qua.name](https://qua.name/)
     - [Wordsmith.social](https://wordsmith.social/)
     - [LOG.Rocks](https://log.rocks/)
-    - [Lainhaus](https://write.lain.haus/)
     - and [many others](https://writefreely.org/instances)
     - or [host it yourself](https://writefreely.host/)
 - **Android app:**
