@@ -17,6 +17,7 @@ Even better, because PeerTube uses the ActivityPub standard its channels can be 
 - **Sign up:**
     - [spacepub.space](https://spacepub.space/)
     - [libre.video](https://libre.video)
+    - [video.ploud.fr](https://video.ploud.fr/en-US)
     - and [more](https://joinpeertube.org/instances#instances-list)
 - **Android apps:**
     - [Fedilab](https://fedilab.app/)
