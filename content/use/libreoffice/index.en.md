@@ -14,7 +14,7 @@ LibreOffice is compatible with Microsoft file formats, so you don't have to conv
 - **Windows / Mac / Linux app**:
   - [LibreOffice Suite](https://www.libreoffice.org/download/download)
 - **Android app**:
-  - [LibreOffice Viewer](https://play.google.com/store/apps/details?id=org.documentfoundation.libreoffice) ([FDroid](https://f-droid.org/en/packages/org.documentfoundation.libreoffice/))
+  - [LibreOffice Viewer](https://de.libreoffice.org/download/libreoffice-viewer-fuer-android/) ([FDroid](https://f-droid.org/en/packages/org.documentfoundation.libreoffice/))
 {{< /infobox >}}
 
 [floss]: {{< relref "/articles/free-libre-open-software" >}}

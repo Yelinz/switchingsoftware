@@ -16,7 +16,7 @@ By subscribing to additional filter lists, other components of websites can be r
 - **Downloads:**
     - [Firefox](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
     - [Google Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
-    - [Microsoft Edge](https://www.microsoft.com/store/p/app/9nblggh444l4)
+    - [Microsoft Edge](https://www.microsoft.com/p/ublock-origin/9nblggh444l4)
     - [Opera](https://addons.opera.com/en/extensions/details/ublock/)
 {{< /infobox >}}
 

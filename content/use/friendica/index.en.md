@@ -17,12 +17,12 @@ If you decide to sign up, you can register at the sites below. You might also wa
 
 
 {{< infobox >}}
-- **Sign-up:** 
+- **Sign-up:**
     - [Nerdica.net](https://nerdica.net/)
     - [Libranet.de](https://libranet.de/)
-    - and [more](https://the-federation.info/friendica#nodes-table)
-- **Android apps:** 
-    - [Fedilab](https://fedilab.app/) 
+    - and [more](https://the-federation.info/friendica)
+- **Android apps:**
+    - [Fedilab](https://fedilab.app/)
     - [DiCa](https://play.google.com/store/apps/details?id=cool.mixi.dica&noprocess)
 {{< /infobox >}}
 

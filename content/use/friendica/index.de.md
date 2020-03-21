@@ -19,7 +19,7 @@ Friendica ist Teil des [Fediverse][fediverse]. Somit erreichst Du dort auch Leut
 - **Registrierung:**
     - [Nerdica.net](https://nerdica.net/)
     - [Libranet.de](https://libranet.de/)
-    - [mehr deutschsprachige](https://the-federation.info/friendica#nodes-table)
+    - [mehr deutschsprachige](https://the-federation.info/friendica)
 - **Android-Apps:**
     - [Fedilab](https://fedilab.app/)
     - [DiCa](https://play.google.com/store/apps/details?id=cool.mixi.dica&noprocess)

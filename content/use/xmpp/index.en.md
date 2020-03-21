@@ -1,7 +1,7 @@
 ---
 title: XMPP
 icon: icon.svg
-replaces: 
+replaces:
     - whatsapp
     - facebook-messenger
 ---
@@ -13,7 +13,7 @@ Because it’s federated, there are lots of sites you can register on. It doesn�
 If these apps and sites are too complicated, try the much easier Zom and Quicksy alternatives. They’re part of the XMPP network as well.
 
 {{< infobox >}}
-- **Sign up:** 
+- **Sign up:**
     - [chinwag.im](https://chinwag.im/)
     - [xmpp.jp](https://www.xmpp.jp/)
     - [jabber.at](https://jabber.at/account/register/)
@@ -23,7 +23,7 @@ If these apps and sites are too complicated, try the much easier Zom and Quicksy
     - [Pix-Art Messenger](https://github.com/kriztan/Pix-Art-Messenger/blob/master/README-en.md#pix-art-messenger-)
 - **iOS app:**
     - [ChatSecure](https://itunes.apple.com/app/chatsecure/id464200063)
-    - [Monal](https://itunes.apple.com/app/monal-free-xmpp-chat/id317711500)
+    - [Monal](https://itunes.apple.com/us/app/monal-free-xmpp-chat/id317711500)
     - [Siskin.im](https://apps.apple.com/app/tigase-messenger/id1153516838)
 - **Desktop app:**
     - [Pidgin](https://pidgin.im/) (any)
