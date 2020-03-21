@@ -28,7 +28,7 @@ For those of you using the [Friendica][friendica] social network, you can add RS
     - [Feeder](https://f-droid.org/en/packages/com.nononsenseapps.feeder/)
     - [Aggregator](https://play.google.com/store/apps/details?id=com.tughi.aggregator)
 - **iOS apps:**
-    - [Unread](https://apps.apple.com/app/unread-rss-reader/id1252376153)
+    - [NetNewsWire](https://apps.apple.com/us/app/netnewswire-rss-reader/id1480640210)
 - **Desktop apps:**
     - [Thunderbird](https://www.thunderbird.net/)
 {{< /infobox >}}
