@@ -14,7 +14,7 @@ replaces:
 
 {{< infobox >}}
 - **Sign up:**
-    - [Riot.im](https://riot.im/app)
+    - [Matrix.org (via Riot.im)](https://riot.im/app/#/register)
     - [List of instances](https://www.hello-matrix.net/public_servers.php)
 - **Desktop app:**
     - [Windows / macOS / Linux](https://riot.im/download/desktop/)
