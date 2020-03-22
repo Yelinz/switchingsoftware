@@ -13,15 +13,16 @@ replaces:
 **The Matrix protocol** has a federated design and allows bridges to other communication apps. Furthermore, anyone can set up their own Matrix server and use it to collaborate with other people’s Matrix servers.
 
 {{< infobox >}}
-- **Website:** 
-    - [Riot.im App](https://riot.im/app)
-    - [Matrix Project](https://matrix.org/)
+- **Sign up:**
+    - [Riot.im](https://riot.im/app)
+    - [List of instances](https://www.hello-matrix.net/public_servers.php)
 - **Desktop app:**
     - [Windows / macOS / Linux](https://riot.im/download/desktop/)
 - **Mobile app:**
     - [Android](https://play.google.com/store/apps/details?id=im.vector.app) ([FDroid](https://f-droid.org/en/packages/im.vector.alpha/))
     - [iOS](https://itunes.apple.com/us/app/vector.im/id1083446067)
 - **Explore:**
+    - [Matrix Project](https://matrix.org/)
     - [Matrix Clients](https://matrix.org/clients/)
 {{< /infobox >}}
 
