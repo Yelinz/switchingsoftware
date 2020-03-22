@@ -12,7 +12,6 @@ The most ethical way of buying books is from **your nearest bookstore**. Local b
     - [IndieBound (USA)](https://www.indiebound.org/)
     - [Independent Bookshop Week (UK)](https://indiebookshopweek.org.uk/)
     - [Libraries Indépendetes (France)](https://www.librairiesindependantes.com/)
-    - [FindABookstore (Canada)](https://www.retailcouncil.org/resources/tools/find-a-bookstore-map/)
     - [Indies (Australia)](http://www.indies.com.au/)
     - [Bokhandlerforeningen (Norway)](http://bokhandlerforeningen.no/)
 {{< /infobox >}}
