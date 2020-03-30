@@ -13,5 +13,5 @@ replaces:
     - [elementary.io](https://elementary.io)
     - [Screenshots](https://linuxmint.com/screenshots.php)
 - **Download:**
-    - [Linux Mint](https://linuxmint.com/download.php)
+    - [elementary OS](hhttps://elementary.io/docs/installation#installation)
 {{< /infobox >}}
