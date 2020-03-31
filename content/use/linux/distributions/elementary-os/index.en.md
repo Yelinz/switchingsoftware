@@ -11,7 +11,6 @@ replaces:
 {{< infobox >}}
 - **Website:**
     - [elementary.io](https://elementary.io)
-    - [Screenshots](https://linuxmint.com/screenshots.php)
 - **Download:**
     - [elementary OS](https://elementary.io/docs/installation#installation)
 {{< /infobox >}}
