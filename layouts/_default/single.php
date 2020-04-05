@@ -11,7 +11,10 @@
         $counter = 1;
 
         {{ range . }}
-            $form->addField('{{ .name }}', '{{ .type }}', ['placeholder' => '{{ .placeholder | default .name }}']);
+            $form->addField('{{ .name }}', '{{ .type }}', [
+                'label'       => '{{ .name }}',
+                'placeholder' => '{{ .placeholder | default .name }}',
+                'classlist'   => 'form-input' ]);
             $form->addField($honeypots[$counter++], 'honeypot');
         {{ end }}
 

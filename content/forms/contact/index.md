@@ -12,7 +12,6 @@ fields:
         placeholder: 'Your E-Mail'
     -
         name: "Message"
-        type: text
+        type: textarea
         placeholder: 'Your Message'
 ---
-Test
