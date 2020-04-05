@@ -37,9 +37,9 @@ enableGitInfo = true
         mediaType = "application/x-php"
 
 [languages]
-   [languages.en]
-       title = "switching.software"
-       weight = 1
+    [languages.en]
+        title = "switching.software"
+        weight = 1
     # [languages.de]
     #     title = "switchingsocial.de"
     #     weight = 2
