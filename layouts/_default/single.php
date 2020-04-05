@@ -2,7 +2,7 @@
 <?php
     /* Load HazzelForm library */
     $hugo_path = '{{ .File.Dir }}';
-    $hazzel_path = substring(__DIR__, 0, strlen(__DIR__) - strlen($hugo_path)) . "/submodules/HazzelForms/src/HazzelForms/HazzelForm.php";
+    $hazzel_path = substr(__DIR__, 0, strlen(__DIR__) - strlen($hugo_path)) . "/submodules/HazzelForms/src/HazzelForms/HazzelForm.php";
     require_once $hazzel_path;
 ?>
 {{ end }}
