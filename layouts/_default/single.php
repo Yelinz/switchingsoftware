@@ -27,7 +27,9 @@
 
 
             if ($form->validate()) {
-                $form->sendMail(getenv('SWISO_CONTACT_EMAIL'));
+                $to = getenv('SWISO_CONTACT_EMAIL');
+                $from = getenv('SWISO_SENDER_EMAIL');
+                $form->sendMail($to, $from);
             }
 
             $form->renderAll();
