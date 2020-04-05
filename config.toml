@@ -1,6 +1,6 @@
 baseURL= "https://switching.software/"
 title= "switching.software"
-description= "" 
+description= ""
 
 DefaultContentLanguage = "en"
 enableGitInfo = true
@@ -25,10 +25,21 @@ enableGitInfo = true
         hrefTargetBlank = true
         noreferrerLinks = true
 
+[mediaTypes]
+    [mediaTypes."application/x-php"]
+        suffixes = ["php"]
+
+[outputFormats]
+    [outputFormats.PHP]
+        baseName = "index"
+        isPlainText = true
+        permalinkable = true
+        mediaType = "application/x-php"
+
 [languages]
-    [languages.en]
-        title = "switching.software"
-        weight = 1
+   [languages.en]
+       title = "switching.software"
+       weight = 1
     # [languages.de]
     #     title = "switchingsocial.de"
     #     weight = 2
