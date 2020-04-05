@@ -1,13 +1,14 @@
 ---
 title: Jitsi Meet
 icon: icon.svg
-replaces: 
+replaces:
     - skype
+    - google-hangouts
 ---
 
 **Jitsi Meet** is a [free open source][floss] video chat app made by volunteers. You can use it through their website or through the mobile apps.
 
-It is extremely easy to use: you don’t need to register, all you need to do is make up the name of a chat room and send the link to whoever you want to join you. You can also add a room password if you want. 
+It is extremely easy to use: you don’t need to register, all you need to do is make up the name of a chat room and send the link to whoever you want to join you. You can also add a room password if you want.
 
 {{< infobox >}}
 - **Website:**
