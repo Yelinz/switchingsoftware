@@ -1,0 +1,3 @@
+[submodule "static/submodules/HazzelForms"]
+	path = static/submodules/HazzelForms
+	url = https://github.com/Hazzeldorn/HazzelForms.git
