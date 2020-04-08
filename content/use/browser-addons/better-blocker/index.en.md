@@ -16,5 +16,4 @@ lists:
     - [Better Blocker](https://apps.apple.com/app/better/id1121192229)
 {{< /infobox >}}
 
-[floss]: https://web.archive.org/web/20180904102804/https://switching.social/what-is-open-source-software/
-
+[floss]: {{< relref "/articles/free-libre-open-software" >}}

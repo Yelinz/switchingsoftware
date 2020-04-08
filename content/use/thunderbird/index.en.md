@@ -12,5 +12,5 @@ The most popular [open source][floss] email app for computers is Thunderbird. Wh
 {{< /infobox >}}
 
 [calendar]: https://www.thunderbird.net/en-US/calendar/
-[floss]: https://web.archive.org/web/20180904102804/https://switching.social/what-is-open-source-software/
+[floss]: {{< relref "/articles/free-libre-open-software" >}}
 [rss]: {{< relref "/use/rss" >}}

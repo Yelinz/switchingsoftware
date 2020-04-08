@@ -17,4 +17,4 @@ The ones listed here are all [libre][floss] and can be self-hosted.
         content in Terms of Service!">⚠</span></b>](https://netsyms.com/legal)
 {{< /infobox >}}
 
-[floss]: https://web.archive.org/web/20180904102804/https://switching.social/what-is-open-source-software/
+[floss]: {{< relref "/articles/free-libre-open-software" >}}

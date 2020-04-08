@@ -20,4 +20,4 @@ By subscribing to additional filter lists, other components of websites can be r
     - [Opera](https://addons.opera.com/en/extensions/details/ublock/)
 {{< /infobox >}}
 
-[floss]: https://web.archive.org/web/20180904102804/https://switching.social/what-is-open-source-software/
+[floss]: {{< relref "/articles/free-libre-open-software" >}}

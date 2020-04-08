@@ -30,4 +30,4 @@ If you decide to sign up, you can register at the sites below. You might also wa
 [mastodon]: {{< relref "/use/mastodon" >}}
 [pixelfed]: {{< relref "/use/pixelfed" >}}
 [peertube]: {{< relref "/use/peertube" >}}
-[howto-switch]: https://web.archive.org/web/20190508232759/https://switching.social/hints-tips-for-making-friends-on-alternative-social-media/
+[howto-switch]: {{< relref "/articles/howto-switch" >}}

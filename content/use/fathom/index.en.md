@@ -15,4 +15,4 @@ replaces:
     - [Lite vs. Pro](https://github.com/usefathom/fathom#lite-vs-pro)
 {{< /infobox >}}
 
-[floss]: https://web.archive.org/web/20180904102804/https://switching.social/what-is-open-source-software/
+[floss]: {{< relref "/articles/free-libre-open-software" >}}
