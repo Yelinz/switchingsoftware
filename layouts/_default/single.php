@@ -7,7 +7,10 @@
 
     /* Init form and honeypot fields */
     {{- with .Params.fields }}
-        $form = new HazzelForms\HazzelForm();
+        $form = new HazzelForms\HazzelForm(array(
+            'autocomplete' => false,
+            'lang' => 'EN'
+        ));
         $honeypots = ['Fullname', 'Phone', 'Mail', 'Subject', 'Website'];
         $counter = 1;
 
@@ -51,13 +54,26 @@
         {{- end }}
         $form->renderSubmitErrors();
         $form->renderSubmit();
-        $form->closeForm();
 
         $content = ob_get_clean();
         $content = str_replace( 'field-wrap', 'form-group', $content );
         $content = str_replace( 'label', 'form-label', $content );
         $content = str_replace( 'type="submit"', 'class="btn btn-primary p-centered" type="submit"', $content );
         echo $content;
+    ?>
+
+    <div class="empty success-message">
+        <div class="empty-icon">
+            <i class="icon icon-3x icon-mail"></i>
+        </div>
+        <p class="empty-title h5">Your message was sent successfully.</p>
+        <div class="empty-action">
+            <a href="{{ $.Page.Permalink }}" class="btn btn-primary">Return</button>
+        </div>
+    </div>
+
+    <?php
+        $form->closeForm();
     ?>
     {{- end }}
 {{ end }}

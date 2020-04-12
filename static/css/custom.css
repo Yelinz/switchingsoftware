@@ -232,6 +232,18 @@ blockquote {
     font-weight: 700;
 }
 
+/* Forms */
+form .success-message {
+    display: none !important;
+}
+
+form.submitted .success-message {
+    display: block !important;
+}
+form.submitted .form-group {
+    display: none !important;
+}
+
 /* Footer */
 html, body {
     height: 100%
