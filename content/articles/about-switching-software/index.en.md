@@ -7,6 +7,12 @@ aliases:
 
 **switching.software** is a grassroots website, that is trying to let people know about ethical and easy-to-use alternatives to well-known websites, apps and other software.
 
+### Contacting this site
+
+You can email this site via [our contact form][contact] or directly via this address:
+
+{{< img src="contact.min.svg">}}
+
 ### Following this site
 
 You can follow switching.software on the [Fediverse][fediverse] via [our Mastodon account][swiso-mastodon]. Other channels may follow in the future.
@@ -30,6 +36,7 @@ If you use it, please remember to give proper credit to this site, [switching.so
 This site collects no data on its visitors. There are no analytics, no cookies and no trackers involved.
 
 [cc]: https://creativecommons.org/licenses/by-sa/4.0/
+[contact]: {{< relref "/forms/contact" >}}
 [fediverse]: {{< relref "/articles/federated-sites" >}}
 [swiso-archive]: https://codeberg.org/swiso-en/archive
 [swiso-mastodon]: https://mstdn.swiso.org/@switchingsoftware
