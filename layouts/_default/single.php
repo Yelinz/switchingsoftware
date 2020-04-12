@@ -44,8 +44,8 @@
 
     {{- with .Params.fields }}
     <?php
+    /* Build form on buffer */
         ob_start();
-
         $form->openForm();
         $counter = 1;
         {{- range . }}
@@ -55,13 +55,15 @@
         $form->renderSubmitErrors();
         $form->renderSubmit();
 
+    /* Replace CSS classes with Spectre.css classes */
         $content = ob_get_clean();
         $content = str_replace( 'field-wrap', 'form-group', $content );
         $content = str_replace( 'label', 'form-label', $content );
         $content = str_replace( 'type="submit"', 'class="btn btn-primary p-centered" type="submit"', $content );
         echo $content;
-    ?>
 
+    /* Prepare success message */
+    ?>
     <div class="empty success-message">
         <div class="empty-icon">
             <i class="icon icon-3x icon-mail"></i>
