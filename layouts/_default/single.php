@@ -13,6 +13,7 @@
         ));
         $honeypots = ['Fullname', 'Phone', 'Mail', 'Subject', 'Website'];
         $counter = 1;
+        $reply = "";
 
     /* Create form fields */
         {{- range . }}
@@ -23,13 +24,22 @@
             $form->addField($honeypots[$counter++], 'honeypot', [
                 'classlist'   => 'd-none',
                 'inline-css'  => false ]);
+            {{- if (eq .type "email") }}
+                $reply = '{{ .name }}';
+            {{- end }}
         {{- end }}
 
     /* Validate and send form */
         if ($form->validate()) {
             $to = getenv('SWISO_CONTACT_EMAIL');
             $from = getenv('SWISO_SENDER_EMAIL');
-            $form->sendMail($to, $from);
+            if ($reply == "") {
+                $reply = $to;
+            } else {
+                $reply = $form->getField($reply)->getValue();
+            }
+
+            $form->sendMail($to, $from, $reply);
         }
     {{- end }}
 ?>
