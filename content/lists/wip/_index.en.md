@@ -5,6 +5,7 @@ order:
     - funkwhale
     - lemmy
     - carnet
+    - mobilizon
     - translation-projects
     - scuttlebutt
     - dat-project
