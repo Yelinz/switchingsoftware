@@ -2,7 +2,8 @@
 title: Skype
 subtitle: Video Messengers
 provider: microsoft
-order: 
+order:
     - jami
     - jitsi-meet
+    - bigbluebutton
 ---
