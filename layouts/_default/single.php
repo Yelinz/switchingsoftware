@@ -20,6 +20,9 @@
             $form->addField('{{ .name }}', '{{ .type }}', [
                 'label'       => '{{ .name }}',
                 'placeholder' => '{{ .placeholder | default .name }}',
+                {{- with .rows }}
+                    'rows'    => '{{ . }}',
+                {{- end }}
                 'classlist'   => 'form-input' ]);
             $form->addField($honeypots[$counter++], 'honeypot', [
                 'classlist'   => 'd-none',
