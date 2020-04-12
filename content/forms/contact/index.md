@@ -13,5 +13,6 @@ fields:
     -
         name: "Message"
         type: textarea
+        rows: 10
         placeholder: 'Your Message'
 ---
