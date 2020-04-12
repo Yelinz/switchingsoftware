@@ -13,6 +13,9 @@
 [indexMoreTitle]
     other = "Further Reading"
 
+[formSubmit]
+    other = "Send"
+
 [footerBy]
     other = "by"
 

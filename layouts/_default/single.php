@@ -63,7 +63,7 @@
             $form->renderField($honeypots[$counter++]);
         {{- end }}
         $form->renderSubmitErrors();
-        $form->renderSubmit();
+        $form->renderSubmit('{{ i18n "formSubmit" }}');
 
     /* Replace CSS classes with Spectre.css classes */
         $content = ob_get_clean();
