@@ -10,6 +10,12 @@
 [formSubmit]
     other = "Senden"
 
+[formSuccessMessage]
+    other = "Deine Nachricht wurde erfolgreich gesendet."
+
+[formSuccessHomepageLink]
+    other = "Zur Startseite wechseln"
+
 [footerBy]
     other = "von"
 

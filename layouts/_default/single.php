@@ -78,9 +78,9 @@
         <div class="empty-icon">
             <i class="icon icon-3x icon-mail"></i>
         </div>
-        <p class="empty-title h5">Your message was sent successfully.</p>
+        <p class="empty-title h5">{{ i18n "formSuccessMessage" }}</p>
         <div class="empty-action">
-            <a href="{{ $.Page.Permalink }}" class="btn btn-primary">Return</a>
+            <a href="{{ "/" | relLangURL }}" class="btn btn-primary">{{ i18n "formSuccessHomepageLink" }}</a>
         </div>
     </div>
 
