@@ -3,7 +3,7 @@ title: Bubbling Under
 subtitle: Software in Development
 order:
     - funkwhale
-    - prismo
+    - lemmy
     - carnet
     - translation-projects
     - scuttlebutt

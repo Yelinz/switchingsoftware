@@ -1,8 +1,7 @@
 ---
 title: Prismo
 icon: icon.png
-lists:
-    - wip
+draft: true
 ---
 
 **Prismo** is a libre federated alternative to Reddit. It’s still under development.
