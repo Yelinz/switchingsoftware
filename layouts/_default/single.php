@@ -70,7 +70,7 @@
         </div>
         <p class="empty-title h5">Your message was sent successfully.</p>
         <div class="empty-action">
-            <a href="{{ $.Page.Permalink }}" class="btn btn-primary">Return</button>
+            <a href="{{ $.Page.Permalink }}" class="btn btn-primary">Return</a>
         </div>
     </div>
 
