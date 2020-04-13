@@ -89,7 +89,7 @@ if (empty($commit_message)) {
 $output = array();
 $return = 0;
 
-exec('cd ' . $source_dir . '&& git fetch --all --prune && git reset --hard origin/' . $branch, $output, $return);
+exec('cd ' . $source_dir . '&& git fetch --all --prune && git reset --hard origin/' . $branch . ' && git checkout ' . $branch . ' && git pull --recurse-submodules', $output, $return);
 if ($return != 0) {
     error('git fetch/reset failed');
 }
