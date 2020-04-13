@@ -1,6 +1,6 @@
 ---
 title: Plausible Analytics
-icon: icon.png
+icon: icon.svg
 replaces:
     - google-analytics
 ---
