@@ -2,7 +2,6 @@
 title: Libro.fm
 icon: icon.svg
 replaces:
-    - amazon-books
     - audible
 ---
 
