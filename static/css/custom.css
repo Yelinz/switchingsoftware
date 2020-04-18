@@ -149,6 +149,11 @@ body.homepage #intro p:last-child {
     transform: translate(-50%, -50%);
 }
 
+.entry-title {
+    padding: 0.2rem 0;
+    overflow: hidden;
+}
+
 .list.simple .entry-title {
     display: none;
 }
