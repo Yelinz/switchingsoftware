@@ -4,6 +4,7 @@ subtitle: Audio Stores
 provider: amazon
 order:
     - public-libraries
+    - librivox
     - libro-fm
 ---
 
