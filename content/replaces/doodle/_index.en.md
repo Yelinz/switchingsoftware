@@ -1,6 +1,9 @@
 ---
 title: Doodle
 subtitle: Date Matchers
+order:
+    - framadate
+    - cryptpad
 aliases:
     - /ethical-alternatives-to-doodle/
 ---

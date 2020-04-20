@@ -2,6 +2,7 @@
 title: CryptPad
 icon: icon.png
 replaces:
+    - doodle
     - google-drive
 ---
 
