@@ -19,7 +19,7 @@ Yes, the text on switching.software is available under a [Creative Commons Attri
 
 Yes absolutely! Please link back and add a link to the [license][cc] if you do so.
 
-There are already projects in French, German, Italian and Turkish. They’re run by their translators, so please contact these sites directly if you wish to contribute or suggest links. 
+There are already projects in French, German, Italian and Turkish. They’re run by their translators, so please contact these sites directly if you wish to contribute or suggest links.
 
 
 ### Do you have a Patreon, Liberapay or other way to financially support the site?
@@ -50,7 +50,7 @@ There are usually other alternatives that provide a higher level of privacy but 
 
 The word “ethical” is used in many different ways in modern English. On this site it’s used to mean services and apps that do significantly less harm to people’s privacy, because this site regards user privacy as [morally good][wiktionary].
 
-None of the alternatives listed are perfect, but they are better options.
+For more details on this, you can also visit our [list of criteria on software][software-criteria] aimed at contributors. In the end, none of the alternatives listed on our website are perfect, but they are better options.
 
 
 ### Won't these alternatives just end up being bought by big companies?
@@ -74,6 +74,7 @@ The Maps.me site was bought by the Russian tech giant Mail.Ru in 2014. Nowadays 
 [codeberg-issue]: https://codeberg.org/swiso/website/issues
 [fediverse]: {{< relref "/articles/federated-sites" >}}
 [floss]: {{< relref "/articles/free-libre-open-software" >}}
+[software-criteria]: https://codeberg.org/swiso/website/src/branch/develop/CONTRIBUTING.md#user-content-criteria-for-software
 [support-us]: {{< relref "/articles/support-us" >}}
 [swiso-mastodon]: https://mstdn.swiso.org/@switchingsoftware
 [swisoc-about]: https://web.archive.org/web/20190730203805/https://switching.social/about-this-site/
