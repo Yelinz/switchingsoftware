@@ -50,7 +50,7 @@ There are usually other alternatives that provide a higher level of privacy but 
 
 The word “ethical” is used in many different ways in modern English. On this site it’s used to mean services and apps that do significantly less harm to people’s privacy, because this site regards user privacy as [morally good][wiktionary].
 
-For more details on this, you can also visit our [list of criteria on software][software-criteria] aimed at contributors. In the end, none of the alternatives listed on our website are perfect, but they are better options.
+For more details on this, you can also visit our [list of criteria for software][software-criteria] aimed at contributors. In the end, none of the alternatives listed on our website are perfect, but they are better options.
 
 
 ### Won't these alternatives just end up being bought by big companies?
