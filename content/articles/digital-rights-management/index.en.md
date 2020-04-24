@@ -1,5 +1,6 @@
 ---
 title: Digital Rights Management
+subtitle: Defective by Design
 aliases:
     - /drm
     - /digital-rights-management-drm
@@ -21,13 +22,14 @@ In theory DRM is supposed to reduce piracy, but in practice pirated copies appea
 
 DRM continues to be used partly to reassure nervous copyright holders that their products are not going to be pirated (which is a lie), partly to stop you moving to a rival company’s services and partly to make more money by spying on you when you use the product. It punishes honest customers without giving them any benefits in return.
 
-There is some awareness of how counterproductive DRM is. The games store [GOG.com][gog] only sells DRM-free games. Others have a more mixed approach, such as [Kobo’s eBooks store][kobo] which sells both DRM and DRM-free titles.
+There is some awareness of how counterproductive DRM is. The games store [GOG.com][gog] only sells DRM-free games. Others have a more mixed approach, such as [Kobo’s eBooks store][kobo] which sells both DRM and DRM-free titles. Furthermore, initiatives like [Defective By Design][dbd] actively work against it.
 
 If you can, try to buy DRM-free. It will give you a better product, more choice, more privacy, and it means you can actually buy stuff instead of just borrowing it.
 
 
 [amazon-delete]: https://www.wired.com/2012/10/amazons-remote-wipe-of-customers-kindle-highlights-perils-of-drm/
 [amazon-orwell]: https://www.nytimes.com/2009/07/18/technology/companies/18amazon.html
+[dbd]: https://www.defectivebydesign.org
 [game-broken]: https://web.archive.org/web/20180904104351/https://twinfinite.net/2018/06/metal-gear-rising-no-longer-playable-on-mac-due-to-drm-shutdown/
 [gog]: https://www.gog.com/
 [kobo]: https://swiso.org/unofficial-kobo-search/
