@@ -12,11 +12,15 @@ For example, if you buy a book on Kindle, Amazon reserves the right to delete it
 
 A less serious but more widely experienced example is the [loud unskippable video][piracy-intro] which many DVDs forced you to watch, and which had to be watched in full [every][piracy-intro] [single][piracy-intro] [time][piracy-intro] [you][piracy-intro] [watched][piracy-intro] [the][piracy-intro] [disc][piracy-intro]. Only honest people who bought the disc had to watch it, pirates didn’t have to.
 
+{{< img src="movie-intro-screen.svg" title="You wouldn't skip an ad" alt="screenshot of piracy intro on movies" width="400px" >}}
+
 More recent DRM methods often require connecting your product online and letting it  “phone home” your personal data to the manufacturer. PC games site Steam does this with their app, and if you remove the app any games bought through Steam also stop working. It is unclear what would happen if Steam itself went out of business. There have already been examples of legally purchased [DRM games being permanently broken][game-broken] when their distributor shut down.
 
 There is no benefit whatsoever to the customer from DRM, in fact it [often makes products much worse][simcity-drm]. In theory DRM is supposed to reduce piracy, but in practice pirated copies appear and spread online very quickly whether or not DRM is used. No DRM method has ever prevented piracy.
 
 DRM continues to be used partly to reassure nervous copyright holders that their products are not going to be pirated (which is a lie), partly to stop you moving to a rival company’s services and partly to make more money by spying on you when you use the product. It punishes honest customers without giving them any benefits in return.
+
+{{< img src="sad-book.svg" title="CC-BY-SA based on DefectiveByDesign.org" alt="sad book with padlock" width="300px" >}}
 
 There is some awareness of how counterproductive DRM is. The games store [GOG.com][gog] only sells DRM-free games. Others have a more mixed approach, such as [Kobo’s eBooks store][kobo] which sells both DRM and DRM-free titles. Furthermore, initiatives like [Defective By Design][dbd] actively work against it.
 
