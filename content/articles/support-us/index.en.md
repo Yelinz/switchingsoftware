@@ -15,7 +15,7 @@ Recommend this website and [its alternatives][bye-swiso] to friends that might b
 
 ### Proofread our site
 
-This site is quite large and we are only a few persons working on it in our spare time. So, whenever you see outdated information, non-working links, typos or similar things, please let us know via [Mastodon][mastodon] or our [issue tracker][issues].
+This site is quite large and we are only a few persons working on it in our spare time. So, whenever you see outdated information, non-working links, typos or similar things, please let us know via our [contact form][contact], [Mastodon account][mastodon] or [issue tracker][issues].
 
 
 ### Support the listed projects
@@ -30,6 +30,7 @@ If you have (or create) an account on [Codeberg][codeberg], check out our [websi
 
 [bye-swiso]: {{< relref "/replaces/switching-software" >}}
 [codeberg]: https://codeberg.org/
+[contact]: {{< relref "/forms/contact" >}}
 [issues]: https://codeberg.org/swiso/website/issues
 [mastodon]: https://mstdn.swiso.org/@switchingsoftware
 [repository]: https://codeberg.org/swiso/website
