@@ -25,12 +25,13 @@ Our site is only as good as the alternatives it has to offer. If you think a pro
 
 ### Contribute on Codeberg.org
 
-If you have (or create) an account on [Codeberg][codeberg], check out our [website repository][repository] and the [open issues][issues]. Feel free to participate in discussions and open new issues for errors, outdated information or proposals concerning this website.
+If you have (or create) an account on [Codeberg][codeberg], check out our [website repository][repository] and the [open issues][issues]. Feel free to [participate][contribute] in discussions and open new issues for errors, outdated information or proposals concerning this website.
 
 
 [bye-swiso]: {{< relref "/replaces/switching-software" >}}
 [codeberg]: https://codeberg.org/
 [contact]: {{< relref "/forms/contact" >}}
+[contribute]: https://codeberg.org/swiso/website/src/branch/develop/CONTRIBUTING.md
 [issues]: https://codeberg.org/swiso/website/issues
 [mastodon]: https://mstdn.swiso.org/@switchingsoftware
 [repository]: https://codeberg.org/swiso/website
