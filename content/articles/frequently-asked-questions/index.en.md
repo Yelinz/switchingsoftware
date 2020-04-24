@@ -24,9 +24,7 @@ There are already projects in French, German, Italian and Turkish. They’re run
 
 ### Do you have a Patreon, Liberapay or other way to financially support the site?
 
-Currently not, as switching.software's site costs are relatively low.
-
-However, switching.software recommends that you instead donate to free and open source projects linked on the various pages. Choose the ones you appreciate.
+Currently not, as switching.software's site costs are quite low. However, we recommend that you instead donate to free and open source projects linked on the various pages. Pick the ones you appreciate.
 
 If you want to [support us non-financially][support-us], follow the link.
 
