@@ -16,7 +16,7 @@ A less serious but more widely experienced example is the [loud unskippable vide
 
 More recent DRM methods often require connecting your product online and letting it  “phone home” your personal data to the manufacturer. PC games site Steam does this with their app, and if you remove the app any games bought through Steam also stop working. It is unclear what would happen if Steam itself went out of business. There have already been examples of legally purchased [DRM games being permanently broken][game-broken] when their distributor shut down.
 
-There is no benefit whatsoever to the customer from DRM, in fact it [often makes products much worse][simcity-drm]. In theory DRM is supposed to reduce piracy, but in practice pirated copies appear and spread online very quickly whether or not DRM is used. No DRM method has ever prevented piracy.
+There is no benefit whatsoever to the customer from DRM. In fact, it [often makes products much worse][simcity-drm]. In theory DRM is supposed to reduce piracy, but in practice pirated copies appear and spread online very quickly whether or not DRM is used. No DRM method has ever prevented piracy.
 
 DRM continues to be used partly to reassure nervous copyright holders that their products are not going to be pirated (which is a lie), partly to stop you moving to a rival company’s services and partly to make more money by spying on you when you use the product. It punishes honest customers without giving them any benefits in return.
 
