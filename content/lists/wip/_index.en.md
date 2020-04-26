@@ -8,7 +8,6 @@ order:
     - mobilizon
     - translation-projects
     - scuttlebutt
-    - dat-project
 aliases:
     - /bubbling-under/
     - /lists/wip/
