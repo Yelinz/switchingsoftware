@@ -8,6 +8,7 @@ order:
     - mobilizon
     - translation-projects
     - scuttlebutt
+    - ipfs
 aliases:
     - /bubbling-under/
     - /lists/wip/
