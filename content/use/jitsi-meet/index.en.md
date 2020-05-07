@@ -4,6 +4,7 @@ icon: icon.svg
 replaces:
     - skype
     - google-hangouts
+    - zoom
 ---
 
 **Jitsi Meet** is a [free open source][floss] video chat app made by volunteers. You can use it through their website or through the mobile apps.
