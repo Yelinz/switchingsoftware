@@ -1,14 +1,15 @@
-{{ $title := .Page.Title }}
+{{ $title := .Title }}
 
 {{ with .Params.Title }}
     {{ $title = . }}
 {{ end }}
 
-{{ if ( eq .Section "replaces") }}
-    {{ $title = print ( i18n "listPrefixBye" ) " " $title }}
-{{ end }}
+{{ if ( eq .Kind "taxonomy" ) }}
+    {{ if ( eq .Section "replaces" ) }}
+        {{ $title = print ( i18n "listPrefixBye" ) " " $title }}
+    {{ end }}
 
-{{ if ( eq .Kind "404") }}
+{{ else if ( eq .Kind "404") }}
     {{ $title = "404" }}
 {{ end }}
 

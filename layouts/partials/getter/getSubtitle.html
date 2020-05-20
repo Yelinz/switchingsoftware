@@ -1,10 +1,11 @@
 {{ $subtitle := .Params.Subtitle }}
 
-{{ if ( eq .Section "replaces") }}
-    {{ $subtitle = print ( i18n "listPrefixRecommended" ) " " $subtitle }}
-{{ end }}
+{{ if ( eq .Kind "taxonomy" ) }}
+    {{ if ( eq .Section "replaces") }}
+        {{ $subtitle = print ( i18n "listPrefixRecommended" ) " " $subtitle }}
+    {{ end }}
 
-{{ if ( eq .Kind "404") }}
+{{ else if ( eq .Kind "404") }}
     {{ $subtitle = i18n "error404Subtitle" }}
 {{ end }}
 
