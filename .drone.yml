@@ -46,7 +46,7 @@ steps:
         - develop
 
 - name: Upload to server
-  image: jojomi/hugo
+  image: panubo/sshd
   commands:
   - eval `ssh-agent -s`
   - echo "$SSH_KEY" | ssh-add -
