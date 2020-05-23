@@ -11,6 +11,8 @@ steps:
   commands:
   - echo "Checking Hugo version."
   - hugo version
+  environment:
+    VERSION: 0.67.0
 
 - name: Build swiso.org version
   image: jguyomard/hugo-builder
