@@ -29,8 +29,8 @@ steps:
   - echo "$SSH_KEY" | ssh-add -
   - mkdir -p ~/.ssh
   - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
-  - rsync -rv -e "ssh -p 22" public/swiso-org drone@swiso.org:/home/swiso/build/www/swiso-org/develop --checksum
-  - rsync -rv -e "ssh -p 22" public/switching-software drone@swiso.org:/home/swiso/build/www/switching-software/develop --checksum
+  - rsync -rv -e "ssh -p 22" public/swiso-org drone@swiso.org:/home/drone/www/swiso-org/develop --checksum
+  - rsync -rv -e "ssh -p 22" public/switching-software drone@swiso.org:/home/drone/www/switching-software/develop --checksum
   environment:
     SSH_KEY:
       from_secret: drone_ssh_key
