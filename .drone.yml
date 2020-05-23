@@ -52,10 +52,10 @@ steps:
   - echo "$SSH_KEY" | ssh-add -
   - mkdir -p ~/.ssh
   - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
-  - ssh drone@swiso.org mkdir ~/www/swiso-org/$DRONE_COMMIT_BRANCH
-  - rsync -rv -e "ssh -p 22" public/swiso-org/ drone@swiso.org:~/www/swiso-org/$DRONE_COMMIT_BRANCH --checksum --delete-delay
-  - ssh drone@swiso.org mkdir ~/www/switching-software/$DRONE_COMMIT_BRANCH
-  - rsync -rv -e "ssh -p 22" public/switching-software/ drone@swiso.org:~/www/switching-software/$DRONE_COMMIT_BRANCH --checksum --delete-delay
+  - ssh drone@swiso.org mkdir /home/drone/www/swiso-org/$DRONE_COMMIT_BRANCH
+  - rsync -rv -e "ssh -p 22" public/swiso-org/ drone@swiso.org:/home/drone/www/swiso-org/$DRONE_COMMIT_BRANCH --checksum --delete-delay
+  - ssh drone@swiso.org mkdir /home/drone/www/switching-software/$DRONE_COMMIT_BRANCH
+  - rsync -rv -e "ssh -p 22" public/switching-software/ drone@swiso.org:/home/drone/www/switching-software/$DRONE_COMMIT_BRANCH --checksum --delete-delay
   environment:
     SSH_KEY:
       from_secret: drone_ssh_key
