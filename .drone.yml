@@ -1,0 +1,34 @@
+kind: pipeline
+type: docker
+name: default
+trigger:
+  branch:
+    - develop
+
+steps:
+- name: Version check
+  image: jguyomard/hugo-builder
+  commands:
+  - echo "Checking Hugo version."
+  - hugo version
+
+- name: Build swiso.org version
+  image: jguyomard/hugo-builder
+  commands:
+  - mkdir /drone/src/build/swiso-org
+  - hugo -b https://develop.swiso.org -d /drone/src/build/swiso-org
+  - mkdir /drone/src/build/switching-software
+  - hugo -b https://develop.switching.software -d /drone/src/build/switching-software
+
+- name: Upload
+  image: jguyomard/hugo-builder
+  commands:
+  - eval `ssh-agent -s`
+  - echo "$SSH_KEY" | ssh-add -
+  - mkdir -p ~/.ssh
+  - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
+  - rsync -rv -e "ssh -p 22" /drone/src/build/swiso-org drone@swiso.org:/home/swiso/build/www/swiso-org/develop --checksum
+  - rsync -rv -e "ssh -p 22" /drone/src/build/switching-software drone@swiso.org:/home/swiso/build/www/switching-software/develop --checksum
+  environment:
+    SSH_KEY:
+      from_secret: drone_ssh_key
