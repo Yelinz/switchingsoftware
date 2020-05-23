@@ -6,18 +6,18 @@ trigger:
     - push
 
 environment:
-  VERSION: 0.67.0
+  HUGO_VERSION: 0.67.0
 
 steps:
 - name: Initialize project
-  image: jguyomard/hugo-builder
+  image: jojomi/hugo
   commands:
   - hugo version
   - mkdir -p public/swiso-org
   - mkdir -p public/switching-software
 
 - name: Build website [main]
-  image: jguyomard/hugo-builder
+  image: jojomi/hugo
   commands:
   - hugo -b https://swiso.org -d public/swiso-org
   - hugo -b https://switching.software -d public/switching-software
@@ -26,7 +26,7 @@ steps:
       - main
 
 - name: Build website [develop]
-  image: jguyomard/hugo-builder
+  image: jojomi/hugo
   commands:
   - hugo -b https://develop.swiso.org -d public/swiso-org
   - hugo -b https://develop.switching.software -d public/switching-software
@@ -35,7 +35,7 @@ steps:
       - develop
 
 - name: Build website [custom branch]
-  image: jguyomard/hugo-builder
+  image: jojomi/hugo
   commands:
   - hugo -b https://branch.swiso.org/$DRONE_COMMIT_BRANCH -d public/swiso-org
   - hugo -b https://branch.switching.software/$DRONE_COMMIT_BRANCH -d public/switching-software
@@ -46,7 +46,7 @@ steps:
         - develop
 
 - name: Upload to server
-  image: jguyomard/hugo-builder
+  image: jojomi/hugo
   commands:
   - eval `ssh-agent -s`
   - echo "$SSH_KEY" | ssh-add -
