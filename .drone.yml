@@ -2,35 +2,60 @@ kind: pipeline
 type: docker
 name: default
 trigger:
-  branch:
-    - develop
+  event:
+    - push
+
+environment:
+  VERSION: 0.67.0
 
 steps:
-- name: Version check
+- name: Initialize project
   image: jguyomard/hugo-builder
   commands:
-  - echo "Checking Hugo version."
   - hugo version
-  environment:
-    VERSION: 0.67.0
+  - mkdir -p public/swiso-org
+  - mkdir -p public/switching-software
 
-- name: Build swiso.org version
+- name: Build website [main]
   image: jguyomard/hugo-builder
   commands:
-  - mkdir -p public/swiso-org
-  - hugo -b https://develop.swiso.org -d public/swiso-org
-  - mkdir -p public/switching-software
-  - hugo -b https://develop.switching.software -d public/switching-software
+  - hugo -b https://swiso.org -d public/swiso-org
+  - hugo -b https://switching.software -d public/switching-software
+  when:
+    branch:
+      - main
 
-- name: Upload
+- name: Build website [develop]
+  image: jguyomard/hugo-builder
+  commands:
+  - hugo -b https://develop.swiso.org -d public/swiso-org
+  - hugo -b https://develop.switching.software -d public/switching-software
+  when:
+    branch:
+      - develop
+
+- name: Build website [custom branch]
+  image: jguyomard/hugo-builder
+  commands:
+  - hugo -b https://branch.swiso.org/$DRONE_COMMIT_BRANCH -d public/swiso-org
+  - hugo -b https://branch.switching.software/$DRONE_COMMIT_BRANCH -d public/switching-software
+  when:
+    branch:
+      exclude:
+        - main
+        - develop
+
+- name: Upload to server
   image: jguyomard/hugo-builder
   commands:
   - eval `ssh-agent -s`
   - echo "$SSH_KEY" | ssh-add -
   - mkdir -p ~/.ssh
   - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
-  - rsync -rv -e "ssh -p 22" public/swiso-org/ drone@swiso.org:/home/drone/www/swiso-org/develop --checksum --delete-delay
-  - rsync -rv -e "ssh -p 22" public/switching-software/ drone@swiso.org:/home/drone/www/switching-software/develop --checksum --delete-delay
+  - ssh drone@swiso.org mkdir ~/www/swiso-org/$DRONE_COMMIT_BRANCH
+  - rsync -rv -e "ssh -p 22" public/swiso-org/ drone@swiso.org:~/www/swiso-org/$DRONE_COMMIT_BRANCH --checksum --delete-delay
+  - ssh drone@swiso.org mkdir ~/www/switching-software/$DRONE_COMMIT_BRANCH
+  - rsync -rv -e "ssh -p 22" public/switching-software/ drone@swiso.org:~/www/switching-software/$DRONE_COMMIT_BRANCH --checksum --delete-delay
   environment:
     SSH_KEY:
       from_secret: drone_ssh_key
