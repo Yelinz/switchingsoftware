@@ -6,18 +6,9 @@
             </section>
         {{ end }}
 
-        {{ $list := partial "getter/getList.html" . }}
-        {{ with $list }}
-            {{/* Fixed-ordered entries first, rest second */}}
-            {{ $entries := slice }}
-            {{ range .Params.order }}
-                {{ $entries = $entries | append ($.Site.GetPage .) }}
-            {{ end }}
-            {{ $entries = $entries | append ( .Data.Pages | complement $entries ) }}
-
-            {{ range $entries }}
-                {{ partial "entry.html" . }}
-            {{ end }}
+        {{ $entries := partial "getter/getPages.html" . }}
+        {{ range $entries }}
+            {{ partial "entry.html" . }}
         {{ end }}
     </article>
 {{ end }}
