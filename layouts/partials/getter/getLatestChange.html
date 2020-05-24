@@ -1,4 +1,4 @@
-{{ $date := .Lastmod }}
+{{ $change := .GitInfo }}
 
 {{/* For composite pages... */}}
 {{ if ( or .IsHome .IsNode )}}
@@ -13,14 +13,12 @@
 
     {{/* ... find most recent change. */}}
     {{ range $pages }}
-        {{ if ( lt $date .Lastmod )}}
-            {{ $date = .Lastmod }}
+        {{ with .GitInfo }}
+            {{ if ( lt $change.AuthorDate .AuthorDate )}}
+                {{ $change = . }}
+            {{ end }}
         {{ end }}
     {{ end }}
 {{ end }}
 
-{{ if ( eq $date 0 )}}
-    {{ $date = now }}
-{{ end }}
-
-{{ return $date }}
+{{ return $change }}
