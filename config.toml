@@ -1,6 +1,7 @@
 baseURL= "https://switching.software/"
 title= "switching.software"
 description= ""
+copyright= "CC-BY-SA 4.0 by switching.software & switching.social"
 
 DefaultContentLanguage = "en"
 enableGitInfo = true
