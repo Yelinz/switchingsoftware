@@ -1,13 +1,23 @@
 {{ $pages := slice }}
 
+{{/* Get entry list */}}
 {{ $list := . }}
 {{ if .Params.mirror }}
     {{ $list = (.Site.GetPage .Params.mirror) }}
 {{ end }}
 
+{{/* Get order of entries */}}
+{{ $order := slice }}
+{{ with $list.Params.order }}
+    {{ $order = . }}
+{{ end }}
+{{ with .Params.order }}
+    {{ $order = . }}
+{{ end }}
+
 {{ with $list }}
     {{/* Fixed-ordered entries first, rest second */}}
-    {{ range .Params.order }}
+    {{ range $order }}
         {{ $pages = $pages | append ($.Site.GetPage .) }}
     {{ end }}
     {{ $pages = $pages | append ( .Data.Pages | complement $pages ) }}
