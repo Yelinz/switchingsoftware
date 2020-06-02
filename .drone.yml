@@ -5,19 +5,18 @@ trigger:
   event:
     - push
 
-environment:
-  HUGO_VERSION: 0.67.0
+hugo_image: &hugo klakegg/hugo:0.67.0
 
 steps:
 - name: Initialize project
-  image: jojomi/hugo
+  image: *hugo
   commands:
   - hugo version
   - mkdir -p public/swiso-org
   - mkdir -p public/switching-software
 
 - name: Build website [main]
-  image: jojomi/hugo
+  image: *hugo
   commands:
   - hugo -b https://swiso.org -d public/swiso-org
   - hugo -b https://switching.software -d public/switching-software
@@ -26,7 +25,7 @@ steps:
       - main
 
 - name: Build website [develop]
-  image: jojomi/hugo
+  image: *hugo
   commands:
   - hugo -b https://develop.swiso.org -d public/swiso-org
   - hugo -b https://develop.switching.software -d public/switching-software
@@ -35,7 +34,7 @@ steps:
       - develop
 
 - name: Build website [custom branch]
-  image: jojomi/hugo
+  image: *hugo
   commands:
   - hugo -b https://branch.swiso.org/$DRONE_COMMIT_BRANCH -d public/swiso-org
   - hugo -b https://branch.switching.software/$DRONE_COMMIT_BRANCH -d public/switching-software
