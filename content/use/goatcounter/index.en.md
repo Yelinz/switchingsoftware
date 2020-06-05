@@ -5,9 +5,7 @@ replaces:
     - google-analytics
 ---
 
-**GoatCounter** is a web analytics platform – roughly similar to Google Analytics or Matomo – but easier to use. It aims to give meaningful privacy-friendly web analytics for business purposes, while still staying usable for non-technical users to use on personal websites.
-
-It can be self-hosted or you can use a SaaS offering, which is free for non-commercial use up to 100k pageviews/month.
+**GoatCounter** is an open source web analytics platform available as a hosted service (free for non-commercial use) or self-hosted app. It aims to offer easy to use and meaningful privacy-friendly web analytics as an alternative to Google Analytics or Matomo.
 
 {{< infobox >}}
 - **Website:**
