@@ -13,6 +13,7 @@ A warm welcome to everyone thinking about supporting this project. Please read t
 
 Before suggesting a new entry, please use the [issue search][issues] first as it might have been suggested already. Otherwise check for these criteria:
 
+- **Aimed at non-developers**: We focus on "everyday" software. For developers, we recommend [more specialized resources][oss-builders].
 - **Easy to use**: It must be usable by inexperienced persons.
 - **Privacy respecting**: It should collect as few information as possible.
 - **Trust-worthy**: Promises should aline with actions taken.
@@ -78,4 +79,5 @@ If everything's fine, it gets merged into the "develop" branch. The changes can 
 [hugo-install]: https://gohugo.io/getting-started/installing/
 [hugo-live]: https://gohugo.io/getting-started/usage/#livereload
 [issues]: https://codeberg.org/swiso/website/issues
+[oss-builders]: https://opensource.builders/
 [swiso-masto]: https://mstdn.swiso.org/@switchingsoftware
