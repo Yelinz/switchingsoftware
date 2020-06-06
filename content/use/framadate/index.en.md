@@ -15,7 +15,7 @@ Also, it can be selfhosted. That's why it's also hosted on multiple domains. If 
 - **Hosters:**
     - [disroot.org](https://poll.disroot.org/)
     - [snopyta.org](https://poll.snopyta.org/)
-    - [nixnet.xyz](https://poll.nixnet.xyz/)
+    - [nixnet.services](https://poll.nixnet.services/)
     - [digitalcourage.de](https://poll.digitalcourage.de/)
 {{< /infobox >}}
 
