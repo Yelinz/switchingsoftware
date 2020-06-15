@@ -10,7 +10,7 @@ Most pages and tools on switching.software are **Free/Libre Software** or at lea
 
 ### What is Free/Libre Software?
 
-Frei/Libre means, simply put, that everyone can **use, study, distribute and adapt** a piece of software as they please. These four freedoms are the foundation of Free Software.
+Free/Libre means, simply put, that everyone can **use, study, distribute and adapt** a piece of software as they please. These four freedoms are the foundation of Free Software.
 
 <p><div class="columns text-center">
     <div class="column col-4 col-ml-auto"><div class="toast toast-success">USE</div></div>
