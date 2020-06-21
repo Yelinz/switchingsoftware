@@ -1,6 +1,6 @@
 ---
 title: Keybase
-subtitle: Identity Management
+subtitle: Identity Directory
 order:
     - wheretofind.me
 ---
