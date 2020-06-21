@@ -5,7 +5,7 @@ replaces:
     - keybase
 ---
 
-**wheretofind.me** is an [open source][floss] identity directory website. 
+**wheretofind.me** is an [open source][floss] identity directory website. You can link your social media and point people to your wheretofind.me page so they can find you no matter what sites you're using.
 
 {{< infobox >}}
 - **Website:**
