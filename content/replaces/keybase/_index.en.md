@@ -2,7 +2,7 @@
 title: Keybase
 subtitle: Identity Directory
 order:
-    - wheretofind.me
+    - wheretofind-me
 ---
 
 In May 2020 Keybase was [acquired][acquired] by Zoom.
