@@ -11,7 +11,7 @@ If you enjoy using the service [you can donate to Framasoft][frama-donate], but 
 
 {{< infobox >}}
 - **Website:** 
-    - [framadrop.org](https://covid19.framadrop.org/en/)
+    - [framadrop.org](https://framadrop.org/)
 {{< /infobox >}}
 
 [framasoft]: https://framasoft.org/
