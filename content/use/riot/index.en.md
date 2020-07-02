@@ -6,6 +6,7 @@ replaces:
     - whatsapp
     - facebook-messenger
     - slack
+    - discord
 ---
 
 **Riot.im** is a [libre][floss] instant messaging client based on the Matrix protocol. It includes text chats, audio/video calls and file transfers.
