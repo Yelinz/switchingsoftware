@@ -10,7 +10,7 @@ replaces:
 {{< infobox >}}
 - **Website:**
     - [postmill.xyz](https://postmill.xyz/)
-- **Sign up:**  
+- **Sign up:**
     - [jstpst](https://www.jstpst.net/)
     - [Raddle](https://raddle.me/)
 {{< /infobox >}}
