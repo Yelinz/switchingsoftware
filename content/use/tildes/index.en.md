@@ -7,7 +7,7 @@ replaces:
 
 **Tildes** is an community focused link aggregrator. The software is [open-source][floss] and respects your privacy.
 
-The company behind Tildes is a not-for-profit funded by user donations. If you enjoy using the service [you can donate to tildes][tildes-donate], but that’s entirely optional.
+The company behind Tildes is a non-profit funded by user donations. If you enjoy using the service [you can donate to tildes][tildes-donate], but that’s entirely optional.
 
 {{< infobox >}}
 - **Website:**

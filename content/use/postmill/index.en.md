@@ -8,11 +8,11 @@ replaces:
 **Postmill** is a [libre][floss] self-hosted link aggregator. It lets you create a community free from corporate control.
 
 {{< infobox >}}
-- **Sign up:**
-    - [Raddle](https://raddle.me/)
-    - [jstpst](https://www.jstpst.net/)
-- **Official Website:**
+- **Website:**
     - [postmill.xyz](https://postmill.xyz/)
+- **Sign up:**  
+    - [jstpst](https://www.jstpst.net/)
+    - [Raddle](https://raddle.me/)
 {{< /infobox >}}
 
 [floss]: {{< relref "/articles/free-libre-open-software" >}}
