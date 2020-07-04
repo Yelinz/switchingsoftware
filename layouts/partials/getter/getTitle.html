@@ -4,7 +4,7 @@
     {{ $title = . }}
 {{ end }}
 
-{{ if ( eq .Kind "taxonomy" ) }}
+{{ if ( eq .Kind "term" ) }}
     {{ if ( eq .Section "replaces" ) }}
         {{ $title = print ( i18n "listPrefixBye" ) " " $title }}
     {{ end }}
