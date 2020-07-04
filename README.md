@@ -14,7 +14,7 @@ As you might notice, this project has a lot of content. So please, have a look a
 
 Please refer to [this guide](https://gohugo.io/getting-started/installing/) to install Hugo for local development.
 
-Current hugo version on the server is `v0.72.0`.
+Current hugo version on the server is `v0.73.0`.
 
 ## License
 
