@@ -43,6 +43,9 @@
 [listPrefixRecommended]
     other = "Recommended"
 
+[listEntryAnchorTitle]
+    other = "Click to scroll here"
+
 [error404Subtitle]
     other = "Page not found"
 
