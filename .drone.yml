@@ -11,15 +11,15 @@ steps:
 - name: Initialize project
   image: *hugo
   commands:
-  - hugo version
-  - mkdir -p public/swiso-org
-  - mkdir -p public/switching-software
+    - hugo version
+    - mkdir -p public/swiso-org
+    - mkdir -p public/switching-software
 
 - name: Build website [main]
   image: *hugo
   commands:
-  - hugo -b https://swiso.org -d public/swiso-org
-  - hugo -b https://switching.software -d public/switching-software
+    - hugo -b https://swiso.org -d public/swiso-org
+    - hugo -b https://switching.software -d public/switching-software
   when:
     branch:
       - main
@@ -27,8 +27,8 @@ steps:
 - name: Build website [develop]
   image: *hugo
   commands:
-  - hugo -b https://develop.swiso.org -d public/swiso-org
-  - hugo -b https://develop.switching.software -d public/switching-software
+    - hugo -b https://develop.swiso.org -d public/swiso-org
+    - hugo -b https://develop.switching.software -d public/switching-software
   when:
     branch:
       - develop
@@ -36,8 +36,8 @@ steps:
 - name: Build website [custom branch]
   image: *hugo
   commands:
-  - hugo -b https://branch.swiso.org/$DRONE_COMMIT_BRANCH -d public/swiso-org
-  - hugo -b https://branch.switching.software/$DRONE_COMMIT_BRANCH -d public/switching-software
+    - hugo -b https://branch.swiso.org/$DRONE_COMMIT_BRANCH -d public/swiso-org
+    - hugo -b https://branch.switching.software/$DRONE_COMMIT_BRANCH -d public/switching-software
   when:
     branch:
       exclude:
@@ -47,14 +47,14 @@ steps:
 - name: Upload to server
   image: panubo/sshd
   commands:
-  - eval `ssh-agent -s`
-  - echo "$SSH_KEY" | ssh-add -
-  - mkdir -p ~/.ssh
-  - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
-  - ssh drone@swiso.org mkdir -p /home/drone/www/swiso-org/$DRONE_COMMIT_BRANCH
-  - rsync -rv -e "ssh -p 22" public/swiso-org/ drone@swiso.org:/home/drone/www/swiso-org/$DRONE_COMMIT_BRANCH --checksum --delete-delay
-  - ssh drone@swiso.org mkdir -p /home/drone/www/switching-software/$DRONE_COMMIT_BRANCH
-  - rsync -rv -e "ssh -p 22" public/switching-software/ drone@swiso.org:/home/drone/www/switching-software/$DRONE_COMMIT_BRANCH --checksum --delete-delay
+    - eval `ssh-agent -s`
+    - echo "$SSH_KEY" | ssh-add -
+    - mkdir -p ~/.ssh
+    - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
+    - ssh drone@swiso.org mkdir -p /home/drone/www/swiso-org/$DRONE_COMMIT_BRANCH
+    - rsync -rv -e "ssh -p 22" public/swiso-org/ drone@swiso.org:/home/drone/www/swiso-org/$DRONE_COMMIT_BRANCH --checksum --delete-delay
+    - ssh drone@swiso.org mkdir -p /home/drone/www/switching-software/$DRONE_COMMIT_BRANCH
+    - rsync -rv -e "ssh -p 22" public/switching-software/ drone@swiso.org:/home/drone/www/switching-software/$DRONE_COMMIT_BRANCH --checksum --delete-delay
   environment:
     SSH_KEY:
       from_secret: drone_ssh_key
