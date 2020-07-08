@@ -5,7 +5,6 @@ provider: google
 order:
     - matomo-org
     - plausible-analytics
-    - fathom
 aliases:
     - /ethical-alternatives-to-google-analytics/
 ---
