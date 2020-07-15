@@ -13,7 +13,7 @@ Plus, you can format and arrange your notes however you like.
 
 Of course, they don't offer backups, automatic reminders and search/share features.
 But this might be fine for your short-term or spontaneous notes.
-Also, it [helps you remembering][pen-vs-keyboard] your notes better.
+Also, it [might help you remember][pen-vs-keyboard] your notes better.
 
 {{< infobox >}}
 - **Explore:**
