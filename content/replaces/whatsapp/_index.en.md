@@ -2,12 +2,12 @@
 title: Whatsapp
 subtitle: Instant Messengers
 provider: facebook
-order: 
+order:
     - signal
     - xmpp
     - quicksy
     - zom
-    - riot
+    - matrix
 aliases:
     - /ethical-alternatives-to-whatsapp-and-skype/
 ---

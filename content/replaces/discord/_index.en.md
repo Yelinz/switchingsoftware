@@ -1,7 +1,7 @@
 ---
 title: Discord
 subtitle: Collaboration Software
-order: 
-    - riot
+order:
+    - matrix
     - mumble
 ---
