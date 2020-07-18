@@ -19,8 +19,9 @@ replaces:
 - **Desktop app:**
     - [Windows / macOS / Linux](https://element.io/get-started)
 - **Mobile app:**
-    - [Android](https://play.google.com/store/apps/details?id=im.vector.app) ([FDroid](https://f-droid.org/en/packages/im.vector.alpha/))
-    - [iOS](https://itunes.apple.com/us/app/vector.im/id1083446067)
+    - [Android](https://play.google.com/store/apps/details?id=im.vector.app)
+      ([FDroid](https://f-droid.org/packages/im.vector.app/))
+    - [iOS](https://apps.apple.com/app/vector/id1083446067)
 - **Web app**
     - [Element](https://app.element.io)
 - **Explore:**
