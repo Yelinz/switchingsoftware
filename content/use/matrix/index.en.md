@@ -8,7 +8,7 @@ replaces:
     - discord
 ---
 
-**Element** (former Riot) is a [libre][floss] instant messaging client based on the Matrix protocol. It includes text chats, audio/video calls and file transfers.
+**Element** (previously Riot.im) is a [libre][floss] instant messaging client based on the Matrix protocol. It includes text chats, audio/video calls and file transfers.
 
 **The Matrix protocol** has a federated design and allows bridges to other communication apps. Furthermore, anyone can set up their own Matrix server and use it to collaborate with other people’s Matrix servers.
 
