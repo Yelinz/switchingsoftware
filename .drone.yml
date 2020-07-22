@@ -8,6 +8,12 @@ trigger:
 hugo_image: &hugo klakegg/hugo:0.72.0-ext-alpine
 
 steps:
+- name: Load submodules
+  image: alpine/git
+  commands:
+  - git submodule init
+  - git submodule update --recursive --remote
+
 - name: Initialize project
   image: *hugo
   commands:
