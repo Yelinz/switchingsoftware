@@ -1,6 +1,6 @@
 {{ $subtitle := .Params.Subtitle }}
 
-{{ if ( eq .Kind "taxonomy" ) }}
+{{ if ( eq .Kind "term" ) }}
     {{ if ( eq .Section "replaces") }}
         {{ $subtitle = print ( i18n "listPrefixRecommended" ) " " $subtitle }}
     {{ end }}
