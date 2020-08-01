@@ -7,7 +7,7 @@ replaces:
 ---
 
 If you are using Nextcloud, the **Forms extension** is a good option for creating simple surveys and questionnaires.
-Survey info and responses are kept private under your Nextcloud instance.
+Survey info and responses are kept private on your Nextcloud instance.
 
 {{< infobox >}}
 - **Website:**
