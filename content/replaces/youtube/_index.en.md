@@ -1,5 +1,5 @@
 ---
-title: Youtube
+title: YouTube
 subtitle: Video Platforms
 provider: google
 aliases:
