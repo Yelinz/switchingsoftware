@@ -2,7 +2,7 @@
 title: RawTherapee
 icon: icon.svg
 replaces:
-    - adobe-cloud
+    - adobe-lightroom
 ---
 
 **RawTherapee** is a raw image processing app available for Windows, Mac and Linux from the official site.

@@ -2,7 +2,7 @@
 title: Kdenlive
 icon: icon.svg
 replaces:
-    - adobe-cloud
+    - adobe-premiere-pro
 ---
 
 **Kdenlive** is a [free open][floss] non-linear video editing app available for Windows and Linux. There’s also a Mac version, but it’s currently a bit tricky to install.

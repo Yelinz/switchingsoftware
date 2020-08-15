@@ -2,7 +2,7 @@
 title: Glimpse Image Editor
 icon: icon.svg
 replaces:
-    - adobe-cloud
+    - adobe-photoshop
 ---
 
 **Glimpse** is a libre graphics application based on the popular GNU Image Manipulation Program. The project tries to improve the performance and user experience of the latter.

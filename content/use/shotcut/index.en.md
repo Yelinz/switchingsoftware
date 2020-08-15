@@ -2,7 +2,7 @@
 title: Shotcut
 icon: icon.png
 replaces: 
-    - adobe-cloud
+    - adobe-premiere-pro
 ---
 
 **Shotcut** is a free [open][floss] NLE video editor for Windows, Mac and Linux, available from the official website.

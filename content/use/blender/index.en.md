@@ -2,7 +2,7 @@
 title: Blender
 icon: icon.svg
 replaces:
-    - adobe-cloud
+    - adobe-after-effects
 ---
 
 **Blender** is a professional suite of tools for doing 3D and 2D animations, visual effects, compositing and video editing.

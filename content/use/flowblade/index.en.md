@@ -2,7 +2,7 @@
 title: Flowblade
 icon: icon.png
 replaces:
-    - adobe-cloud
+    - adobe-premiere-pro
 ---
 
 **Flowblade** is a [free open][floss] NLE video editor for Linux, available from the official website.

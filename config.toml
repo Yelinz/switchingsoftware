@@ -8,7 +8,7 @@ enableGitInfo = true
 
 [params]
     [params.homepage]
-        filters = ["google", "facebook", "amazon", "microsoft"]
+        filters = ["google", "facebook", "amazon", "microsoft", "adobe"]
 
 [taxonomies]
     replace = "replaces"

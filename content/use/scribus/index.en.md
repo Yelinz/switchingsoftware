@@ -2,7 +2,7 @@
 title: Scribus
 icon: icon.svg
 replaces: 
-    - adobe-cloud
+    - adobe-indesign
 ---
 
 **Scribus** is a free open Desktop Publishing app, comparable to InDesign. It’s available for Windows, Mac and Linux from the official website.

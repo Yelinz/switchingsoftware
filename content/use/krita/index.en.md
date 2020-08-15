@@ -2,7 +2,7 @@
 title: Krita
 icon: icon.png
 replaces:
-    - adobe-cloud
+    - adobe-illustrator
 ---
 
 **Krita** is a professional raster graphics painting and animation editor aimed mainly at artists - available for Windows, Mac and Linux.
