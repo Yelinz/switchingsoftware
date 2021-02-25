@@ -5,7 +5,7 @@ replaces:
     - adobe-illustrator
 ---
 
-**Inkscape** is a professional Illustrator-style vector graphics editor for creating things like illustrations, charts and logos. It’s available for Windows, Mac and Linux from the official site.
+**Inkscape** is a free and open-source desktop vector graphics editor. It offers a rich set of features and is widely used for both artistic and technical illustrations such as cartoons, clip art, logos, typography, diagramming and flowcharting.
 
 {{< infobox >}}
 - **Website:**
