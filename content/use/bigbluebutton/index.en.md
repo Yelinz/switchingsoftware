@@ -14,6 +14,7 @@ replaces:
     - [BigBlueButton.org](https://bigbluebutton.org/)
     - [Demo](https://demo.bigbluebutton.org/gl/)
 - **Instances:**
+    - [Senfcall.de](https://www.senfcall.de/en/)
     - [nixnet.services](https://meet.nixnet.services/b)
     - [buy your own](https://bigbluebutton.org/commercial-support/)
 {{< /infobox >}}
