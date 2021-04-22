@@ -1,7 +1,7 @@
 <figure class="text-center">
     <img
         class="img-responsive mx-auto"
-        src="{{ ($.Page.Resources.GetMatch (.Get "src")).Permalink }}"
+        src="{{ ($.Page.Resources.GetMatch (.Get "src")).RelPermalink }}"
 
         {{- with .Get "width" }} width="{{ . }}"{{ end -}}
 
