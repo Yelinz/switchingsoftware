@@ -10,7 +10,6 @@ replaces:
 {{< infobox >}}
 - **Sign up:** 
     - [fediverse.blog](https://fediverse.blog/)
-    - [plume.mastodon.host](https://plume.mastodon.host/)
     - [plume.nixnet.xyz](https://plume.nixnet.xyz/)
     - [more](https://joinplu.me/#instances)
 - **Website:**
