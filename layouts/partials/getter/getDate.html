@@ -1,0 +1,27 @@
+{{ $date := now }}
+{{ with .GitInfo}}
+    {{ $date = .AuthorDate }}
+{{ end }}
+
+{{/* For composite pages... */}}
+{{ if ( or .IsHome .IsNode )}}
+
+    {{/* .. get sub pages and ... */}}
+    {{ $pages := slice }}
+    {{ if .IsHome }}
+        {{ $pages = $.Site.Pages }}
+    {{ else if .IsNode }}
+        {{ $pages := partial "getter/getPages.html" . }}
+    {{ end }}
+
+    {{/* ... find most recent change. */}}
+    {{ range $pages }}
+        {{ with .GitInfo }}
+            {{ if ( lt $date .AuthorDate )}}
+                {{ $date = .AuthorDate }}
+            {{ end }}
+        {{ end }}
+    {{ end }}
+{{ end }}
+
+{{ return $date }}

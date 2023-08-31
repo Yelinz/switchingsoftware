@@ -1,0 +1,53 @@
+[headerAbout]
+    other = "About"
+
+[indexFilterAll]
+    other = "All"
+
+[indexFilterOther]
+    other = "..."
+
+[indexMoreAnchor]
+    other = "more"
+
+[indexMoreTitle]
+    other = "Further Reading"
+
+[formSubmit]
+    other = "Send"
+
+[formSuccessMessage]
+    other = "Your message was sent successfully."
+
+[formSuccessHomepageLink]
+    other = "Go to homepage"
+
+[footerBy]
+    other = "by"
+
+[footerFAQ]
+    other = "FAQ"
+
+[footerSupport]
+    other = "Support"
+
+[footerSource]
+    other = "Source"
+
+[footerMastodon]
+    other = "Mastodon"
+
+[listPrefixBye]
+    other = "Bye"
+
+[listPrefixRecommended]
+    other = "Recommended"
+
+[listEntryAnchorTitle]
+    other = "Click to scroll here"
+
+[error404Subtitle]
+    other = "Page not found"
+
+[error404HomepageLink]
+    other = "Go to homepage"

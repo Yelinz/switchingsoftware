@@ -1,0 +1,18 @@
+<figure class="text-center">
+    <img
+        class="img-responsive mx-auto"
+        src="{{ ($.Page.Resources.GetMatch (.Get "src")).RelPermalink }}"
+
+        {{- with .Get "width" }} width="{{ . }}"{{ end -}}
+
+        {{- with .Get "height" }} height="{{ . }}"{{ end -}}
+
+        {{- with .Get "alt" }} alt="{{ . }}"{{ end -}}
+    >
+
+    {{- with .Get "title" }}
+        <figcaption>
+            <small><em>{{ . }}</em></small>
+        </figcaption>
+    {{- end }}
+</figure>

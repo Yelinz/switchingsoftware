@@ -1,0 +1,12 @@
+<div class="entry-icon-wrapper">
+    {{ if .Params.Icon }}
+        <a href="#{{ .File.ContentBaseName | urlize }}" title="{{ i18n "listEntryAnchorTitle" }}">
+            <img class="entry-icon img-fit-contain"
+                src="{{ "/" | relURL }}{{ .File.Dir }}{{ .Params.Icon }}"
+                alt="{{ .Title }}"
+            />
+        </a>
+    {{ else }}
+        <span class="entry-icon">...</span>
+    {{ end }}
+</div>

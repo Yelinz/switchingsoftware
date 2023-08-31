@@ -1,0 +1,8 @@
+<section id="{{ .File.ContentBaseName | urlize }}" class="entry mb-2">
+
+    {{ partial "icon.html" . }}
+
+    <h3 class="entry-title">{{ .Title }}</h3>
+
+    {{ .Content }}<br>
+</section>

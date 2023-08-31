@@ -1,0 +1,46 @@
+baseURL= "https://switching.software/"
+title= "switching.software"
+description= ""
+copyright= "CC-BY-SA 4.0 by switching.software & switching.social"
+
+DefaultContentLanguage = "en"
+enableGitInfo = true
+
+[params]
+    [params.homepage]
+        filters = ["google", "facebook", "amazon", "microsoft", "adobe"]
+
+[taxonomies]
+    replace = "replaces"
+    list = "lists"
+    tag = "tags"
+
+[permalinks]
+    replaces = "/replace/:slug"
+    lists = "/list/:slug"
+
+[markup]
+    defaultMarkdownHandler = "blackfriday"
+
+    [markup.blackFriday]
+        hrefTargetBlank = true
+        noreferrerLinks = true
+
+[mediaTypes]
+    [mediaTypes."application/x-php"]
+        suffixes = ["php"]
+
+[outputFormats]
+    [outputFormats.PHP]
+        baseName = "index"
+        isPlainText = true
+        permalinkable = true
+        mediaType = "application/x-php"
+
+[languages]
+    [languages.en]
+        title = "switching.software"
+        weight = 1
+    # [languages.de]
+    #     title = "switchingsocial.de"
+    #     weight = 2

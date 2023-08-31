@@ -1,0 +1,14 @@
+{{ define "main" }}
+    <article class="list {{ .Params.listtype}}">
+        {{ with .Content }}
+            <section id="intro">
+                {{ . }}
+            </section>
+        {{ end }}
+
+        {{ $entries := partial "getter/getPages.html" . }}
+        {{ range $entries }}
+            {{ partial "entry.html" . }}
+        {{ end }}
+    </article>
+{{ end }}

@@ -1,0 +1,44 @@
+[headerAbout]
+    other = "Über"
+
+[indexFilterAll]
+    other = "Alle"
+
+[indexFilterOther]
+    other = "..."
+
+[formSubmit]
+    other = "Senden"
+
+[formSuccessMessage]
+    other = "Deine Nachricht wurde erfolgreich gesendet."
+
+[formSuccessHomepageLink]
+    other = "Zur Startseite wechseln"
+
+[footerBy]
+    other = "von"
+
+[footerFAQ]
+    other = "FAQ"
+
+[footerSupport]
+    other = "Support"
+
+[footerSource]
+    other = "Source"
+
+[footerMastodon]
+    other = "Mastodon"
+
+[listPrefixBye]
+    other = "Tschüss"
+
+[listPrefixRecommended]
+    other = "Empfohlene"
+
+[error404Subtitle]
+    other = "Seite nicht gefunden"
+
+[error404HomepageLink]
+    other = "Zur Startseite wechseln"
