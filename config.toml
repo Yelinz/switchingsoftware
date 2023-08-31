@@ -20,7 +20,7 @@ enableGitInfo = true
     lists = "/list/:slug"
 
 [markup]
-    defaultMarkdownHandler = "blackfriday"
+    defaultMarkdownHandler = "goldmark"
 
     [markup.blackFriday]
         hrefTargetBlank = true
